@@ -1,0 +1,22 @@
+mysql> describe students;
++------------+--------------+------+-----+---------+----------------+
+| Field      | Type         | Null | Key | Default | Extra          |
++------------+--------------+------+-----+---------+----------------+
+| first_name | varchar(100) | YES  |     | NULL    |                |
+| last_name  | varchar(100) | YES  |     | NULL    |                |
+| id         | int(11)      | NO   | PRI | NULL    | auto_increment |
++------------+--------------+------+-----+---------+----------------+
+mysql> describe grades
+    -> ;
++------------+---------+------+-----+---------+-------+
+| Field      | Type    | Null | Key | Default | Extra |
++------------+---------+------+-----+---------+-------+
+| id_grade   | int(11) | NO   | PRI | NULL    |       |
+| id_student | int(11) | NO   | PRI | NULL    |       |
+| grade      | int(2)  | YES  |     | NULL    |       |
++------------+---------+------+-----+---------+-------+
+
+
+
+
+

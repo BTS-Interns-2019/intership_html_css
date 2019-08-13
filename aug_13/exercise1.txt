@@ -1,0 +1,69 @@
+mysql> select * from students;
++------------+--------------------+---------+---------+---------+----+
+| first_name | last_name          | grade_1 | grade_2 | grade_3 | id |
++------------+--------------------+---------+---------+---------+----+
+| Juan       | Perez              |       8 |       8 |       9 |  1 |
+| Apu        | Nahasapimapeti     |       7 |       8 |       9 |  2 |
+| Emmanuel   | Villalobos Arronte |       7 |       7 |       7 |  3 |
+| pepe       |                    |       8 |       5 |       6 |  4 |
+| Juan       | Perez              |       6 |       4 |       5 |  5 |
++------------+--------------------+---------+---------+---------+----+
+5 rows in set (0.00 sec)
+
+mysql> update students as last_name = 'Lopez' where id = 1
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'Lopez' where id = 1' at line 1
+mysql> update students set last_name = 'Lopez' where id = 1
+    -> ;
+Query OK, 1 row affected (0.12 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from students
+    -> ;
++------------+--------------------+---------+---------+---------+----+
+| first_name | last_name          | grade_1 | grade_2 | grade_3 | id |
++------------+--------------------+---------+---------+---------+----+
+| Juan       | Lopez              |       8 |       8 |       9 |  1 |
+| Apu        | Nahasapimapeti     |       7 |       8 |       9 |  2 |
+| Emmanuel   | Villalobos Arronte |       7 |       7 |       7 |  3 |
+| pepe       |                    |       8 |       5 |       6 |  4 |
+| Juan       | Perez              |       6 |       4 |       5 |  5 |
++------------+--------------------+---------+---------+---------+----+
+5 rows in set (0.00 sec)
+
+mysql> update students set grade_1 = 10 where id = 2
+    -> ;
+Query OK, 1 row affected (0.10 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from students;
++------------+--------------------+---------+---------+---------+----+
+| first_name | last_name          | grade_1 | grade_2 | grade_3 | id |
++------------+--------------------+---------+---------+---------+----+
+| Juan       | Lopez              |       8 |       8 |       9 |  1 |
+| Apu        | Nahasapimapeti     |      10 |       8 |       9 |  2 |
+| Emmanuel   | Villalobos Arronte |       7 |       7 |       7 |  3 |
+| pepe       |                    |       8 |       5 |       6 |  4 |
+| Juan       | Perez              |       6 |       4 |       5 |  5 |
++------------+--------------------+---------+---------+---------+----+
+5 rows in set (0.00 sec)
+
+mysql> delete students where id = 5
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = 5' at line 1
+mysql> delete from students where id = 5
+    -> ;
+Query OK, 1 row affected (0.10 sec)
+
+mysql> select * from students;
++------------+--------------------+---------+---------+---------+----+
+| first_name | last_name          | grade_1 | grade_2 | grade_3 | id |
++------------+--------------------+---------+---------+---------+----+
+| Juan       | Lopez              |       8 |       8 |       9 |  1 |
+| Apu        | Nahasapimapeti     |      10 |       8 |       9 |  2 |
+| Emmanuel   | Villalobos Arronte |       7 |       7 |       7 |  3 |
+| pepe       |                    |       8 |       5 |       6 |  4 |
++------------+--------------------+---------+---------+---------+----+
+4 rows in set (0.00 sec)
+
+}

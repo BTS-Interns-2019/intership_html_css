@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Cristian Plascencia">
+    <meta name="description" content="Actividad de tarea: Elementos Block">
+    <meta http-equiv="refresh" content="2">
+    <title>En linea</title>
+    <style>
+      *{
+        margin:0;
+        padding: 0;
+      }
+      h1{
+        text-align: center;
+        font-family: arial;
+      }
+      textarea{
+        width: 100%;
+        text-align: center;
+        /*resize:none;*/
+        background:#F5CBA7;
+        font-size:15px;
+        height: 50px;
+      }
+      h2{
+        font-family: arial;
+      }
+      table{
+        width: 80%;
+        margin-left: 10%;
+        border-collapse: collapse;
+        font-family: arial;
+        margin-bottom: 20px;
+      }
+      td{
+        border:black solid 1px;
+        padding: 2px;
+      }
+      .titulo{
+        background-color:#F5CBA7; 
+      }
+      kbd {
+        background-color: #eee;
+        border-radius: 3px;
+        border: 1px solid #b4b4b4;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+        color: #333;
+        display: inline-block;
+        font-size: .85em;
+        font-weight: 700;
+        line-height: 1;
+        padding: 2px 4px;
+        white-space: nowrap;
+      }
+      slot { margin-left: 22px; font-size: 90% }
+      slot p { margin-left: 16px; font-style: italic }
+      u {
+    text-decoration: #f00 wavy underline;
+}
+    </style>
+</head>
+<body>
+
+  <h1>En linea</h1>
+  <hr>
+  <textarea readonly="readonly">Los elementos en linea solo ocupan el espacio delimietado por las etiquetas y su contenido.</textarea>
+
+  <br>
+  <h2>Elementos</h2>
+  <table>
+    <tr class="titulo">
+      <td><strong>Nombre</strong></td>
+      <td><strong>Descripción</strong></td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>Junto con el elemento href crea un link o hipervínculo a otra pagina web.</td>
+    </tr>
+    <tr>
+      <td>abbr</td>
+      <td>Atributo opcional del title &lt;h1&gt; que ofrece una descripción</td>
+    </tr>
+    <tr>
+      <td>acronym</td>
+      <td>Igual que <acronym title="abbr">&lt;abbr&gt;</acronym> es una explicación o acronimo pero de un parrafo</td>
+    </tr>
+    <tr>
+      <td>audio</td>
+      <td>Incrusta reproductor de audio en HTML que junto con atributo src selecciona audio a reproducir (Local o web)</td>
+    </tr>
+    <tr>
+      <td>b</td>
+      <td>Reconocido como elemento Boldface llama la atencion del lector resaltando en <b>negritas</b></td>
+    </tr>
+    <tr>
+      <td>bdi</td>
+      <td>Le dice al navegador que se encuentran caracteres de texto circundantes, y que van en otra posición junto con otros idiomas.</td>
+    </tr>
+    <tr>
+      <td>bdo</td>
+      <td>Voltea texto <p><bdo dir="rtl">De esta manera</bdo></p></td>
+    </tr>
+    <tr>
+      <td>big</td>
+      <td>Aumenta el tamaño de fuente en comparacion a la que se esta <big>trabajando</big></td>
+    </tr>
+    <tr>
+      <td>br</td>
+      <td>Produce un salto de linea o "\n" en otros lenguajes</td>
+    </tr>
+    <tr>
+      <td>button</td>
+      <td>Crea un boton donde se necesite, ya sea para form o para cualquier lugar de la pagina</td>
+    </tr>
+    <tr>
+      <td>canvas</td>
+      <td>Dibuja graficos y animaciones</td>
+    </tr>
+    <tr>
+      <td>cite</td>
+      <td>Utilizado para describitr una cita bibliografica a un trabajo. Se debe incluir el nombre de ese trabajo.</td>
+    </tr>
+    <tr>
+      <td>code</td>
+      <td>Muestra su contenido diseñado de manera que paresca codigo de computadora. <code>--> get();</code></td>
+    </tr>
+    <tr>
+      <td>data</td>
+      <td>Muestra debajo de texto numero como id.</td>
+    </tr>
+    <tr>
+      <td>datalist</td>
+      <td>contiene un conjunto de &lt;option&gt; elementos que representan los valores disponibles para otros controles.<input list="lista"/>
+        <datalist id="lista">
+            <option value="uno">
+            <option value="dos">
+            <option value="tres">
+            <option value="cuatro">
+        </datalist></td>
+    </tr>
+    <tr>
+      <td>del</td>
+      <td>Muestra texto tachado, como si haya sido <del>eliminado</del></td>
+    </tr>
+    <tr>
+      <td>dfn</td>
+      <td>Muestra el texto en <dfn>cursiva</dfn> pero indica el término que define el contexto.</td>
+    </tr>
+    <tr>
+      <td>em</td>
+      <td>Muestra el texto en <em>cursiva</em> indicando énfasis</td>
+    </tr>
+    <tr>
+      <td>embed</td>
+      <td>Incrusta contenido interactivo proporcionado por una aplicacion o fuente.</td>
+    </tr>
+    <tr>
+      <td>i</td>
+      <td>Representa un rango de texto que se desvía del texto normal por algún motivo. Algunos ejemplos incluyen <i>términos técnicos</i>, frases en idiomas extranjeros o <i>pensamientos de personajes ficticios.</i></td>
+    </tr>
+    <tr>
+      <td>iframe</td>
+      <td>Representa un contexto de navegacion o mavita animado, incrustando otro HTML en el actual<iframe id="inlineFrameExample"
+        title="Inline Frame Example"
+        width="100"
+        height="200"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"></iframe></td>
+    </tr>
+    <tr>
+      <td>img</td>
+      <td>Incrusta imagen en HTML</td>
+    </tr>
+    <tr>
+      <td>input</td>
+      <td>Usado para controles interactivos con el usuario como cajas de texto, botones, hasta checkbox <input type="checkbox"></td>
+    </tr>
+    <tr>
+      <td>ins</td>
+      <td>Representa un rango de texto que se a <ins>insertado</ins> mostrandolo subrallados</td>
+    </tr>
+    <tr>
+      <td>kbd</td>
+      <td>Muestra el texto como si fuera un boton de teclado<kbd>Ctrl</kbd> + <kbd>p</kbd> con ayuda de CSS</td>
+    </tr>
+    <tr>
+      <td>label</td>
+      <td>Representa un titulo para un elemento en una interfaz de usuario <label for="cheese">aquí en la etiqueta</label> <input type="checkbox" id="cheese"></td>
+    </tr>
+    <tr>
+      <td>map</td>
+      <td>Se utiliza junto con un &lt;area&gt; para definir una mapa de imagen donde se puede hacer click</td>
+    </tr>
+    <tr>
+      <td>mark</td>
+      <td>Representa texto <mark>marcado o resultado</mark> con fines de notacion</td>
+    </tr>
+    <tr>
+      <td>meter</td>
+      <td>Barra de proceso <meter id="fuel"
+        min="0" max="100"
+        low="33" high="66" optimum="80"
+        value="50">
+     at 50/100
+ </meter></td>
+    </tr>
+    <tr>
+      <td>noscript</td>
+      <td>Define una sección de HTML que se insertará si un tipo de secuencia de comandos en la página no es compatible o si las secuencias de comandos están actualmente desactivadas en el navegador</td>
+    </tr>
+    <tr>
+      <td>object</td>
+      <td>Representa un recurso externo como imagen, contenido animado etc.</td>
+    </tr>
+    <tr>
+      <td>output</td>
+      <td>Elemento que indica un resultado, donde se le puede inyectar los resultados de un calculo</td>
+    </tr>
+    <tr>
+      <td>picture</td>
+      <td>contiene cero o más <source>elementos y un <img>elemento para proporcionar versiones de una imagen para diferentes escenarios de visualización / dispositivo.</td>
+    </tr>
+    <tr>
+      <td>progress</td>
+      <td>Muestra barra de ptrogreso <progress id="file" max="100" value="70"> 70% </progress></td>
+    </tr>
+    <tr>
+      <td>q</td>
+      <td>Muestra una cita entre <q>comillas</q></td>
+    </tr>
+    <tr>
+      <td>Ruby</td>
+      <td>Es para mostrar la pronunciación de los caracteres de Asia oriental.</td>
+    </tr>
+    <tr>
+      <td>s</td>
+      <td>Muestra texto tachado con una linea que lo atraviesa. representando cosas que ya no son <s>relevantes</s></td>
+    </tr>
+    <tr>
+      <td>samp</td>
+      <td>Encierra tezto que en linea que representa la salida de una cita o de un programa de <samp>computadora</samp></td>
+    </tr>
+    <tr>
+      <td>script</td>
+      <td>Se usa para hacer codigo ejecutable de javascript o mandar a llamar archivos js para su uso en HTML</td>
+    </tr>
+    <tr>
+      <td>select</td>
+      <td>Caja de menu de opciones utiliza &lt;option&gt; para mostrar <select><option value="1"> opciones</option></select></td>
+    </tr>
+    <tr>
+      <td>slot</td>
+      <td>Es un marcador de posición dentro de un componente <slot>web</slot> con ayuda de css</td>
+    </tr>
+    <tr>
+      <td>small</td>
+      <td>Muestra texto mas <small>Pequeño</small></td>
+    </tr>
+    <tr>
+      <td>span</td>
+      <td>Es un contenedor genérico en línea para redactar contenido, que no representa nada inherentemente. O para agregar iconos, clases entre el texto etc</td>
+    </tr>
+    <tr>
+      <td>strong</td>
+      <td>Muestra texto de gran <strong>importancia mostrandolo en negritas</strong></td>
+    </tr>
+    <tr>
+      <td>sub</td>
+      <td>Agrega subindices en una linea baja<sub>1</sub></td>
+    </tr>
+    <tr>
+      <td>sup</td>
+      <td>Agrega super indices para indicar numeros al cuadrado<sup>2</sup></td>
+    </tr>
+    <tr>
+      <td>template</td>
+      <td>es un mecanismo para contener HTML que no se debe representar de inmediato cuando se carga una página</td>
+    </tr>
+    <tr>
+      <td>textarea</td>
+      <td><textarea>Representa un control de edición de texto sin formato de varias líneas</textarea></td>
+    </tr>
+    <tr>
+      <td>time</td>
+      <td>representa un período específico en el tiempo como que son las <time datetime="02:09">02:09a.m.</time></td>
+    </tr>
+    <tr>
+      <td>u</td>
+      <td>Representa un espacio de texto en línea que debe representarse de manera que indique que tiene una anotación no textual o <u>erronea.</u>
+      Con ayuda de css</td>
+    </tr>
+    <tr>
+      <td>tt</td>
+      <td> crea texto en línea que se presenta utilizando la fuente de monoespacio predeterminada del <tt>agente de usuario</tt></td>
+    </tr>
+    <tr>
+      <td>var</td>
+      <td>representa el nombre de una variable en una expresión matemática o un contexto de programación. como la <var>X</var> o la <var>y</var></td>
+    </tr>
+    <tr>
+      <td>video</td>
+      <td>Agrega un reproductor de video al HTML</td>
+    </tr>
+    <tr>
+      <td>wbr</td>
+      <td>representa una oportunidad de salto de palabra, <wbr>una posición dentro del texto donde el <wbr>navegador puede opcionalmente romper una línea.</td>
+    </tr>
+  </table>
+
+</body>
+</html>

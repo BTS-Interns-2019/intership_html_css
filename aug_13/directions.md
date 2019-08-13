@@ -4,6 +4,7 @@ que se han visto en clase hasta el momento y puede contener algunas de las tags 
   PURO HTML
 
   Requisitos mínimos
+  
     1. Una nav con listas y anchor tags (los anchors pueden redigirir a cualquier sitio web),
     2. Mínimo 2 artículos.
     3. Sections.

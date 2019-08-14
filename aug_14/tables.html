@@ -10,7 +10,7 @@
 
 <body>
     <table border="2">
-        <thead bgcolor="#b0bec5">
+        <thead bgcolor="#F1F1F1">
             <th>Name</th>
             <th>Favorite Color</th>
         </thead>
@@ -156,19 +156,19 @@
     </table>
     <hr />
     <table border="1">
-        <thead>
-            <th>Invoice #123456789</th>
+        <thead bgcolor="#F1F1F1">
+            <th colspan="3" >Invoice #123456789</th>
             <th>14 January 2025</th>
         </thead>
         <tr>
-            <td>
+            <td colspan="2">
                 <p>
                     <strong>Pay to:</strong></p>
                 <p>Acme Biling Co.</p>
                 <p>123 Main St.</p>
                 <p>Cityville, NA 12345</p>
             </td>
-            <td>
+            <td colspan="2">
                 <p>
                     <strong>Customer:</strong></p>
                 <p>John Smith</p>
@@ -176,7 +176,7 @@
                 <p>Southeast Northwestershire, MA 54321</p>
             </td>
         </tr>
-        <thead>
+        <thead bgcolor="#F1F1F1">
             <th>Name / Description</th>
             <th>Qty.</th>
             <th>@</th>
@@ -195,10 +195,18 @@
             <td>100.00</td>
         </tr>
         <tr>
-            
+            <th colspan="3" bgcolor="#F1F1F1">Subtotal</th>
+            <td>110.00</td>
         </tr>
-        <tr></tr>
-        <tr></tr>
+        <tr>
+            <th colspan="2" bgcolor="#F1F1F1">Tax</th>
+            <td>8%</td>
+            <td>8.80</td>
+        </tr>
+        <tr>
+            <th colspan="3" bgcolor="#F1F1F1">Grand Total</th>
+            <td>$ 118.80</td>
+        </tr>
     </table>
 </body>
 

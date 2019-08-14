@@ -5,10 +5,10 @@
         <title>Tables</title>
     </head>
     <body>
-        <table border="1" width="500" cellspacing="0">
+        <table border="1" width="500" cellspacing="0" cellpadding="5">
             <thead>
-                <th align="left">Name</th>
-                <th align="left">Favourite Color</th>
+                <th align="left" bgcolor="#EAEAEA">Name</th>
+                <th align="left" bgcolor="#EAEAEA">Favourite Color</th>
             </thead>
             <tbody>
                 <tr>
@@ -158,22 +158,32 @@
                 <caption>Resumen de tablas</caption>
             </tfoot>
         </table>
-        <table>
+        <table border="1" cellspacing="0" cellpadding="4">
             <caption>A complex table</caption>
             <thead>
-                <th colspan="3">Invoice #123456789</th>
-                <th>14 January 2025</th>
+                <th colspan="3" width="420" align="left" bgcolor="#EAEAEA">Invoice #123456789</th>
+                <th width="140" align="left" bgcolor="#EAEAEA">14 January 2025</th>
             </thead>
             <tbody>
                 <tr>
-                    <td colspan="2"></td>
-                    <td colspan="2"></td>
+                    <td colspan="2" width="280">
+                        <strong>Pay to:</strong><br>
+                        Acme Billing Co. <br>
+                        123 Main St. <br>
+                        Cityville, NA 12345
+                    </td>
+                    <td colspan="2" width="280">
+                        <strong>Customer:</strong><br>
+                        John Smith <br>
+                        321 Willow Way <br>
+                        Southeast Northwestershire, MA 54321
+                    </td>
                 </tr>
                 <tr>
-                    <th>Name/Description</th>
-                    <th>Qty.</th>
-                    <th>@</th>
-                    <th>Cost</th>
+                    <th width="140" align="left" bgcolor="#EAEAEA">Name/Description</th>
+                    <th width="140" align="left" bgcolor="#EAEAEA">Qty.</th>
+                    <th width="140" align="left" bgcolor="#EAEAEA">@</th>
+                    <th width="140" align="left" bgcolor="#EAEAEA">Cost</th>
                 </tr>
                 <tr>
                     <td>Paperclips</td>
@@ -188,16 +198,16 @@
                     <td>100.00</td>
                 </tr>
                 <tr>
-                    <th colspan="3">Subtotal</th>
+                    <th colspan="3" align="left" bgcolor="#EAEAEA">Subtotal</th>
                     <td>110.00</td>
                 </tr>
                 <tr>
-                    <th colspan="2">Tax</th>
+                    <th colspan="2" align="left" bgcolor="#EAEAEA">Tax</th>
                     <td>8%</td>
                     <td>8.80</td>
                 </tr>
                 <tr>
-                    <th colspan="3">Grand Total</th>
+                    <th colspan="3" align="left" bgcolor="#EAEAEA">Grand Total</th>
                     <td>$118.80</td>
                 </tr>
             </tbody>

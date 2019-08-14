@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tables</title>
+</head>
+<body>
+  <!-- First table -->
+  <table border>
+    <thead bgcolor="lightgray" align="left">
+      <th width="25%">Name</th>
+      <th width="25%">Favorite Color</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Bob</td>
+        <td>Yellow</td>
+      </tr>
+      <tr>
+        <td>Michelle</td>
+        <td>Purple</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <!-- Second table -->
+  <table border>
+    <tr>
+      <th rowspan="2">Head 1</th>
+      <td>Item 1</td>
+      <td>Item 2</td>
+      <td>Item 3</td>
+      <td>Item 4</td>
+    </tr>
+    <tr>
+      <td>Item 5</td>
+      <td>Item 6</td>
+      <td>Item 7</td>
+      <td>Item 8</td>
+    </tr>
+    <tr>
+      <th>Head 2</th>
+      <td>Item 9</td>
+      <td>Item 10</td>
+      <td>Item 11</td>
+      <td>Item 12</td>
+    </tr>
+  </table>
+  <hr>
+  <!-- Third table -->
+  <table border>
+    <tr>
+      <th colspan="2">Head 1</th>
+      <th colspan="2">Head 2</th>
+    </tr>
+    <tr>
+      <th>Head 3</th>
+      <th>Head 4</th>
+      <th>Head 5</th>
+      <th>Head 6</th>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>B</td>
+      <td>C</td>
+      <td>D</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>F</td>
+      <td>G</td>
+      <td>H</td>
+    </tr>
+  </table>
+  <hr>
+  <!-- Fourth table -->
+  <table border>
+    <thead>
+      <th></th>
+      <th>TABLE</th>
+      <th>TR</th>
+      <th>TD</th>
+      <th>TH</th>
+      <th>CAPTION</th>
+    </thead>
+    <tr align="center">
+      <th>BORDER</th>
+      <td>X</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr align="center">
+      <th>ROWSPAN</th>
+      <td>-</td>
+      <td>-</td>
+      <td>X</td>
+      <td>X</td>
+      <td>-</td>
+    </tr>
+    <tr align="center">
+      <th>COLSPAN</th>
+      <td>-</td>
+      <td>-</td>
+      <td>X</td>
+      <td>X</td>
+      <td>-</td>
+    </tr>
+    <tr align="center">
+      <th>ALIGN</th>
+      <td>-</td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+    </tr>
+    <tr align="center">
+      <th>VALIGN</th>
+      <td>-</td>
+      <td>-</td>
+      <td>X</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr align="center">
+      <th>WIDTH</th>
+      <td>X</td>
+      <td>-</td>
+      <td>X</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr align="center">
+      <th>HEIGTH</th>
+      <td>X</td>
+      <td>-</td>
+      <td>X</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr align="center">
+      <th>CELLPADDING</th>
+      <td>X</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr align="center">
+      <th>CELLSPACING</th>
+      <td>X</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </table>
+  <hr>
+  <!-- Fifth table -->
+  <table border width="50%">
+    <caption>A complex table</caption>
+
+    <tr bgcolor="lightgray" align="left">
+      <th colspan="3" width="30%">Invoice #123456789</th>
+      <th width="20%">14 January 2025</th>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <p><strong>Pay to:</strong></p>
+        <p>Acme Billing Co.</p>
+        <p>123 Main St.</p>
+        <p>Cityville, NA 12345</p>
+      </td>
+      <td colspan="2">
+        <p><strong>Customer:</strong></p>
+        <p>John Smith</p>
+        <p>123 Willow Way</p>
+        <p>Southeast Northwestershire, MA 54321</p>
+      </td>
+    </tr>
+    <tr bgcolor="lightgray" align="left">
+      <th>Name / Description</th>
+      <th>Qty.</th>
+      <th>@</th>
+      <th>Cost</th>
+    </tr>
+    <tr>
+      <td>Paperclips</td>
+      <td>1000</td>
+      <td>0.01</td>
+      <td>10.00</td>
+    </tr>
+    <tr>
+      <td>Staples (box)</td>
+      <td>100</td>
+      <td>1.00</td>
+      <td>100.00</td>
+    </tr>
+    <tr>
+      <th align="left" colspan="3" bgcolor="lightgray">Subtotal</th>
+      <td>110.00</td>
+    </tr>
+    <tr>
+      <th align="left" colspan="2" bgcolor="lightgray">Tax</th>
+      <td>8%</td>
+      <td>8.80</td>
+    </tr>
+    <tr>
+      <th align="left" colspan="3" bgcolor="lightgray">Grand Total</th>
+      <td>$ 118.80</td>
+    </tr>
+  </table>
+</body>
+</html>

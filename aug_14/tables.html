@@ -176,8 +176,61 @@
     <hr>
     <table border>
         <caption>A complex table</caption>
+        <thead>
+                <tr>
+                        <td bgcolor="LIGHTGRAY" colspan="3">Invoice #123456789</td>
+                        <td bgcolor="LIGHTGRAY" colspan="1">14 JUNARY 2025</td>
+                </tr>
+        </thead>
         <tr>
-            <td bgcolor="gray" colspan="3">Invoice #123456789</td>
+            <td rowspan="4" colspan="2">
+                <p><strong>Pay to:</strong></p>
+                <p>Acme Billing Co.</p>
+                <p>123 Main St.</p>
+                <p>Cityville, NA 12345</p>
+        </td>
+        <td rowspan="4" colspan="2">
+                    <p><strong>Customer</strong></p>
+                    <p>Acme Billing Co.</p>
+                    <p>123 Main St.</p>
+                    <p>Cityville, NA 12345</p>
+        </td>
+        </tr>
+        <thead>
+            <tr>
+                <td bgcolor="LIGHTGRAY"><strong>Name / Description</strong></td>
+                <td bgcolor="LIGHTGRAY"><strong>Qty.</strong></td>
+                <td bgcolor="LIGHTGRAY"><strong>@</strong></td>
+                <td bgcolor="LIGHTGRAY"><strong>Cost</strong></td>
+            </tr>
+        </thead>
+        <tr>
+            
+            <td>Paperclips</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.00</td>
+        </tr>
+        <tr>
+            
+                <td>Staples (box)</td>
+                <td>100</td>
+                <td>1.00</td>
+                <td>100.00</td>
+        </tr>
+        <tr>
+            <td bgcolor="LIGHTGRAY" colspan="3">Subtotal</td>
+            <td>110.00</td>
+            
+        </tr>
+        <tr>
+            <td bgcolor="LIGHTGRAY" colspan="2">Tax</td>
+            <td>8%</td>
+            <td>8.80</td>
+        </tr>
+        <tr>
+                <td bgcolor="LIGHTGRAY" colspan="3">Gran Total</td>
+                <td>$ 118.80</td>
         </tr>
     </table>
 

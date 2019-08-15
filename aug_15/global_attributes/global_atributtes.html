@@ -11,26 +11,27 @@
    
    <h2>Desctipción:</h2>
    <p>Son atributos comunes a todos los elementos HTML; pueden usarse en todos los elementos, aunque pueden no tener efecto en algunos de ellos. Los atributos globales pueden especificarse en todos los  elementos HTML, e incluso en aquellos no especificados en el estándar.</p>
-    
+        
    <h2>Glossary:</h2> 
+   <asside><stong>Nota: </stong>Ademas de los atributos mencionados a continuacion, existen tambien atributso globales heredados de XHTML (xml:lang y xml:base) que están en desuso, los atributos aria-* , usados para mejora de accesibilidad.(Que tampoco son muy usados) y los atributos de control de eventos</asside>
     <dl>
         <dt>accesskey</dt>
-        <dd>Proporciona y genera un acceso de teclado para el elemento actual. Este atributo consiste de una lista de caracteres, separadas por espacios. El navegador debe utilizar el primero que exista en la distribución del teclado del ordenador.</dd>
+        <dd>Proporciona y genera un acceso de teclado para el elemento actual. Este atributo consiste de una lista de caracteres, separadas por espacios. El navegador debe utilizar el primero que exista en la distribución del teclado del ordenador.</dd>  <hr>
         <dt>class</dt>
-        <dd>Es una lista de clases del elemento, separadas por espacios que permiten a CSS y JavaScript seleccionar y acceder a elementos específicos a través del class selectors o funciones como el método </dd>
+        <dd>Es una lista de clases del elemento, separadas por espacios que permiten a CSS y JavaScript seleccionar y acceder a elementos específicos a través del class selectors o funciones como el método </dd>  <hr>
         <dt>contenteditable</dt>
         <dd>Es un atributo enumerado que indica si el elemento debe ser modificable por el usuario. Si es así, el navegador modifica su widget para permitir la edición. El atributo debe tener uno de los siguientes valores:
             <ul>
                 <li>true o empty string, el cual indicaque el elemento debe ser editable.</li>
                 <li>false, el cual indicaque el elemento no debe ser editable.</li>
             </ul>        
-        </dd>
+        </dd>  <hr>
         <dt>contextmenu</dt>
         <dd>
-            Es el id de un <code><menu></code> para usar como menú contextual para este elemento.
-        </dd>
+            Es el id de un <code>&lt;menu&gt;</code> para usar como menú contextual para este elemento.
+        </dd>  <hr>
         <dt>data-*</dt>
-        <dd>Forma una clase de atributos, llamados custom data attributes, que permite que la información del propietario sea intercambianda entre el HTML y su representación DOM que puede ser utilizada por los scripts. Todos estos datos personalizados están disponibles a través de la interfaz HTMLElement del elemento the attribute is set on. La propiedadHTMLElement.dataset da acceso al mismo.</dd>
+        <dd>Forma una clase de atributos, llamados custom data attributes, que permite que la información del propietario sea intercambianda entre el HTML y su representación DOM que puede ser utilizada por los scripts. Todos estos datos personalizados están disponibles a través de la interfaz HTMLElement del elemento the attribute is set on. La propiedadHTMLElement.dataset da acceso al mismo.</dd>  <hr>
         <dt>dir</dt>
         <dd>Es un atributo enumerado que indica la direccionalidad del texto del elemento. Puede tener los siguientes valores:
             <ul>
@@ -38,14 +39,14 @@
                 <li>rtl, significa right to left y se utiliza para idiomas que se escriben de derecha a izquierda (como el Árabe);</li>
                 <li>auto, permite que el agente decida. Se utiliza un algoritmo básico, que analiza los caracteres dentro del elemento hasta que encuentra un caracter con una direccionalidad fuerte, a continuación, aplica la direccionalidad a todo el elemento.</li>
             </ul>
-        </dd>
+        </dd>  <hr>
         <dt>draggable</dt>
         <dd>Es un atributo enumerado que indica si el elemento puede ser arrastrado, usando la Drag and Drop API. Puede tener los siguiente valores: 
             <ul>
                 <li>true, indica que el elemento puede ser arrastrado.</li>
                 <li>false, indica que el elemento no puede ser arrastrado.</li>
             </ul>
-        </dd>
+        </dd>  <hr>
         <dt>dropzone</dt>
         <dd>Es un atributo enumerado que indica qué tipos de contenidos pueden soltarse sobre el elemento, usando la Drag and Drop API. Puede tener los siguiente valores:
             <ul>
@@ -53,32 +54,32 @@
                 <li>move, indica que el elemento que fue arrastrado será movido a esta nueva locación.</li>
                 <li>move, indica que el elemento que fue arrastrado será movido a esta nueva locación.</li>
             </ul>
-        </dd>
+        </dd>  <hr>
         <dt>hidden</dt>
-        <dd>Es un atributo Booleano que indica si el elemento aún no es, o ya no es, relevante. Por ejemplo, puede usarse para ocultar elementos de la página que no pueden usarse hasta que el proceso de ingreso se complete. El navegador no mostrará/renderizará dichos elementos. Este atributo no debe ser utilizado para ocultar el contenido que legítimamente podría ser mostrado.</dd>
+        <dd>Es un atributo Booleano que indica si el elemento aún no es, o ya no es, relevante. Por ejemplo, puede usarse para ocultar elementos de la página que no pueden usarse hasta que el proceso de ingreso se complete. El navegador no mostrará/renderizará dichos elementos. Este atributo no debe ser utilizado para ocultar el contenido que legítimamente podría ser mostrado.</dd>  <hr>
         <dt>id</dt>
-        <dd>Define un identificador único (ID) el cual debe ser único en todo el documento. Su propósito es identificar el elemento cuando es objetivo de un linking (usando un fragment identifier), scripting, o styling (mediante CSS).</dd>
+        <dd>Define un identificador único (ID) el cual debe ser único en todo el documento. Su propósito es identificar el elemento cuando es objetivo de un linking (usando un fragment identifier), scripting, o styling (mediante CSS).</dd>  <hr>
         <dt>itemid</dt>
-        <dd>Identificador único y global de un item.</dd>
+        <dd>Identificador único y global de un item.</dd>  <hr>
         <dt>itemprop</dt>
-        <dd>Usado para agregar propiedades a un item. Cada elemento HTML puede tener un atributo itemprop especificado, donde un itemprop consiste de un par nombre y valor.</dd>
+        <dd>Usado para agregar propiedades a un item. Cada elemento HTML puede tener un atributo itemprop especificado, donde un itemprop consiste de un par nombre y valor.</dd>  <hr>
         <dt>itemref</dt>
-        <dd>Propiedades que no son descendientes de un elemento mediante el atributo itemscope pueden ser asociadas con el item usando un itemref. Itemref provee una lista de element ids (no itemids) con propiedades adicionales en cualquier parte del documento.</dd>
+        <dd>Propiedades que no son descendientes de un elemento mediante el atributo itemscope pueden ser asociadas con el item usando un itemref. Itemref provee una lista de element ids (no itemids) con propiedades adicionales en cualquier parte del documento.</dd>  <hr>
         <dt>itemscope</dt>
-        <dd>Itemscope (usualmente) funciona junto con itemtype para especificar que el HTML contenido en un bloque es sobre un item en particular. Itemscope crea el item y define el scope del itemtype asociado con él. itemtype es una URL válida de vocabulario que describe el item y el contexto de sus propiedades.</dd>
+        <dd>Itemscope (usualmente) funciona junto con itemtype para especificar que el HTML contenido en un bloque es sobre un item en particular. Itemscope crea el item y define el scope del itemtype asociado con él. itemtype es una URL válida de vocabulario que describe el item y el contexto de sus propiedades.</dd>  <hr>
         <dt>itemtype</dt>
-        <dd>Especifica la URL del vocabulario que será usado para defeinir itemprops (propiedades del item) in la estructura de datos. Itemscope es usado para setear el scope de dónde en la estructura de datos es seteado el vocabulario por itemtype.</dd>
+        <dd>Especifica la URL del vocabulario que será usado para defeinir itemprops (propiedades del item) in la estructura de datos. Itemscope es usado para setear el scope de dónde en la estructura de datos es seteado el vocabulario por itemtype.</dd>  <hr>
         <dt>lang</dt>
-        <dd>Participa en la definición del lenguage del elemento, del lenguage en que son escritos elementos no-editables o del lenguage en que deben ser escritos elementos editables. El tag contiene un solo valor en el formato definido en <a href="http://www.ietf.org/rfc/bcp/bcp47.txt">Tags for Identifying Languages (BCP47)</a> documento IETF. xml:lang tiene prioridad sobre el mismo.</dd>
+        <dd>Participa en la definición del lenguage del elemento, del lenguage en que son escritos elementos no-editables o del lenguage en que deben ser escritos elementos editables. El tag contiene un solo valor en el formato definido en <a href="http://www.ietf.org/rfc/bcp/bcp47.txt">Tags for Identifying Languages (BCP47)</a> documento IETF. xml:lang tiene prioridad sobre el mismo.</dd>  <hr>
         <dt>spellcheck </dt>
         <dd>Es un atributo enumerado que definde si el elemento se puede comprobar por errores de ortografía. Puede tener los siguientes valores: 
             <ul>
                 <li>true, indica que el elemento debería, si es posible, chequearse por errores.</li>
                 <li>false, indica que el elemento no debe ser chequeado por errores.</li>
             </ul>
-        </dd>
+        </dd>  <hr>
         <dt>style</dt>
-        <dd>Contiene declaraciones de estilo CSS para ser aplicadas al elemento. Note que es recomendado que los estilos sean definidos en archivo/s separados. Este atributo y el elemento "style" tienen el objetivo principal de permitir un estilizado rápido, por ejemplo con fines de testeo.</dd>
+        <dd>Contiene declaraciones de estilo CSS para ser aplicadas al elemento. Note que es recomendado que los estilos sean definidos en archivo/s separados. Este atributo y el elemento <code>&lt;style&gt;</code> tienen el objetivo principal de permitir un estilizado rápido, por ejemplo con fines de testeo.</dd>  <hr>
         <dt>tabindex</dt>
         <dd>Es un atributo Integer que indica si el elemento puede obtener un focus de input (es focusable), si debe participar de la navegación secuencial con el teclado, y si es así, en qué posición. Puede tomar diferentes valores: 
             <ul>
@@ -86,16 +87,16 @@
                 <li>0 significa que el elemento debe ser focusable y alcanzable vía la navegación secuencial del teclado, pero el orden relativo es definido por la convención de la plataforma.</li>
                 <li>un valor positivo which significa que debe ser focusable y alcanzable vía la navegación secuencial del teclado, el orden relativo es definido por el valor del atributo: sigue la secuencia en orden ascendente según el valor de tabindex. Si varios elementos comparten el mismo tabindex, su orden relativo sigue su posición en el documento.</li>
             </ul>
-        </dd>
+        </dd>  <hr>
         <dt>title</dt>
-        <dd>Contiene un texto que representa información de asesoramiento en relación al elemento al que pertenece. Dicha información puede típicamente, pero no necesariamente, presentarse al usuario como un tooltip.</dd>
+        <dd>Contiene un texto que representa información de asesoramiento en relación al elemento al que pertenece. Dicha información puede típicamente, pero no necesariamente, presentarse al usuario como un tooltip.</dd>  <hr>
         <dt>translate</dt>
         <dd>Es un atributo enumerado que se utiliza para especificar si los valores de los atributos de un elemento y los valores de su nodo hijo Text son traducidos cuando su página es localizada, o si hay que dejarlos sin cambios. Puede tener los siguientes valores: 
             <ul>
                 <li>cadena vacía y "yes", indica que el elemento será traducido.</li>
                 <li>"no", indica que el elemento no será traducido.</li>
             </ul>
-        </dd>
+        </dd>  <hr>
     </dl>
 </body>
 </html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mossdrop Inn</title>
+</head>
+<body>
+  <!-- Form to enter the site -->
+  <main>
+    <h1>Welcome to the Mossdrop Inn!</h1>
+    <h3>Home of the best goat & spinach pie in all the Sorenth region</h3>
+    <form action="main.html">
+      <fieldset>
+        <legend>Please provide your information, adventurer!</legend>
+
+        <div>
+          <p>
+            Aventurer tag
+          </p>
+          <label>
+            <input 
+              type="text" 
+              name="tag" 
+              placeholder="Here goes your adventurer tag!"
+              required
+              autofocus
+            >
+          </label>
+        </div>
+
+        <div>
+          <p>
+            Password
+          </p>
+          <label>
+            <input 
+              type="password" 
+              name="password" 
+              placeholder="Here goes your secret password... Shhh..."
+              required
+            >
+          </label>
+        </div>
+
+        <br>
+
+        <div>
+          <label>
+            Do you want be remembered as a Hero?
+            <input 
+              type="checkbox" 
+              name="remember" 
+              checked
+            >
+          </label>
+        </div>
+
+        <br>
+
+        <div>
+          <input 
+            type="reset" 
+            value="You messed up? Reset it!"
+          >
+        </div>
+
+        <br>
+        
+        <div>
+          <input 
+            type="submit" 
+            value="Don't stand by the door. Come in!"
+          >
+        </div>
+      </fieldset>
+    </form>
+  </main>
+</body>
+</html>

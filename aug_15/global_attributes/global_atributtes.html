@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Global_attributes 15_aug</title>
+    <meta name="author" content="Emmanuel Rubio Navarro">
+    <meta name="keywords" content="global attributes, description, glossary">
+    <meta name="description" content="glossary with all the global attributes">
+</head>
+<body>
+   <h1>Attributos Globales</h1>
+   
+   <h2>Desctipción:</h2>
+   <p>Son atributos comunes a todos los elementos HTML; pueden usarse en todos los elementos, aunque pueden no tener efecto en algunos de ellos. Los atributos globales pueden especificarse en todos los  elementos HTML, e incluso en aquellos no especificados en el estándar.</p>
+    
+   <h2>Glossary:</h2> 
+    <dl>
+        <dt>accesskey</dt>
+        <dd>Proporciona y genera un acceso de teclado para el elemento actual. Este atributo consiste de una lista de caracteres, separadas por espacios. El navegador debe utilizar el primero que exista en la distribución del teclado del ordenador.</dd>
+        <hr>
+        <dt>class</dt>
+        <dd>Es una lista de clases del elemento, separadas por espacios que permiten a CSS y JavaScript seleccionar y acceder a elementos específicos a través del class selectors o funciones como el método </dd>
+        <hr>
+        <dt>contenteditable</dt>
+        <dd>Es un atributo enumerado que indica si el elemento debe ser modificable por el usuario. Si es así, el navegador modifica su widget para permitir la edición. El atributo debe tener uno de los siguientes valores:
+            <ul>
+                <il>true o empty string, el cual indicaque el elemento debe ser editable.</il>
+                <il>false, el cual indicaque el elemento no debe ser editable.</il>
+            </ul>        
+        </dd>
+        <dt>contextmenu</dt>
+        <dd>
+            Es el id de un (menu) para usar como menú contextual para este elemento.
+        </dd>
+        <dt>data-*</dt>
+        <dd>Forma una clase de atributos, llamados custom data attributes, que permite que la información del propietario sea intercambianda entre el HTML y su representación DOM que puede ser utilizada por los scripts. Todos estos datos personalizados están disponibles a través de la interfaz HTMLElement del elemento the attribute is set on. La propiedadHTMLElement.dataset da acceso al mismo.</dd>
+        <dt>dir</dt>
+        <dd>Es un atributo enumerado que indica la direccionalidad del texto del elemento. Puede tener los siguientes valores:
+            <ul>
+                <il>ltr, significa left to right y se utiliza para idiomas que se escriben de izquierda a derecha (como el Español).</il>
+                <il>rtl, significa right to left y se utiliza para idiomas que se escriben de derecha a izquierda (como el Árabe);</il>
+                <il>auto, permite que el agente decida. Se utiliza un algoritmo básico, que analiza los caracteres dentro del elemento hasta que encuentra un caracter con una direccionalidad fuerte, a continuación, aplica la direccionalidad a todo el elemento.</il>
+            </ul>
+        </dd>
+        <dt>draggable</dt>
+        <dd>Es un atributo enumerado que indica si el elemento puede ser arrastrado, usando la Drag and Drop API. Puede tener los siguiente valores: 
+            <ul>
+                <il>true, indica que el elemento puede ser arrastrado.</il>
+                <il>false, indica que el elemento no puede ser arrastrado.</il>
+            </ul>
+        </dd>
+        <dt>dropzone</dt>
+        <dd>Es un atributo enumerado que indica qué tipos de contenidos pueden soltarse sobre el elemento, usando la Drag and Drop API. Puede tener los siguiente valores:
+            <ul>
+                <il>copy, indica que al soltar se crea una copia del elemento que fue arrastrado</il>
+                <il>move, indica que el elemento que fue arrastrado será movido a esta nueva locación.</il>
+                <il>move, indica que el elemento que fue arrastrado será movido a esta nueva locación.</il>
+            </ul>
+        </dd>
+        <dt>hidden</dt>
+        <dd>Es un atributo Booleano que indica si el elemento aún no es, o ya no es, relevante. Por ejemplo, puede usarse para ocultar elementos de la página que no pueden usarse hasta que el proceso de ingreso se complete. El navegador no mostrará/renderizará dichos elementos. Este atributo no debe ser utilizado para ocultar el contenido que legítimamente podría ser mostrado.</dd>
+        <dt>id</dt>
+        <dd>Define un identificador único (ID) el cual debe ser único en todo el documento. Su propósito es identificar el elemento cuando es objetivo de un linking (usando un fragment identifier), scripting, o styling (mediante CSS).</dd>
+        <dt>itemid</dt>
+        <dd>Identificador único y global de un item.</dd>
+        <dt>itemprop</dt>
+        <dd>Usado para agregar propiedades a un item. Cada elemento HTML puede tener un atributo itemprop especificado, donde un itemprop consiste de un par nombre y valor.</dd>
+        <dt>itemref</dt>
+        <dd>Propiedades que no son descendientes de un elemento mediante el atributo itemscope pueden ser asociadas con el item usando un itemref. Itemref provee una lista de element ids (no itemids) con propiedades adicionales en cualquier parte del documento.</dd>
+    </dl>
+</body>
+</html>

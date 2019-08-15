@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Marlon Torres">
+  <title>Global Attributes</title>
+</head>
+<body>
+  <h1>Global Attributes</h1>
+	<p>Global attributes are attributes common to all HTML elements; they can be used on all elements, though they may have no effect on some elements.</p>
+	
+	<h2>List of Global Attributes</h2>
+
+	<dl>
+		<dt><h3>Access Key</h3></dt>
+		<dd>Provides a hint for generating a keyboard shortcut for the current element. This attribute consists of a space-separated list of characters. The browser should use the first one that exists on the computer keyboard layout.</dd>
+		
+		<dt><h3>Autocapitalize</h3></dt>
+		<dd>
+			<p>Controls whether and how text input is automatically capitalized as it is entered/edited by the user. It can have the following values:</p>
+			<ul>
+				<li><strong>off</strong> or <strong>none</strong>, no autocapitalization is applied (all letters default to lowercase).</li>
+				<li><strong>on</strong> or <strong>sentences</strong>, the first letter of each sentence defaults to a capital letter; all other letters default to lowercase.</li>
+				<li><strong>words</strong>, the first letter of each word defaults to a capital letter; all other letters default to lowercase.</li>
+				<li><strong>characters</strong>, all letters should default to uppercase.</li>
+			</ul>
+		</dd>
+
+		<dt><h3>Class</h3></dt>
+		<dd><p>A space-separated list of the classes of the element. Classes allows CSS and JavaScript to select and access specific elements via the class selectors or functions like the method <strong>Document.getElementsByClassName()</strong>.</p></dd>
+	
+		<dt><h3>Contenteditable</h3></dt>
+		<dd>
+			<p>An enumerated attribute indicating if the element should be editable by the user. If so, the browser modifies its widget to allow editing. The attribute must take one of the following values:</p>
+			<ul>
+				<li><strong>true</strong> or the empty string, which indicates that the element must be editable.</li>
+				<li><strong>false</strong>, which indicates that the element must not be editable.</li>
+			</ul>
+		</dd>
+
+		<dt><h3>Context Menu</h3></dt>
+		<dd>The <strong>id</strong> of a menu  to use as the contextual menu for this element.</dd>
+
+		<dt><h3>Data-*</h3></dt>
+		<dd><p>Forms a class of attributes, called custom data attributes, that allow proprietary information to be exchanged between the HTML and its DOM representation that may be used by scripts.</p></dd>
+
+		<dt><h3>Dir</h3></dt>
+		<dd>
+			<p>An enumerated attribute indicating the directionality of the element's text. It can have the following values:</p>
+			<ul>
+				<li><strong>ltr</strong>, which means left to right and is to be used for languages that are written from the left to the right (like English);</li>
+				<li><strong>rtl</strong>, which means right to left and is to be used for languages that are written from the right to the left (like Arabic);</li>
+				<li><strong>auto</strong>, which lets the user agent decide. It uses a basic algorithm as it parses the characters inside the element until it finds a character with a strong directionality, then it applies that directionality to the whole element.</li>
+			</ul>
+		</dd>
+	</dl>
+</body>
+</html>

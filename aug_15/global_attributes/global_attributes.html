@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <h1><i>Global attributes</i></h1>
+    </header>
+    <p>The <em>Global attributes</em> are shared in every HTML element, but not every attribute may cause effect the element it self. Also,<br/>
+    any other non-standard attribute must implementate them direct or undirectly due <strong>HTML5</strong>.</p>
+    <hr/>
+    <strong><em></em>Here a list and description of Global attributes: </strong>
+    <br/><br/>
+    <!-----------------------accesskey--------------------->
+    <dl><em>The <strong>accesskey</strong> attribute</em></dl>
+    <dd>Provides a keyboard shortcur for designed element.</dd>
+    <!-----------------------autocapitalize---------------->
+    <dl>The <strong>autocapitalize</strong> attribute.</dl>
+    <dd><i>Controls which way the test input will be automaticlly capitalized. <br/>
+      It may have next values: <br/>
+      <li><strong>off</strong> or <strong>none</strong> ; default all chars to lowercase.</li></i>
+      <li><strong>no</strong> or <strong>sentences</strong> ; the first letter of each <i>sentence</i> UpperCased.</li>
+      <li><strong>word</strong> ; the first letter of each <i>word</i> Uppercased.</li>
+      <li><strong>character</strong> ; all characters default to UpperCase.</li></dd>
+    <!-----------------------class------------------------->
+    <dl>The <strong>class</strong> attribute.</dl>
+    <dd>List of classes of the elements. The <i>class</i> attribute let CSS and JS make use of the 'class'ed element.</dd>
+    <!-----------------------contenteditable--------------->
+    <dl>The <strong>contenteditable</strong> attribute.</dl>
+    <dd>Enumerated attribute indicating if the element should be editable by the user. It takes the next two values:<br/>
+      <li><strong>true</strong> or <strong><i>editable</i></strong> ; declares that the element must be editable.</li>
+      <li><strong>false</strong> ; declares that the element must not be editable.</li>
+    </dd>
+    <!-----------------------contextmenu------------------->
+    <dl>The <strong>contextmenu</strong> attribute.</dl>
+    <dd>The <strong>id</strong> of a <em>< menu ></em> to use as the contextual menu for this element.
+    </dd>
+    <!-----------------------data-*------------------------>
+    <dl>The <strong>data-*</strong> attribute.</dl>
+    <dd>Forms a class of attributes called <em>custom data attributes</em> that allows that propetary information be exchanged <br/>
+    between <strong>HTML</strong> and <strong>DOM</strong> interpretation from scripts
+    </dd>
+    <!-----------------------dir--------------------------->
+    <dl>The <strong>dir</strong> attribute.</dl>
+    <dd>Declares direction of the text of the element. May contain next values:
+      <li><strong>ltr</strong> ; means <i>left to right</i>, used for left-to-right written languages.</li>
+      <li><strong>rtl</strong> ; means <i>right to left</i>, used for right-to-left written languages.</li>
+      <li><strong>auto</strong> ; gives desition of which <em>ltr or rtl</em> to agent. Uses a basic algorithm that analize characters inside element. </li>
+    </dd>
+    <!----------------------draggable---------------------->
+    <dl>The <strong>draggable</strong> attribute.</dl>
+    <dd>An enumerated attribute indicating if element can be dragged. May contain next values:
+      <li><strong>true</strong> ; declares that element may be dragged.</li>
+      <li><strong>false</strong> ; declares that element can't be dragged.</li>
+    </dd>
+    <!----------------------dropzone----------------------->
+    <dl>The <strong>dropzone</strong> attribute.</dl>
+    <dd>A enumerated attribute indicating if element can be dropped. May contain next values:
+      <li><strong>copy</strong> ; indicates that dropping an element will create a copy of element that was dragged.</li>
+      <li><strong>move</strong> ; indicates that dropping an element will change place of element to designed place.</li>
+      <li><strong>link</strong> ; will create a data of dragged data.</li>
+    </dd>
+    <!----------------------hidden------------------------->
+    <dl>The <strong>hidden</strong> attribute.</dl>
+    <dd>A Boolean attribute indicates if element isn't yet or no longer <i>relevant</i>. Browser wond render<br/>
+    such element until a defined proccess is complete.
+    </dd>
+    <!---------------------id------------------------------>
+    <dl>The <strong>id</strong> attribute.</dl>
+    <dd>Defines an unique identifier with a <i>keyword</i> so element can be accessed on CSS or JS.
+    </dd>
+    <!---------------------inputmode----------------------->
+    <dl>The <strong>inputmode</strong> attribute.</dl>
+    <dd>Provides a hint to browsers as to the type of wirtual keyboard configuration in case of editing element's content. Primarly used in <em>< input ></em>. 
+    </dd>
+    <!---------------------is------------------------------>
+    <dl>The <strong>is</strong> attribute.</dl>
+    <dd>Allow to specify that standard HTML elements should behave like custom register. 
+    </dd>
+    <!---------------------itemid-------------------------->
+    <dl>The <strong>itemid</strong> attribute.</dl>
+    <dd>Unique, global identifier of an item.
+    </dd>
+    <!---------------------itemprop------------------------>
+    <dl>The <strong>itemprop</strong> attribute.</dl>
+    <dd>Used to add properties to an item.       
+    </dd>
+    <!---------------------itemref------------------------->
+    <dl>The <strong>itemref</strong> attribute.</dl>
+    <dd>Properties that are not descendants of an element with the <i>itemscope</i> attribute can be associated with the item using <i>itemref.</i>
+    </dd>
+    <!---------------------itemscope----------------------->
+    <dl>The <strong>itemscope</strong> attribute.</dl>
+    <dd>Works with <i>itemtype</i> to specify that the HTML block is about an specific item. Creates the item and defines <i>itemtype</i> association.
+    </dd>
+    <!---------------------itemtype------------------------>
+    <dl>The <strong>itemtype</strong> attribute.</dl>
+    <dd>Defines the URL of vocabulary that will be used to define data structure. <i>itemscope</i> define the data structure to specific HTML block.
+    </dd>
+    <!---------------------lang---------------------------->
+    <dl>The <strong>lang</strong> attribute.</dl>
+    <dd>Defines language of an specific element. Specific language of the element is non-editable. Editable elements should be written  by user.
+    </dd>
+    <!---------------------slot---------------------------->
+    <dl>The <strong>slot</strong> attribute.</dl>
+    <dd>Assign a slot in a <strong>shadow DOM</strong> shadow tree to an element: An element with a slo attribute is assigned to the slot<br/>
+       created by the <em>< slot ></em> element whose <i>name</i> attribute value matches that slot. 
+    </dd>
+    <!---------------------spellcheck---------------------->
+    <dl>The <strong>spellcheck</strong> attribute.</dl>
+    <dd>Defines if an element will be checked out for spelling error. May contain next values:
+      <li><strong>true</strong> ; which indicates that element must be checked out for possible spelling errors.</li>
+      <li><strong>false</strong> ; which indicates that element must not be checkout out for possible spelling errors.</li>
+    </dd>
+    <!---------------------tabindex------------------------>
+    <dl>The <strong>tabindex</strong> attribute.</dl>
+    <dd>An integer attribute indicating if element take focus or is focusable.
+      <li><strong>negative value</strong> ; declares that element should be focusable but not reachable bia sequantial keyboard navigation.</li>
+      <li><strong>0</strong> ; means that element should be focusable and reachable via sequential keyboard navigation</li>
+      <li><strong>positive value</strong> ; </li>
+    </dd>
+    <!---------------------title---------------------------->
+    <dl>The <strong>title</strong> attribute.</dl>
+    <dd>Contains information of the elements <i>title</i> belongs to.
+    </dd>
+    <!---------------------translate------------------------>
+    <dl>The <strong>translate</strong> attribute.</dl>
+    <dd>Enumerated attribute that is used to specify whether an element's attribute values and the values of its <i>Text</i> node children are<br/>
+       to be translated when the page is localized. May contain next vaules:
+      <li><strong><i>empty string</i></strong> and <strong>yes</strong> ; that specifies that element will be translated.</li>
+      <li><strong>no</strong> ; indicates that element won't be translated.</li>
+    </dd>
+    <br/>
+    <hr/>
+    <footer>Thanks for watching!</footer>
+  </body>
+</html>

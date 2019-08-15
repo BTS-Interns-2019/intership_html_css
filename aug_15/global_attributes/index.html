@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="refresh" content="" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 align="center">Atributos globales</h1>
+    <p>
+      Los atributos globales son aplicables a todos los elementos HTML, algunos
+      no tienen efecto en ciertos elementos. Cual quier atibuto no estandar aun
+      permite estos atributos. Los atributos como su nombre lo dice comandos o
+      propiedades de una tag que permite dar modificaciones especificas para que
+      tome diceño forma y funcionalidad en web.
+    </p>
+    <hr />
+    <dl>
+      <dt><b>Acces key</b></dt>
+      <dd>
+        Atajo de teclado, aunque cada navegador tienen su forma de entrar al
+        atajo definido, para chrome, edge, explorer y safari, opera es
+        <code>alt + key</code> y para firefox es <code>alt+shift+key</code>
+      </dd>
+      <button accesskey="s"><code>alt+s</code></button>
+      <hr />
+      <dt><b>autocapitalize</b></dt>
+      <dd>
+        Atributo enumerado que controla si la entrada de texto se capitaliza
+        automaticamente. Este atributo debe te tener uno de estos valores:
+        <ul>
+          <li>
+            <b>off</b> o <b>none</b>: no se aplica, todas las letras son
+            minusculas.
+          </li>
+          <li>
+            <b>on</b> o <b>sentences</b> la primera letra tiene como valor
+            predeterminado mayuscula.
+          </li>
+          <li>
+            <b>words</b>: La primera letra de cada palabra por defecto es una
+            letra mayuscula, todas las demas predeterminan minusculas.
+          </li>
+          <li>
+            <b>characters</b>: todas las letras deben estar en mayusculas.
+          </li>
+        </ul>
+      </dd>
+      <hr />
+      <dt><b>class</b></dt>
+      <dd>
+        Identificador que dan acceso a CSS y Javascript al elemento con este
+        atributo
+      </dd>
+      <hr />
+      <dt><b>contentenditable</b></dt>
+      <dd>
+        Indica si el elemento debe ser editable por el usuario.
+        <code>true false</code>
+      </dd>
+      <hr />
+      <dt><b>contextmenu</b></dt>
+      <dd>El idde a menu para usar como menú contextual para este elemento.</dd>
+      <hr />
+      <dt><b>data-*</b></dt>
+      <dd>
+        Forma una clase de atributos llamados atributos de datos personalizados,
+        que permiten intercambiar informacion propietaria entre HTML y su
+        representacion DOM que pueden ser utilizados por los scripts disponible
+        con HTMLElemnt.
+      </dd>
+      <hr />
+      <dt><b>dir</b></dt>
+      <dd>
+        Atributo de texto que indica direccionalidad de texto.
+        <ul>
+          <li><b>ltr</b>: de izquierda a derecha</li>
+          <li><b>rtl</b>: de derecha a izquierda</li>
+          <li><b>auto</b>: permite que el agente de usuario decida</li>
+        </ul>
+      </dd>
+      <hr />
+      <dt>Draggable</dt>
+      <dd>
+        Atributo enumerable que indica si el elemento se puede arrastrar
+        utilizando apis de arrastrar y soltar, puede tener
+        <code>true o false</code>
+      </dd>
+      <hr />
+      <dt>dropzone</dt>
+      <dd>
+        Atributo enumerable que indica que tipos de contenido se pueden soltar
+        en un elemento, utilizando apis de arrastrar y soltar.
+        <ul>
+          <li><b>copy</b>: creara una copia</li>
+          <li>
+            <b>move</b>: indica que lo arrastrado se movera a una nueva
+            ubicacion
+          </li>
+          <li><b>link</b>: creará un elnlace a los datos arrastrados.</li>
+        </ul>
+      </dd>
+      <hr />
+      <dt><b>exportparts</b></dt>
+      <dd>
+        Se utiliza para exportar de forma transitiva partes sombreadas de un
+        arbol sombreado anidado a un arbol ligero que lo contiene.
+      </dd>
+      <hr />
+      <dt><b>hidden</b></dt>
+      <dd>
+        Atributo booleano que indica si un leemento es o no relevanto. Lo oculta
+      </dd>
+      <hr />
+      <dt><b>id</b></dt>
+      <dd>
+        define un identificador unico que no se debe repetir en el documento
+        HTML. Permite seleccionar ese elemento desde CSS o Javascript
+      </dd>
+      <hr />
+      <dt>inputmode</dt>
+      <dd>
+        espesifica al navegador que teclado virtual se utilizará al editar el
+        elemento.
+      </dd>
+      <hr />
+      <dt><b>is</b></dt>
+      <dd>
+        Le permite especificar que un elemento HTML estándar debe comportarse
+        como un elemento incorporado personalizado registrado
+      </dd>
+      <hr />
+      <dt><b>itemid</b></dt>
+      <dd>El identificador único y global de un artículo.</dd>
+      <hr />
+      <dt><b>itemprop</b></dt>
+      <dd>
+        Se usa para agregar propiedades a un elemento. Cada elemento HTML puede
+        tener un itempropatributo especificado, donde un itempropconsiste en un
+        par de nombre y valor.
+      </dd>
+      <hr />
+      <dt><b>itemref</b></dt>
+      <dd>
+        Las propiedades que no son descendientes de un elemento con el
+        itemscopeatributo pueden asociarse con el elemento mediante un itemref.
+        Proporciona una lista de identificadores de elementos (no itemids) con
+        propiedades adicionales en otras partes del documento.
+      </dd>
+      <hr />
+      <dt><b>itemscope</b></dt>
+      <dd>
+        itemscope(generalmente) funciona junto con itemtypepara especificar que
+        el HTML contenido en un bloque es sobre un elemento en particular.
+        itemscopecrea el artículo y define el alcance de lo itemtypeasociado con
+        él.
+      </dd>
+      <hr />
+      <dt><b>itemtype</b></dt>
+      <dd>
+        Especifica la URL del vocabulario que se utilizará para definir
+        itemprops (propiedades del elemento) en la estructura de datos.
+        itemscopese usa para establecer el alcance de dónde en la estructura de
+        datos el vocabulario establecido por itemtypeestará activo.
+      </dd>
+      <hr />
+      <dt><b>lang</b></dt>
+      <dd>
+        Ayuda a definir el idioma de un elemento, en el que esta o en el que
+        debe escribir
+      </dd>
+      <hr />
+      <dt><b>part</b></dt>
+      <dd>
+        Una lista separada por espacios de los nombres de las partes del
+        elemento. Los nombres de partes permite CSS
+      </dd>
+      <hr />
+      <dt><b>slot</b></dt>
+      <dd>Asigna un espacio a un arbol de sombre DOM.</dd>
+      <hr />
+      <dt><b>spellcheck</b></dt>
+      <dd>
+        Un atributo enumerado define si se puede verificar si el elemento tiene
+        errores ortográficos. true o false
+      </dd>
+      <hr />
+      <dt><b>style</b></dt>
+      <dd>Contiene estilo css inline</dd>
+      <hr />
+      <dt><b>tabindex</b></dt>
+      <dd>
+        Atriibuto que indica si el elemento puede tomas el foco de entrada, si
+        deberia participar en la navegacion secuencial del teclado.
+        <ul>
+          <li>
+            un valor negativo significa que el elemento debe ser enfocable, pero
+            no debe ser accesible a través de la navegación secuencial del
+            teclado
+          </li>
+          <li>0 significa que debe ser enfacable</li>
+          <li>
+            Un valor positivo signidica que el elemento debe ser enfocable y
+            accesible a traves de la navegacion del teclado
+          </li>
+        </ul>
+      </dd>
+      <hr />
+      <dt><b>tle</b></dt>
+      <dd>
+        Contiene un texto representa la informacion de asesoramiento relacionada
+        con el elemento al que pertenece.
+      </dd>
+      <hr />
+      <dt><b>translate</b></dt>
+      <dd>
+        Un atributo enumerado que se utiliza para especificar si los valores de
+        atributo de un elemento y los valores de sus Texthijos de nodo se
+        traducirán cuando se localice la página, o si se dejarán sin cambios.
+        Yes o No
+      </dd>
+    </dl>
+  </body>
+</html>

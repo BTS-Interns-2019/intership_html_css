@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="sergio rivera">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="refresh" content="5">
+    <title>Atributos Globales</title>
+</head>
+<body>
+    <h1>Atributos Globales</h1>
+    <h4>Los atributos globales son atributos comunes a todos los elementos HTML; pueden usarse en todos los elementos, aunque pueden no tener efecto en algunos elementos.</h4>
+    
+    <table border>
+        <thead>
+                <th>ATRIBUTO</th>
+                <th colspan="3">DESCRIPCION</th>
+        </thead>
+        <tr>
+            <td>ACCESSKEY</td>
+            <td>Proporciona un atajo de tavlado para el elemento actual.</td>
+        </tr>
+        <tr>
+            <td>AUTOCAPITALIZE</td>
+            <td >Controla si la entrada de texto se cambia a mayusculas o no, puede tener los siguientes valores:
+                <br>
+                off o none:  se aplica la no auto modificacion del texto.
+                <br>
+                on o sentences: la primera letra de cada enuncado se convierte en mayusculas.
+                <br>
+                words: La primera letra de cada palabra se hace mayuscula y las demas en misnusculas.
+                <br>
+                characteres: todas las letras por default pasan a mayusculas.
+            </td>
+        </tr>
+        <tr>
+            <td>CLASS</td>
+            <td >Una lista separada por espacios en las clases del elemento.
+                <br>
+                las classes que en css y javascript seleccionen y acedan a elementos especificos.
+                <br>
+                atravez de desectores especificos o funciones como el letodo: 
+                <br>
+                <strong>Document.getElementByClassName().</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>CONTENTEDITABLE</td>
+            <td>Atributo que indica si el elemento debe ser editable por el usuario.
+                <br>
+                Si es asi el davegador modifica su widget para permitir la edicion.
+                <br>
+                el atributo debe tomar uno de los sifuientes valores:
+                <br>
+                <ul>
+                    <li>
+                        True: que indica que el elementod debe ser editable.
+                    </li>
+                    <li>
+                        False: lo que indica que elemento no debe der editable.
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>CONTEXTMENU</td>
+            <td>La identificacion de un < Menú> para usar como emnu contextual para este elemento</td>
+        </tr>
+        <tr>
+            <td>DATA-*</td>
+            <td>Forma una clase de atributos, llamados atributos datos personalizados, que permiten intercambiar informacion propietaria entre el HTMLy su representacion DOM que pueden ser utilizados por los scripts</td>
+        </tr>
+        <tr>
+            <td>DIR</td>
+            <td>Un atributo enumerado que indica la direccionalidad del texto del elemento. Puede tener los siguientes valores:
+                <br>
+                <ul>
+                    <li>ltr: Lo que significa de izquierda a derecha y se debe utilizar para los idiomas que se escriben de izquierda a derecha (como el inglés);</li>
+                    <li>
+                        rtl : Lo que significa de derecha a izquierda y debe usarse para idiomas que se escriben de derecha a izquierda (como el árabe);
+                    </li>
+                    <li>
+                        auto: Permite que el usuario decida.
+                    </li>
+                </ul>
+
+            </td>
+        </tr>
+        <tr>
+            <td>DRAGGABLE</td>
+            <td>Unatributo enumerado que indica si el elemento suede arrastrar, utilizando la API de arrastrar y solter. puede tener los siguientes valores:
+                <br>
+                <ul>
+                    <li>True: pudede ser arrastrado</li>
+                    <li>False: no pueden ser arrastrado</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>DROPZONE</td>
+            <td>Un atributo enumerad que indica que ripos de contenido se pueden soltar en este elemento utilizando la API de arrastrar y soltar. Pueden tener los siguientes valores:
+                <br>
+                <ul>
+                    <li>copy: Que indica que soltar creara una cipia del elemento.</li>
+                    <li>move: que indica que el elemento que se arrastro se movera a esta nueva ubucacion </li>
+                    <li>link: creara un enlce a los datos arrastrados</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>exportparts</td>
+            <td>Se usa para exportar de forma transtiva partes de sombra ne un arbol de sombra anidado.</td>
+        </tr>
+        <tr>
+            <td>hideen</td>
+            <td>Un atributo boleano indica que el elemento aun no es, o ya no es relevante.</td>
+        </tr>
+        <tr>
+            <td>ID</td>
+            <td>Define un identificador unico que debe ser unico en todo el docmuento</td>
+        </tr>
+        <tr>
+            <td>inputmode</td>
+            <td>Proporciona una posta a los navegadores sobre el tipo de configuracion de teclado vitual que se ultilizara al editar este elemento o su contenido.</td>
+        </tr>
+        <tr>
+            <td>is</td>
+            <td>Le permite especificar que un elemento HTML estandar debe comportarse como un elemento incorporado personalizado registrado.</td>
+        </tr>
+        <tr>
+            <td>itemif</td>
+            <td>El Identificador unico y global en un item</td>
+        </tr>
+        <tr>
+            <td>itemprop</td>
+            <td>Se usa para agregar propiedades a un elemento. Cada elemento HTML puede tener un atributo itemprop especificado.</td>
+        </tr>
+        <tr>
+            <td>itemref</td>
+            <td>LAS propuedades que nos son decendientes de un elemento con el atributo itemscope se pueden asociar al elemento mediante una referencia de elemento.</td>
+        </tr>
+        <tr>
+            <td>itemscope</td>
+            <td>Funciona junto con itetype para especificar que el HTML contenido en un bloque es sobre un elemento particular.</td>
+        </tr>
+        <tr>
+            <td>itemtype</td>
+            <td>Especifica la URL del voacbulario que se ultiliza para definir iremprops en la estructura de datos.</td>
+        </tr>
+        <tr>
+            <td>lang</td>
+            <td>Ayuda a definir el idioma de un elemento.</td>
+        </tr>
+        <tr>
+            <td>part</td>
+            <td>una lista separada por espacios de los nombres de las partes del elemento.</td>
+        </tr>
+        <tr>
+            <td>slot</td>
+            <td>Asigna una ranura de un shadow DOM shadow: un elemento con un atributo se asigna a la ranura creada por ele elemento < slot></td>
+        </tr>
+        <tr>
+            <td>spellcheck</td>
+            <td>Un atributo enumerado define si se puede veridicar el el elemnto tiene errores otrograficos.</td>
+        </tr>
+        <tr>
+            <td>style</td>
+            <td>contiene declaraciones de estilo CSS.</td>
+        </tr>
+        <tr>
+            <td>tabindex</td>
+            <td>Unatributo entero que indica si el elemento puede tomar el foco de entrada:
+                <br>
+                <ul>
+                    <li>a:negative significa que el elemento debe ser enfocable </li>
+                    <li>0: significa que el elemento debe ser enfocable y accesible atravez de la navegacion secuencial.</li>
+                    <li>a:positive significa que no puede ser enfocable </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>title</td>
+            <td>Contiene un texto que representa informacion de asesoramiento relacionada con el elemento al que pertenece</td>
+        </tr>
+        <tr>
+            <td>translate</td>
+            <td>Un atributo enumerado que se utiliza para especificar los valors del atributo de un elemento y los valores de sus elementos secundarios de nodo de texto se traduciran cuando se localice la paguina o si se dejaran sin cambios.</td>
+        </tr>
+    </table>
+
+</body>
+</html>

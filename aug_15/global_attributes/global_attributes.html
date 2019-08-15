@@ -14,7 +14,7 @@
 	<h2>List of Global Attributes</h2>
 
 	<dl>
-		<dt><h3>Access Key</h3></dt>
+		<dt><h3>Accesskey</h3></dt>
 		<dd>Provides a hint for generating a keyboard shortcut for the current element. This attribute consists of a space-separated list of characters. The browser should use the first one that exists on the computer keyboard layout.</dd>
 		
 		<dt><h3>Autocapitalize</h3></dt>
@@ -53,6 +53,92 @@
 				<li><strong>ltr</strong>, which means left to right and is to be used for languages that are written from the left to the right (like English);</li>
 				<li><strong>rtl</strong>, which means right to left and is to be used for languages that are written from the right to the left (like Arabic);</li>
 				<li><strong>auto</strong>, which lets the user agent decide. It uses a basic algorithm as it parses the characters inside the element until it finds a character with a strong directionality, then it applies that directionality to the whole element.</li>
+			</ul>
+		</dd>
+
+		<dt><h3>Draggable</h3></dt>
+		<dd>
+			<p>An enumerated attribute indicating whether the element can be dragged, using the Drag and Drop API. It can have the following values:</p>
+			<ul>
+				<li><strong>true</strong>, which indicates that the element may be dragged.</li>
+				<li><strong>false</strong>, which indicates that the element may not be dragged.</li>
+			</ul>
+		</dd>
+		
+		<dt><h3>Dropzone</h3></dt>
+		<dd>
+			<p>An enumerated attribute indicating what types of content can be dropped on an element, using the Drag and Drop API. It can have the following values:</p>
+			<ul>
+				<li><strong>copy</strong>, which indicates that dropping will create a copy of the element that was dragged.</li>
+				<li><strong>move</strong>, which indicates that the element that was dragged will be moved to this new location.</li>
+				<li><strong>link</strong>, will create a link to the dragged data.</li>
+			</ul>
+		</dd>
+
+		<dt><h3>Hidden</h3></dt>
+		<dd><p>A Boolean attribute indicates that the element is not yet, or is no longer, relevant. For example, it can be used to hide elements of the page that can't be used until the login process has been completed. The browser won't render such elements. This attribute must not be used to hide content that could legitimately be shown.</p></dd>
+	
+		<dt><h3>Id</h3></dt>
+		<dd><p>Defines a unique identifier (ID) which must be unique in the whole document. Its purpose is to identify the element when linking (using a fragment identifier), scripting, or styling (with CSS).</p></dd>
+	
+		<dt><h3>Inputmode</h3></dt>
+		<dd><p>Provides a hint to browsers as to the type of virtual keyboard configuration to use when editing this element or its contents. Used primarily on <strong>input</strong> elements, but is usable on any element while in contenteditable mode.</p></dd>
+
+		<dt><h3>Is</h3></dt>
+		<dd><p>Allows you to specify that a standard HTML element should behave like a registered custom built-in element.</p></dd>
+	
+		<dt><h3>Itemid</h3></dt>
+		<dd><p>The unique, global identifier of an item.</p></dd>
+
+		<dt><h3>Itemprop</h3></dt>
+		<dd><p>Used to add properties to an item. Every HTML element may have an itemprop attribute specified, where an itemprop consists of a name and value pair.</p></dd>
+	
+		<dt><h3>Itemref</h3></dt>
+		<dd><p>Properties that are not descendants of an element with the itemscope attribute can be associated with the item using an itemref. It provides a list of element ids (not itemids) with additional properties elsewhere in the document.</p></dd>
+
+		<dt><h3>Itemscope</h3></dt>
+		<dd><p>itemscope (usually) works along with itemtype to specify that the HTML contained in a block is about a particular item. itemscope creates the Item and defines the scope of the itemtype associated with it. itemtype is a valid URL of a vocabulary (such as schema.org) that describes the item and its properties context.</p></dd>
+
+		<dt><h3>Itemtype</h3></dt>
+		<dd><p>Specifies the URL of the vocabulary that will be used to define itemprops (item properties) in the data structure. itemscope is used to set the scope of where in the data structure the vocabulary set by itemtype will be active.</p></dd>
+
+		<dt><h3>Lang</h3></dt>
+		<dd><p>Helps define the language of an element: the language that non-editable elements are in, or the language that editable elements should be written in by the user.</p></dd>
+
+		<dt><h3>Slot</h3></dt>
+		<dd><p>Assigns a slot in a <strong>shadow DOM</strong> shadow tree to an element: An element with a <strong>slot</strong> attribute is assigned to the slot created by the <strong>slot</strong> element whose name attribute's value matches that slot attribute's value.</p></dd>
+	
+		<dt><h3>Spellcheck</h3></dt>
+		<dd>
+			<p>An enumerated attribute defines whether the element may be checked for spelling errors. It may have the following values:</p>
+			<ul>
+				<li><strong>true</strong>, which indicates that the element should be, if possible, checked for spelling errors.</li>
+				<li><strong>false</strong>, which indicates that the element should not be checked for spelling errors.</li>
+			</ul>
+		</dd>
+
+		<dt><h3>Style</h3></dt>
+		<dd><p>Contains CSS styling declarations to be applied to the element. Note that it is recommended for styles to be defined in a separate file or files. </p></dd>
+
+		<dt><h3>Tabindex</h3></dt>
+		<dd>
+			<p>An integer attribute indicating if the element can take input focus (is focusable), if it should participate to sequential keyboard navigation, and if so, at what position. It can take several values:</p>
+			<ul>
+				<li><strong>A negative value</strong> means that the element should be focusable, but should not be reachable via sequential keyboard navigation.</li>
+				<li><strong>0</strong> means that the element should be focusable and reachable via sequential keyboard navigation, but its relative order is defined by the platform convention.</li>
+				<li><strong>A positive value</strong> means that the element should be focusable and reachable via sequential keyboard navigation; the order in which the elements are focused is the increasing value of the tabindex. If several elements share the same tabindex, their relative order follows their relative positions in the document.</li>
+			</ul>
+		</dd>
+
+		<dt><h3>Title</h3></dt>
+		<dd><p>Contains a text representing advisory information related to the element it belongs to. Such information can typically, but not necessarily, be presented to the user as a tooltip.</p></dd>
+
+		<dt><h3>Translate</h3></dt>
+		<dd>
+			<p>An enumerated attribute that is used to specify whether an element's attribute values and the values of its Text node children are to be translated when the page is localized, or whether to leave them unchanged. It can have the following values:</p>
+			<ul>
+				<li><strong>empty string and yes</strong>, which indicates that the element will be translated.</li>
+				<li><strong>no</strong>, which indicates that the element will not be translated.</li>
 			</ul>
 		</dd>
 	</dl>

@@ -123,15 +123,91 @@
         nombre-valor. Cada par nombre-valor se denomina propiedad , y un grupo
         de una o más propiedades forma un elemento .
       </dd>
+      <hr />
+
       <dt>itemref</dt>
+      <dd>
+        Las propiedades que no son descendientes de un elemento con el
+        itemscopeatributo pueden asociarse con un elemento utilizando el
+        atributo global itemref . itemrefproporciona una lista de ID de
+        elementos (no itemids) en otra parte del documento, con propiedades
+        adicionales El itemrefatributo solo se puede especificar en elementos
+        que tienen un itemscopeatributo especificado.
+      </dd>
+      <hr />
+
       <dt>itemscope</dt>
+      <dd>
+        Itemscope (usualmente) funciona junto con itemtype para especificar que
+        el HTML contenido en un bloque es sobre un item en particular. Itemscope
+        crea el item y define el scope del itemtype asociado con él.
+      </dd>
+      <hr />
+
       <dt>itemtype</dt>
+      <dd>
+        Especifica la URL del vocabulario que será usado para defeinir itemprops
+        (propiedades del item) in la estructura de datos. Itemscope es usado
+        para setear el scope de dónde en la estructura de datos es seteado el
+        vocabulario por itemtype.
+      </dd>
+      <hr />
+
       <dt>lang</dt>
+      <dd>
+        Ayuda a definir el idioma de un elemento: el idioma en el que se
+        escriben los elementos no editables o el idioma en el que el usuario
+        debe escribir los elementos editables.
+      </dd>
+      <hr />
+
       <dt>spellcheck</dt>
+      <dd>
+        Es un atributo enumerado que definde si el elemento se puede comprobar
+        por errores de ortografía. Puede tener los siguientes valores: <br />
+        true, indica que el elemento debería, si es posible, chequearse por
+        errores. <br />
+        false, indica que el elemento no debe ser chequeado por errores.
+      </dd>
+      <hr />
+
       <dt>style</dt>
+      <dd>
+        Contiene declaraciones de estilo CSS para ser aplicadas al elemento.
+        Note que es recomendado que los estilos sean definidos en archivo/s
+        separados. Este atributo y el elemento <strong>style</strong> tienen el
+        objetivo principal de permitir un estilizado rápido, por ejemplo con
+        fines de testeo.
+      </dd>
+      <hr />
+
       <dt>tabindex</dt>
+      <dd>
+        Indica si su elemento puede enfocarse y si / dónde participa en la
+        navegación secuencial del teclado (generalmente con la tecla, de ahí el
+        nombre).tabindex = Tab
+      </dd>
+      <hr />
+
       <dt>title</dt>
+      <dd>
+        Contiene un texto que representa información de asesoramiento en
+        relación al elemento al que pertenece. Dicha información puede
+        típicamente, pero no necesariamente, presentarse al usuario como un
+        tooltip.
+      </dd>
+      <hr />
+
       <dt>translate</dt>
+      <dd>
+        Es un atributo enumerado que se utiliza para especificar si los valores
+        de los atributos de un elemento y los valores de su nodo hijo Text son
+        traducidos cuando su página es localizada, o si hay que dejarlos sin
+        cambios. Puede tener los siguientes valores: <br />
+        cadena vacía y "yes", indica que el elemento será traducido. <br />
+        "no", indica que el elemento no será traducido. Specificaciones
+      </dd>
+      <hr />
     </dl>
   </body>
 </html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>AOISAKANA - Make contact page</title>
+    </head>
+    <body>
+        <head>
+            <nav>
+                <table cellpadding="20" bgcolor="#EFEF9C">
+                    <tr>
+                        <th width="400" align="left"><a href="restaurant.html"><- Back home</a></th>
+                        <th width="400" align="left"><a href="menu.html">Menu</a></th>
+                        <th width="400" align="left"><a href="team.html">Team</a></th>
+                        <th width="400" align="left"><a href="about.html">About</a></th>
+                    </tr>
+                </table>
+            </nav>
+        </head>
+        <main>
+            <h1 align="center">Make Contact</h1>
+            <div align="center">
+                <form action="restaurant.html">
+                    <fieldset>
+                        <h2>Fill the fields with your corresponding information</h2><hr>
+                        <div>
+                            <label for="name">Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <input type="text" name="name" id="name" required placeholder="Type your name">
+                        </div>
+                        <div>
+                            <label for="lastname">Last Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <input type="text" name="lastname" id="lastname" required placeholder="Type your lastname">
+                        </div>
+                        <div>
+                            <label for="email">E-Mail: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <input type="email" name="email" id="email" required placeholder="Type your e-mail">
+                        </div>
+                        <div>
+                            <label for="phone">Telephone number: </label>
+                            <input type="tel" name="phone" id="phone" required placeholder="Type your phone" pattern="[0-9]{10}">
+                        </div>
+                        <input type="reset" value="reset" value="Reset">
+                        <input type="submit" name="submit" value="Send">
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

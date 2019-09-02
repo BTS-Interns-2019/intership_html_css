@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Units</title>
+</head>
+<body>
+  <h1>CSS Units</h1>
+  <p>Units are used to specify non-zero length values in CSS properties.</p>
+
+  <p>The units in which length is measured can be either absolute such as pixels, points and so on, or relative such as percentages <code>(%)</code> and <code>em</code> units.</p>
+
+  <p>Specifying CSS units is obligatory for non-zero values, because there is no default unit. Missing or ignoring a unit would be treated as an error. However, if the value is 0, the unit can be omitted (after all, zero pixels is the same measurement as zero inches).</p>
+
+  <h2>Absolute units</h2>
+  <p>Absolute lengths are those length units whose value is fixed across all the devices.</p>
+
+  <p>These lengths are not good for low-resolution display screens like computers as most of the computers have low-resolution comparatively and ideally you should avoid using them on your website (except “px” which is a decent length unit)</p>
+
+  <dl>
+    <dt>
+      <code>Pixels (px)</code>
+    </dt>
+    <dd>
+      <p>
+        The <code>px</code> stands for pixels. This is mostly designed for CSS and it is one of the most used absolute length.
+      </p>
+
+      <p>
+        Although it comes under absolute lengths it’s length vary relative to the device types and that is the reason, even W3C recommends to use the pixel unit for display screen.
+      </p>
+
+      <p>
+        96px = 1in
+      </p>
+    </dd>
+
+    <dt>
+      <code>Points (pt)</code>
+    </dt>
+    <dd>
+      <p>
+        The <code>pt</code> stands for points.
+      </p> 
+
+      <p>
+        W3C does not recommend the Points length unit for display screen but recommend this for print devices like printers.
+      </p>
+
+      <p>
+        72pt = 1in
+      </p>
+    </dd>
+
+    <dt>
+      <code>Picas (pc)</code>
+    </dt>
+    <dd>
+      <p>
+      	The <code>pc</code> stands for pica or picas.
+      </p>
+
+      <p>
+        W3C does not recommend the Pica/s length unit for display screen but recommend this for print devices like printers.
+      </p>
+
+      <p>
+        12pt = 1pc
+      </p>
+    </dd>
+
+    <dt>
+      <code>Centimeter (cm)</code>
+    </dt>
+    <dd>
+      <p></p>
+      <p>
+        The <code>cm</code> stands for centimeter. It is widely used for daily use purposes but is used less in website development.
+      </p>
+
+      <p>
+        W3C does not recommend the Centimeter length unit for display screen but recommend this for print devices like printers.
+      </p>
+
+      <p>
+        2.54cm = 1in
+      </p>
+    </dd>
+
+    <dt>
+      <code>Millimeter (mm)</code>
+    </dt>
+    <dd>
+      <p>The <code>mm</code> stands for millimeter. It is 1/10th of a centimeter.</p>
+
+      <p>W3C does not recommend the millimeter length unit for display screen but recommend this for print devices like printers.</p>
+
+      <p>10mm = 1cm</p>
+    </dd>
+
+    <dt>
+      <code>Inches (in)</code>
+    </dt>
+    <dd>
+      <p>The <code>in</code> stands for inches.</p>
+
+      <p>W3C does not recommend the Inch unit for display screen but recommend this for print devices like printers.</p>
+    </dd>
+  </dl>
+
+  <h2>Relative units</h2>
+
+  <p>Relative units are useful for styling responsive sites because they scale relative to the parent or window size (depending on the unit).</p>
+
+  <dl>
+    <dt>
+      <code>em</code>
+    </dt>
+    <dd>
+      <p>It is the unit which is relative to the font-size of the current element so this may be different for each element of the HTML document.</p>
+
+      <p>This is the only unit which W3C recommends for display screen as well as print devices like printers.</p>
+    
+      <p>The <code>em</code> unit is commonly used with padding, margin, text-indent etc.</p>
+    </dd>
+
+    <dt>
+      <code>rem</code>
+    </dt>
+    <dd>
+      <p>Relative to the font-size of the root (e.g. the <code>html</code> element). “rem” = “root em”</p>
+    </dd>
+
+    <dt>
+      <code>ex</code>
+    </dt>
+    <dd>
+      <p>The <code>ex</code> unit is relative to the x-height of a font.</p>
+      
+      <p>The x-height is like the height of lowercase letters like x, a, c, m, or o which are of the same size.</p>
+
+      <p>This is rarely used and W3C does not recommend this for display screens as well as for printers.</p>
+    </dd>
+
+    <dt>
+      <code>Percentage (%)</code>
+    </dt>
+    <dd>
+      <p>
+        The <code>%</code> unit is relative to the enclosing parent element in percent.
+      </p>
+
+      <p>
+        Suppose, the width of the parent element of the current element is 100px. Now, if you define the width of the current element as 80%, then the value of the width will be 0.8*100px = 80px.
+      </p>
+    </dd>
+
+    <dt>
+      <code>ch</code>
+    </dt>
+    <dd>
+      <p>The <code>ch</code> unit is relative to the width of the number “0”.</p>
+    </dd>
+
+    <dt>
+      <code>vw</code>
+    </dt>
+    <dd>
+      <p>
+        The <code>vw</code> unit is the relative unit which is 1% of the width of the viewport and the viewport is the size of the browser window. It differs from browsers to browsers.
+      </p>
+
+      <p>
+        In simple terms, it is 1/100th of the width of the viewport.
+      </p>
+    </dd>
+
+    <dt>
+      <code>vh</code>
+    </dt>
+    <dd>
+      <p>
+        The vh unit is the relative unit which is 1% of the height of the viewport (size of the browser window).
+      </p>
+
+      <p>
+        In simple terms, it is 1/100th of the height of the viewport.
+      </p>
+    </dd>
+
+    <dt>
+      <code>vmin</code>
+    </dt>
+    <dd>
+      <p>
+          Relative to viewport’s smaller dimension (e.g. for portrait orientation, the width is smaller than the height so it’s relative to the width). 1vmin = 1/100 of viewport’s smaller dimension.
+      </p>
+    </dd>
+
+    <dt>
+      <code>vmax</code>
+    </dt>
+    <dd>
+      <p>
+        Relative to viewport’s larger dimension (e.g. height for portrait orientation). 1vmax = 1/100 of viewport’s larger dimension.
+      </p>
+    </dd>
+  </dl>
+</body>
+</html>

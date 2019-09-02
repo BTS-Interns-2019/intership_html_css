@@ -1,0 +1,172 @@
+<h1>CSS units</h1>
+<p>
+  The numeric type you will come across most frequently is
+  <code>&lt;length&gt;</code>, for example 10px (pixels) or 30em. There are two
+  types of lengths used in CSS — relative and absolute. It's important to know
+  the difference in order to understand how big things will become.
+</p>
+<p>
+  In summary, absolute means that the size of the element or the text will
+  always be the same, no matter what happen
+</p>
+<h2>Absolute length units</h2>
+<table border="" cellpadding="10" cellspacing="0">
+  <thead>
+    <th>Unit</th>
+    <th>Name</th>
+    <th>Equivalent to</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>cm</td>
+      <td>Centimeters</td>
+      <td>1cm = 96px/2.54</td>
+    </tr>
+    <tr>
+      <td>mm</td>
+      <td>Milimeters</td>
+      <td>1mm = 1/10th of 1cm</td>
+    </tr>
+    <tr>
+      <td>Q</td>
+      <td>Quarter-millimeters</td>
+      <td>1Q = 1/40th of 1cm</td>
+    </tr>
+    <tr>
+      <td>in</td>
+      <td>Inches</td>
+      <td>1in = 2.54cm = 96px</td>
+    </tr>
+    <tr>
+      <td>pc</td>
+      <td>Picas</td>
+      <td>1pc = 1/16th of 1in</td>
+    </tr>
+    <tr>
+      <td>pt</td>
+      <td>Points</td>
+      <td>1pt = 1/72th of 1in</td>
+    </tr>
+    <tr>
+      <td>px</td>
+      <td>Pixels</td>
+      <td>1px = 1/96th of 1in</td>
+    </tr>
+  </tbody>
+</table>
+<p>
+  Most of these values are useful for print, but not for screen sizes, for that
+  we usaully use units like px
+</p>
+<h2>Relative length units</h2>
+<p>
+  Relative lengths units are "relative" to something else, for example the size
+  of the parent element, or the viewport. One benenfit of use this types of
+  units is tha you can rezise yoru text or other elements scale with the rest of
+  the page.
+</p>
+<p>
+  Opposite of absolute, relative units are "rezisable", this means that element
+  will change with the rest of the window or the page. Relative are scalable,
+  this make them more usefull at the time to work in screens that has differents
+  sizes
+</p>
+<table border="" cellpadding="10" cellspacing="0">
+  <thead>
+    <th>Unit</th>
+    <th>Relative to to</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>em</td>
+      <td>Font size of the parent element.</td>
+    </tr>
+    <tr>
+      <td>ex</td>
+      <td>x-height of the element's font.</td>
+    </tr>
+    <tr>
+      <td>rem</td>
+      <td>Font size of the root element.</td>
+    </tr>
+    <tr>
+      <td>lh</td>
+      <td>Line height of the element.</td>
+    </tr>
+    <tr>
+      <td>vw</td>
+      <td>1% of the viewport's width.</td>
+    </tr>
+    <tr>
+      <td>vh</td>
+      <td>1% of the viewport's height.</td>
+    </tr>
+    <tr>
+      <td>vmin</td>
+      <td>1% of the viewport's smaller dimension.</td>
+    </tr>
+    <tr>
+      <td>vmax</td>
+      <td>1% of the viewport's larger dimension.</td>
+    </tr>
+    <tr>
+      <td>percentage</td>
+      <td>A percentage relative to the parent</td>
+    </tr>
+  </tbody>
+</table>
+<h3><code>em</code> and <code>rem</code></h3>
+<p>
+  em and rem are the two relative lengths you are likely to encounter most
+  frequently when sizing anything from boxes to text.
+</p>
+<dl>
+  <dt><code>em</code></dt>
+  <dd>
+    A relative measurement for the height of a font in <code>em</code> spaces.
+    Because an em unit is equivalent to the size of a given font, if you assign
+    a font to 12pt, each "em" unit would be 12pt; thus, 2em would be 24pt.
+  </dd>
+  <dt><code>rem</code></dt>
+  <dd>
+    rem is similar to em, but instead of varying on the current element font
+    size, it uses the root element (html) font size. You set that font size
+    once, and rem will be a consistent measure across all the page.
+  </dd>
+</dl>
+
+<h3>Percentage</h3>
+<p>
+  In a lot of cases a percentage is treated in the same way as a length. The
+  thing with percentages is that they are always set relative to some other
+  value. For example, if you set an element's font-size as a percentage it will
+  be a percentage of the font-size of the element's parent. If you use a
+  percentage for a width value, it will be a percentage of the width of the
+  parent.
+</p>
+
+<h3>viewport units</h3>
+<dl>
+  <dt>vw</dt>
+  <dd>
+    the viewport width unit represents a percentage of the viewport width. 50vw
+    means 50% of the viewport width.
+  </dd>
+  <dt>vh</dt>
+  <dd>
+    the viewport height unit represents a percentage of the viewport height.
+    50vh means 50% of the viewport height.
+  </dd>
+  <dt>vmin</dt>
+  <dd>
+    the viewport minimum unit represents the minimum between the height or width
+    in terms of percentage. 30vmin is the 30% of the current width or height,
+    depending which one is smaller
+  </dd>
+  <dt>vmax</dt>
+  <dd>
+    the viewport maximum unit represents the maximum between the height or width
+    in terms of percentage. 30vmax is the 30% of the current width or height,
+    depending which one is bigger
+  </dd>
+</dl>

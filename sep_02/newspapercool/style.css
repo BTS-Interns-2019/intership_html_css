@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+}
+  
+.img{
+    width: 400px;
+    height: 250px;
+}
+
+.encabezado{
+    background-color: rgb(186, 205, 226);
+    text-align: center;
+    font-family: 'Rasa', serif;
+    font-size: 20px;
+    padding: 2px;
+}
+h2{
+    font-family: 'Rasa', serif;
+}
+
+
+

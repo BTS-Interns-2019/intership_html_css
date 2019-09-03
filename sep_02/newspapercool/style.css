@@ -1,0 +1,19 @@
+@font-face{
+    font-family: fuente;
+    src: url(Chomsky.otf);
+}
+
+
+.titulo h1{
+    font: 60px fuente;
+    text-align: center;
+    margin: 1%;
+}
+
+hr {
+    height: 1px;
+    width: 90%;
+    margin:0;
+    box-shadow: 0 20px 20px -20px #333;
+}
+

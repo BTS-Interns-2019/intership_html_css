@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Ricardo">
+    <meta name="description" content="Investigación de medidas CSS">
+    <title>CSS Units</title>
+</head>
+<body>
+
+    <h1>Css values and units</h1>
+
+    <p>Every property in CSS ahs a value or set of values that are allowed for that property.<br>
+        In CSS there are various usefull numeric data types, the following are all classed as numeric. <br>
+    </p>
+
+    <h2>Numbers, lengths , and percentages</h2>
+    <h3>Integer</h3>
+    <p>An <em>integer</em> is a whole number such as 1024 or -55.</p>
+
+    <h3>Number</h3>
+    <p>A <em>number</em> represents a decimal number --- it may or may not have a decimal point 
+        with a fractional component. For example 0.255, 128 - 1.2.
+    </p>
+
+    <h3>Dimension</h3>
+    <p>A <em>dimension</em> is a <em>number</em> with a unit atached to it, for example 45deg, 5s, or 10px. 
+        <em>dimension</em> is an umbrella category that includes the <em>length, angle, time</em> and 
+        <em>resolution</em> types.
+    </p>
+
+    <h3>Percentage</h3>
+    <p>A <em>percentage</em> represents a fraction of some other value, for example 50%. Percentage is allways
+         relative to another quantity, for example an element's length is relative to its parent element's length.
+    </p>
+
+    <h2>Lengths</h2>
+    <p>There are two types of length used in CSS -- relative and absolute.</p>
+
+    <h3>Absolute length units</h3>
+    <p>Th efollowing are all <strong>absolute</strong> length units -- they are not relative
+         to anything alse and are generally considered to allways be the same size
+    </p>
+    <table class="standard-table">
+            <thead>
+             <tr>
+              <th scope="col">Unit</th>
+              <th scope="col">Name</th>
+              <th scope="col">Equivalent to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td><code>cm</code></td>
+              <td>Centimeters</td>
+              <td>1cm = 96px/2.54</td>
+             </tr>
+             <tr>
+              <td><code>mm</code></td>
+              <td>Millimeters</td>
+              <td>1mm = 1/10th of 1cm</td>
+             </tr>
+             <tr>
+              <td><code>Q</code></td>
+              <td>Quarter-millimeters</td>
+              <td>1Q = 1/40th of 1cm</td>
+             </tr>
+             <tr>
+              <td><code>in</code></td>
+              <td>Inches</td>
+              <td>1in = 2.54cm = 96px</td>
+             </tr>
+             <tr>
+              <td><code>pc</code></td>
+              <td>Picas</td>
+              <td>1pc = 1/16th of 1in</td>
+             </tr>
+             <tr>
+              <td><code>pt</code></td>
+              <td>Points</td>
+              <td>1pt = 1/72th of 1in</td>
+             </tr>
+             <tr>
+              <td><code>px</code></td>
+              <td>Pixels</td>
+              <td>1px = 1/96th of 1in</td>
+             </tr>
+            </tbody>
+    </table>
+    <p>this values are more commonly used for print, but for screen output its not very used in exception of px(pixels). </p>
+
+    <h3>Relative length units</h3>
+    <p>relative length units are relative to something else, perhaps the size of the parent element's font, or the size of the viewport.
+        The benefit of using relative units is that with some careful planning you can make it so the size of text or other elements scale relative to everything else on the page.
+    </p>
+
+    <table class="standard-table">
+            <thead>
+             <tr>
+              <th scope="col">Unit</th>
+              <th scope="col">Relative to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td><code>em</code></td>
+              <td>Font size of the parent element.</td>
+             </tr>
+             <tr>
+              <td><code>ex</code></td>
+              <td>x-height of the element's font.</td>
+             </tr>
+             <tr>
+              <td><code>rem</code></td>
+              <td>Font size of the root element.</td>
+             </tr>
+             <tr>
+              <td><code>lh</code></td>
+              <td>Line height of the element.</td>
+             </tr>
+             <tr>
+              <td><code>vw</code></td>
+              <td>1% of the viewport's width.</td>
+             </tr>
+             <tr>
+              <td><code>vh</code></td>
+              <td>1% of the viewport's height.</td>
+             </tr>
+             <tr>
+              <td><code>vmin</code></td>
+              <td>1% of the viewport's smaller dimension.</td>
+             </tr>
+             <tr>
+              <td><code>vmax</code></td>
+              <td>1% of the viewport's larger dimension.</td>
+             </tr>
+            </tbody>
+    </table>
+
+    <h2>Percentages</h2>
+    <p>In a lot of cases a percentage is treated in the same way as a length. the thing with percentages is that they are always set relative to some other values.</p>    
+
+    <h2>Numbers</h2>
+    <p>Some values accept numbers, withput any unit added to them. </p>
+
+
+    <h1>Color</h1>
+    <p>There are many ways to specify color in CSS, some of whitch are more recently implemented than others. The same color values can be used everywere in CSS, wether you are specifying text color, background color, or whatecer else</p>
+
+    <h2>Color keywords</h2>
+    <p>Colo keywords are a seimple and understable way of specifying color.</p>
+
+    <h2>Hexadecimal RGB values</h2>
+    <p>The next type of color value you are likely to encounter is hexadecimal codes. Each hex value consists of a hash/pound symbol (#) followed by six hexadecimal numbers, each of which can take one of 16 values between 0 and f  </p>
+
+    <h2>RGB and RGBA values</h2>
+    <p>The third scheme we'll talk about here is RGB.An RGB value is a function which is given three parameters that represent the red, green, and blue channel values of the colors, in much the same way as hex values.Each chanel is represented bu a decimal number between 0 and 255</p>
+
+    <h2>HSL and HSLA values</h2>
+    <p>Slightly less well-supported then RGB is the HSL color model, which was implemented after much interest from designers.Instead of red, green and blues , function accepts hue, saturarion, and lightness.</p>
+
+    <h1>Images</h1>
+    <p> The image data type is used is used wherever an image is a valid value.</p>  
+
+    <h1>Position</h1>
+    <p>The position data type represents a set of 2D coordinates, used to position an item such as background image. It can take a keyword such as top, left, bottom, right and center.</p>
+
+    <h1>String and identifiers</h1>
+    <p>Throughout the examples above, we've seen places where keywords are used as a value </p>
+
+    <h1>Functions</h1>
+    <p>The functions take a value and return another one calculated.</p>
+
+
+
+</body>
+</html>

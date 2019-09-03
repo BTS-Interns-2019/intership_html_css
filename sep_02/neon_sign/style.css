@@ -1,0 +1,17 @@
+@import url(//fonts.googleapis.com/css?family=Vibur);
+
+body{
+    background: black center no-repeat;
+    margin:0;
+    height: 100%;
+}
+
+.neon{
+    text-align: center;
+
+    width: 100%;
+    font: 400 19vh 'Vibur';
+    color: #fee;
+    text-shadow:0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+

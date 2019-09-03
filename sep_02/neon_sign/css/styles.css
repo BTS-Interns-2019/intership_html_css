@@ -1,0 +1,16 @@
+body{
+    background-color:black;
+    font-family: 'Shadows Into Light';
+    padding-left: 20%;
+    padding-top: 20%; 
+}
+#letrero{
+    padding: 0 10px 0 10px;
+    color:#ffff00;
+    text-shadow: 2px 2px 2px #ffff00,
+    -2px -2px 2px #ffc400;
+    font-size: 40pt;
+    box-shadow: -2px -2px 2px #ffc400,
+    2px 2px 2px #ffc400;
+    border: 1px solid yellow;
+}

@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+}
+.neon {
+    margin-top: 20%;
+    text-align: center;
+    color: #DF00FE;
+    font-size: 70px;
+    text-shadow: 1px 1px 2px #8B008B, 0 0 1em #9370DB, 0 0 0.2em #FF00FF;
+}

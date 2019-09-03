@@ -1,0 +1,42 @@
+/*
+** Fonts
+*/
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+body {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.outer-sign,
+.sign,
+.arcade {
+  border-radius: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+.outer-sign {
+  width: 65%;
+  background-color: transparent;
+  margin: 25vh auto;
+
+  box-shadow: 4px 4px 6px rgb(118, 255, 63, 1), -4px -4px 6px rgb(118, 255, 63, 1), 4px -4px 6px rgb(118, 255, 63, 1), -4px 4px 6px rgb(118, 255, 63, 1), inset 4px 4px 6px rgb(118, 255, 63, 1), inset -4px -4px 6px rgb(118, 255, 63, 1), inset 4px -4px 6px rgb(118, 255, 63, 1), inset -4px 4px 6px rgb(118, 255, 63, 1);
+}
+
+.sign {
+  background-color: transparent;
+  margin: 15px;
+  box-shadow: 4px 4px 6px rgba(255, 187, 43, 1), -4px -4px 6px rgba(255, 187, 43, 1), 4px -4px 6px rgba(255, 187, 43, 1), -4px 4px 6px rgba(255, 187, 43, 1), inset 4px 4px 6px rgba(255, 187, 43, 1), inset -4px -4px 6px rgba(255, 187, 43, 1), inset 4px -4px 6px rgba(255, 187, 43, 1), inset -4px 4px 6px rgba(255, 187, 43, 1);
+}
+
+.arcade {
+  letter-spacing: 10px;
+  margin: 15px;
+  font-family: 'Orbitron', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 140px;
+  text-align: center;
+
+  box-shadow: 4px 4px 6px #ff3ffb, -4px -4px 6px #ff3ffb, 4px -4px 6px #ff3ffb, -4px 4px 6px #ff3ffb, inset 4px 4px 6px #ff3ffb, inset -4px -4px 6px #ff3ffb, inset 4px -4px 6px #ff3ffb, inset -4px 4px 6px #ff3ffb;
+
+  text-shadow: 2px 2px 4px #2dede3, -2px -2px 4px #2dede3;
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body {
+  background: wheat;
+}
+
+h1 {
+  text-shadow: -4px 4px 4px blue;
+  font-size: 50px;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+  font-family: 'Merriweather', serif;
+}
+
+h2 {
+  text-shadow: -4px 4px 4px turquoise;
+  font-family: 'Merriweather', serif;
+}
+
+.presentation {
+  vertical-align: middle;
+  width: 325px;
+  float: left;
+}
+
+main {
+  width: 1000px;
+  float: right;
+}
+
+footer {
+  vertical-align: bottom;
+}
+
+img {
+  margin: 4px;
+  padding: 4px;
+  float: left;
+}
+
+article:first-child main{
+  float: right;
+}
+
+h3 {
+  text-shadow: -4px 4px 4px gray;
+  font-family: 'Merriweather', serif;
+}
+
+blockquote > p {
+  font-family: 'Chilanka', cursive;
+}
+
+blockquote > footer {
+  font-family: 'Gayathri', sans-serif;
+}
+
+article > p {
+  font-family: 'Nunito', sans-serif;
+}
+
+aside > p {
+  font-family: 'Nunito', sans-serif;
+}
+
+li {
+  font-family: 'Nunito', sans-serif;
+  list-style: none;
+}
+
+li > a {
+  text-decoration: none;
+}

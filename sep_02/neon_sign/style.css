@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body {
+  padding: 250px;
+  background: black;
+}
+
+h1 {
+  color: chartreuse;
+  text-align: center;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  text-shadow: -4px 4px 4px chartreuse, -8px 8px 8px yellow;
+  font-size: 50px;
+  font-family: 'Rubik', sans-serif;
+}

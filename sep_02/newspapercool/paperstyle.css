@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+body {
+	background-color: #4e20ce;
+	font-size: 20px;
+}
+
+h1 {
+	font-weight: bolder;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Chilanka', cursive, sans-serif;
+}
+
+h2 {
+	font-weight: bolder;
+    text-transform: uppercase;
+    color: rgb(26, 14, 41);
+    font-family: 'Chilanka', cursive, sans-serif;
+}
+
+h3 {
+	font-weight: bolder;
+    color: rgb(42, 46, 77);
+    font-family: 'Chilanka', cursive, sans-serif;
+}
+
+li {
+	font-weight: bold;
+    color: rgb(231, 186, 186);
+    font-family: 'Chilanka', cursive, sans-serif;
+}
+
+a {
+	font-weight: bolder;
+    color: rgb(52, 41, 82);
+    font-family: 'Chilanka', cursive, sans-serif;
+}
+
+p {
+	font-weight: bold;
+    color: rgb(7, 40, 83);
+    font-family: 'Chilanka', cursive, sans-serif;
+}
+
+figcaption {
+	font-weight: bold;
+    color: rgb(42, 35, 56);
+    font-family: 'Chilanka', cursive, sans-serif;
+}
+
+blockquote {
+	font-weight: bold;
+    color: rgb(6, 36, 53);
+    font-family: 'Chilanka', cursive, sans-serif;
+}
+
+address {
+	font-weight: bold;
+    color: rgb(26, 26, 34);
+    font-family: 'Chilanka', cursive, sans-serif;
+}
+
+footer {
+	font-weight: bold;
+    color: rgb(40, 41, 43);
+    font-family: 'Chilanka', cursive, sans-serif;
+}

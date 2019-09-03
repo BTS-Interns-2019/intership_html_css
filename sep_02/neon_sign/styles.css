@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+body{
+    background-color: black;
+}
+.container{
+    width: 90%;
+    margin: 100px auto;
+    border: 2px solid white;
+    box-shadow: 1px 0px 10px 5px blue;
+}
+
+.text{
+    color: azure;
+    text-shadow: 5px 2px 20px rgb(116, 85, 226), 2px 5px 10px purple;
+    text-align: center;
+    font-size: 100px;
+    text-decoration: underline;
+    font-family: 'Lobster',cursive,sans-serif;
+}

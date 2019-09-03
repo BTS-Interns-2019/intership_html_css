@@ -1,10 +1,15 @@
 body {
     background-color: black;
 }
+@font-face {
+    font-family: "Halogen Gas Lights";
+    src: url('Halogen Gas Lights.otf');
+}
 .neon {
+    font-family: "Halogen Gas Lights";
     margin-top: 20%;
     text-align: center;
     color: #DF00FE;
     font-size: 70px;
-    text-shadow: 1px 1px 2px #8B008B, 0 0 1em #9370DB, 0 0 0.2em #FF00FF;
+    text-shadow: 3px 3px 1px #8B008B, 1px 1px 1em #9370DB, 1px 1px 0.2em #FF00FF;
 }

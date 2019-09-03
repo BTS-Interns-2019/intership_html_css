@@ -1,0 +1,60 @@
+body{
+    background: #fafafa;
+}
+header{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px 50px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.logo{
+    width: 100px;
+    margin: auto;
+}
+.title1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    text-shadow: gray 1px 2px 1px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.container{
+    font-family: 'Roboto Slab', serif;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 50px;
+    text-align: justify;
+    font-size: 16px;
+}
+.picture{
+    border: 5px solid #fff;
+    box-shadow: 1px 2px 5px black;
+    width: 30%;
+    margin: auto;
+}
+.fig{
+    background-color: #f4f9f8;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.nav-info ul li a{
+    text-align: left;
+    text-decoration: none;
+    color: #000;
+}
+.sub-cat{
+    background-color: #204862;
+    padding: 10px 5px;
+    color: white;
+}
+.footer{
+text-align: center;
+}
+.footer a{
+    color: black;
+}

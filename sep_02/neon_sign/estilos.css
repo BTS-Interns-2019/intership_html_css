@@ -1,0 +1,15 @@
+@font-face{
+    font-family: "The Led Display St";
+    src: url("The Led Display St.ttf");
+}
+p{
+    font-family: "The Led Display St";
+    font-size: 80px;
+    color:chartreuse;
+    text-align: center;
+    border: 5px solid chartreuse;
+    box-shadow: 5px 5px 20px chartreuse, 5px 5px 20px chartreuse;
+}
+body{
+    background-color: black;
+}

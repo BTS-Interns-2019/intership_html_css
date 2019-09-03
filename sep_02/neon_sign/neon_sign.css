@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+body {
+    background-color: black;
+	font-size: 50px;
+}
+
+h1 {
+	font-weight: bold;
+	text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.neon {
+	color: rgb(255, 255, 255);
+	margin-top: 25%;
+    text-shadow:
+        0 0 15px rgb(255, 0, 0),
+        0 0 20px rgb(255, 0, 0),
+        0 0 25px rgb(255, 0, 0),
+        0 0 30px rgb(255, 0, 0),
+        0 0 35px rgb(255, 0, 0),
+		0 0 40px rgb(127, 38, 38),
+		0 0 80px rgb(127, 38, 38),
+		0 0 90px rgb(127, 38, 38),
+		0 0 100px rgb(127, 38, 38),
+		0 0 140px rgb(127, 38, 38),
+        0 0 180px rgb(127, 38, 38),
+        0 0 200px rgb(127, 38, 38);
+
+}

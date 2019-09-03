@@ -1,0 +1,33 @@
+*{
+    background-color: #FFDFDA;
+}
+.head{
+    background-color: antiquewhite;
+}
+.itemMenu{
+    text-decoration: none;
+    color: #FF676A;
+    text-transform: uppercase;
+}
+h1, h2{
+    color: #804C45;
+}
+.folowUs{
+    text-align: center;
+}
+[cite]{
+    font-weight: bolder;
+    color: brown;
+}
+section>h2{
+    font-size: 1.9em;
+    font-weight: inherit;
+}
+.sudoku{
+    border-width: 3px;
+    border-color: black;
+    border-style: dotted;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Changa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Schoolbell&display=swap');
+*{
+    background-color: black;
+}
+.neon{
+    color:skyblue;
+    font-family: 'Schoolbell', 'Gloria Hallelujah', 'Changa', sans-serif;
+    text-align: center;
+    text-shadow: 4px 4px 20px rgb(5, 5, 75), -4px -4px 20px rgb(5, 5, 75) ,
+    2px 2px 10px darkblue, -2px -2px 10px darkblue,
+    1px 1px 4px skyblue, -1px -1px 4px skyblue;
+}

@@ -1,8 +1,16 @@
-h1{
+body{
+    padding-top: 30px;
     text-align: center;
+}
+.uno{
     font-size: 14vw;
+}
+.dos{
+    font-size: 20vw;
+}
+.uno, .dos{
     color: #A5FFFB;
-    text-shadow: 0 0 20px #00CCB1;
+    text-shadow: 0 0 20px #00CCB1, 0 0 20px #00CCB1, 0 0 20px #00CCB1, 0 0 20px #00CCB1;
     font-weight: 100;
 }
 *{

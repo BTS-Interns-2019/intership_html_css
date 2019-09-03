@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.sign {
+    padding: 150px 20px 200px 200px;
+    text-align: right;
+    color: white;
+    font-size: 150px;
+    text-shadow: 0px 0px 15px #00FDFF; 
+    font-family: 'Warnes', cursive;
+}
+
+.sign2 {
+    padding: 150px 200px 200px 20px;
+    text-align: left;
+    color: white;
+    font-size: 150px;
+    text-shadow: 0px 0px 15px rgba(255, 0, 234, 0.87); 
+    font-family: 'Warnes', cursive;
+}

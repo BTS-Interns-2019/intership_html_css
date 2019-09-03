@@ -1,0 +1,28 @@
+body {
+    background-color: teal;
+}
+#main_title {
+    text-shadow: -1px 1px grey;
+}
+
+.summary {
+    text-align: left;
+    padding: 80px
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+}
+
+.summary_div {
+    background-color: lightskyblue;
+}
+
+.center{
+    text-align: center;
+}
+
+.feedbacks {
+    text-align: right;
+}

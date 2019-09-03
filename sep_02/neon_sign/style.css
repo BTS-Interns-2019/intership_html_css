@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300&display=swap');
+body {
+  background-color: black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+}
+h1 {
+	text-align: center;
+}
+.neon {
+	color: white;
+  margin-top: 20%;
+	text-shadow:
+		0 0 5px   rgb(255, 0, 0),
+		0 0 10px  rgb(255, 0, 0),
+		0 0 20px  rgb(255, 0, 0),
+		0 0 40px  rgb(127, 38, 38),
+		0 0 80px  rgb(127, 38, 38),
+		0 0 90px  rgb(127, 38, 38),
+		0 0 100px rgb(127, 38, 38),
+		0 0 140px rgb(127, 38, 38),
+		0 0 180px rgb(127, 38, 38);
+}
+
+/* body
+{
+  margin: 0;
+  padding: 0;
+  background: black;
+  font-family: 'Quicksand', sans-serif;
+}
+.neon
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0 20px;
+  font-size: 6em;
+  color: #fff;
+  text-shadow: 0 0 20px #ff005b;  
+}
+.neon:after
+{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 20px;
+  z-index: -1;
+  color: #ff005b;
+  filter: blur(15px);
+}
+.neon:before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fe3a80;
+  z-index: -2;
+  opacity: .5;
+  filter: blur(40px);
+} */

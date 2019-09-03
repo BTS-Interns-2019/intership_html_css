@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+    padding: 5%;
+}
+
+header {
+    text-align: center;
+}
+ul > li {
+    list-style-type: none;
+}
+footer > blockquote {
+    text-align: center;
+}
+aside {
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.aside_foto img{
+    width: 100%;
+}
+
+.titulos{
+    background-color: fuchsia;
+    border: .5px solid black;
+}

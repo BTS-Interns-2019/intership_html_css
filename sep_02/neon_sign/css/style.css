@@ -1,10 +1,10 @@
 h1 {
     
     border: 5px solid fuchsia;
-    text-shadow: 6px 3px #ff0000;
+    text-shadow: 6px 9px 15px red;
     text-align: center;
     font-size: 70px;
-    color: black;
+    color: white;
     background: black;
     padding-top: 150px;
     

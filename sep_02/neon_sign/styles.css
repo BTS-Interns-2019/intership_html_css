@@ -5,15 +5,15 @@ body{
 .container{
     width: 90%;
     margin: 100px auto;
-    border: 2px solid white;
-    box-shadow: 1px 0px 10px 5px blue;
+    border: 5px solid white;
+    box-shadow: 1px 0px 10px 5px rgba(95,165,245,1);
 }
 
 .text{
     color: azure;
-    text-shadow: 5px 2px 20px rgb(116, 85, 226), 2px 5px 10px purple;
+    text-shadow: 5px 2px 20px  #93ddff , 10px 5px 10px   #11396c;
     text-align: center;
-    font-size: 100px;
+    font-size: 200px;
     text-decoration: underline;
     font-family: 'Lobster',cursive,sans-serif;
 }

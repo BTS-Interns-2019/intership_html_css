@@ -1,12 +1,13 @@
 .grid {
     display: grid;
     grid-auto-columns: 1fr;
-    grid-gap: 10px 20px;
+    /*grid-gap: 10px 20px;*/
     grid-auto-flow:
 }
 .celda {
     background-color: aqua;
     padding: 20px;
+    margin: 10px;
 }
 .col1 {
     grid-column: 1 ;

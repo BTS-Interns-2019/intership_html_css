@@ -1,0 +1,54 @@
+
+.container { 
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(3, 1000%);
+    grid-column-gap: 15px;
+    grid-row-gap: 7px;
+
+}
+
+#itempur {
+    background-color:purple;
+    padding: 2px;
+    height: 60%; 
+    
+    
+    
+}
+
+#itemblu {
+    background-color: blue;
+    padding: 2px;
+    height: 40%;  
+    
+    
+}
+
+#itemgre {
+    background-color: green;
+    padding: 2px;
+    height: 30%;
+    
+    
+    
+}
+
+#itemyel {
+    background-color: yellow;
+    padding: 2px;
+   height: 120%;
+   
+   
+    
+}
+
+#itemred{
+    background-color: red;
+    padding: 2px;
+    height: 80%;
+    
+    
+}
+
+

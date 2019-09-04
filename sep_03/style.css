@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700&display=swap');
+
+body {
+  padding: 0 10px 0 10px;
+  background: wheat;
+}
+
+h1 {
+  text-shadow: -4px 4px 4px #3EA7D6;
+  font-size: 50px;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+  /*font-family: 'Merriweather', serif;*/
+  font-family: 'Cinzel', serif;
+}
+
+h1 > img {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  margin: 0 20px 0 0;
+}
+
+h2 {
+  text-shadow: -4px 4px 4px rgb(95, 166, 98);
+  font-family: 'Merriweather', serif;
+}
+
+h3 {
+  text-shadow: -4px 4px 4px gray;
+  font-family: 'Merriweather', serif;
+}
+
+.borde {
+  border: solid rgba(100,100,100, 0.3);
+  padding: 5px 10px 5px 10px;
+  border-radius: 8px 8px 8px 8px;
+  display: inline-block;
+}
+
+ul > li {
+  display: inline-block;
+  width: 18%;
+  font-size: 16px;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-shadow: -6px 6px 4px currentColor; 
+}
+
+main {
+  width: 1000px;
+  float: right;
+}
+
+section > img {
+  box-shadow: -6px 6px 4px gray;
+}
+
+.presentation {
+  vertical-align: middle;
+  display: inline-block;
+  width: 300px;
+  height: 720px;
+  border: solid rgba(100,100,100, 0.3);
+  border-radius: 8px 8px 8px 8px;
+  margin: 10px 0 0 0;
+}
+
+.presentation > section,
+.presentation > aside {
+  padding: 10px 10px 10px 10px;
+}
+
+
+
+img {
+  margin: 4px;
+  padding: 4px;
+  float: left;
+}
+
+
+blockquote > p {
+  font-family: 'Chilanka', cursive;
+}
+
+blockquote > footer {
+  font-family: 'Gayathri', sans-serif;
+}
+
+li,
+article > p,
+aside > p {
+  font-family: 'Nunito', sans-serif;
+  list-style: none;
+}
+
+li > a {
+  text-decoration: none;
+}

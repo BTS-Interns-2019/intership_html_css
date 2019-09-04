@@ -1,0 +1,92 @@
+.contenedor{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr; 
+    grid-gap: 10px 20px;
+  
+ 
+}
+
+div {
+    font: 1.000em "Helvetica" san-serif;
+    line-height: 1;
+    padding: 1.000em;
+    color: white;
+    border-radius: 0%;
+}
+.uno{
+    background: purple;
+    grid-column: 1;
+    grid-row: 1;
+}
+.dos{
+    background:lightblue;
+    grid-column:1;
+    grid-row:2;
+}
+.tres{
+    background:yellow;
+    grid-column:1;
+    grid-row:3;
+  
+}
+.cuatro{
+    background:lightblue;
+    grid-column:2;
+    grid-row:1;
+}
+.cinco{
+    background:yellow;
+    grid-column:2;
+    grid-row:2;
+}
+.seis{
+    background:red;
+    grid-column:2;
+    grid-row:3;
+}
+.siete{
+    background:green;
+    grid-column:3;
+    grid-row:1;
+}
+.ocho{
+    background:red;
+    grid-column:3;
+    grid-row:2;
+}
+.nueve{
+    background:purple;
+    grid-column:3;
+    grid-row:3;
+}
+.diez{
+    background:yellow;
+    grid-column:4;
+    grid-row:1;
+}
+.once{
+    background:purple;
+    grid-column:4;
+    grid-row:2;
+}
+.doce{
+    background:lightblue;
+    grid-column:4;
+    grid-row:3;
+}
+.trece{
+    background:red;
+    grid-column:5;
+    grid-row:1;
+}
+.catorce{
+    background:lightblue;
+    grid-column:5;
+    grid-row:2;
+}
+.quince{
+    background:yellow;
+    grid-column:5;
+    grid-row:3;
+}

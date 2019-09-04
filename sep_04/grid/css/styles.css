@@ -1,0 +1,28 @@
+.wraper{
+    width:528px;
+    height: 289px;
+    display: grid;
+    grid-template-columns: repeat(5,115px);
+    grid-column-gap:17px;
+    grid-row-gap:6px;
+    grid-template-rows: 102px 72px 103px;
+}
+.item{
+
+}
+
+.color1{
+    background-color:#d500f9;
+}
+.color2{
+    background-color: #4fc3f7
+}
+.color3{
+    background-color: #ffeb3b
+}
+.color4{
+    background-color: #e53935;
+}
+.color5{
+    background-color: #76ff03;
+}

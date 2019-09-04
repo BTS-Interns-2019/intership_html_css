@@ -26,9 +26,6 @@ h2{
     color: #0B1154;
 }
 .sudoku{
-    border-width: 3px;
-    border-color: black;
-    border-style: dotted;
     text-align: center;
     width: 250px;
     padding: 20px;
@@ -37,6 +34,7 @@ h2{
 .divA{
     display: inline-block;
     width: 60%;
+    
 }
 .divB{
     display: inline-block;
@@ -44,8 +42,8 @@ h2{
     width: auto;
 }
 .sudoku>iframe{
-    width: auto;
-    height: auto;
+    width: 250px;
+    height: 300px;
 }
 header>img{
     width: 220px;

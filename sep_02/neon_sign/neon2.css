@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Metal';
+  src: url('./Metal.ttf');
+  src: url('./Metal.otf');
+}
+
+.sign{
+    font-family: 'Metal', Arial;
+    line-height: .8;
+}
+.sign{
+    color: #F92E03;
+    text-align: center;
+    padding: 5%;
+    font-size: 20vw;
+}
+.m{
+    font-size: 130%;
+    text-shadow: 4px 4px black;
+}
+.color{
+    background: -webkit-linear-gradient(/*left*/ top, #F8E03A, #F6B501, #F77501, #901A0D);
+    background: linear-gradient(to bottom /*right*/, #F8E03A, #F6B501, #F77501, #901A0D);
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent; 
+    -webkit-text-stroke: 3px black;
+}

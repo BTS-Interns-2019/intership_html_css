@@ -1,6 +1,6 @@
 body {
     font-family: 'Oswald', sans-serif;
-    background-color: rosybrown
+    background-color: lightgrey
 }
 
 #main_title {
@@ -15,11 +15,8 @@ body {
     text-underline-position: under;
 }
 
-
-
-
 .summary_div {
-    background-color: blanchedalmond;
+    background-color: rgb(177, 174, 174);
     float: right;
     width: 100%;
     padding: 20px 60px 20px 2px;
@@ -27,6 +24,8 @@ body {
     list-style: none; 
     border-radius: 5px;
     box-shadow: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .summary_div li {
@@ -40,3 +39,4 @@ body {
 .feedbacks {
     text-align: right;
 }
+

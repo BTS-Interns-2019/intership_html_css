@@ -30,6 +30,7 @@ header{
     margin: 0 auto;
     background-color: white;
     padding: 0 30px;
+    padding-bottom: 10px;
     text-align: justify;
     font-size: 16px;
     box-shadow: 0 5px 10px black;
@@ -99,8 +100,13 @@ header{
 }
 .footer{
 text-align: center;
-padding-bottom: 10px;;
+padding-top: 2px;;
+padding-bottom: 10px;
+background-color: #363E53;
+color: white; 
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
 }
 .footer a{
-    color: black;
+    color: white;
 }

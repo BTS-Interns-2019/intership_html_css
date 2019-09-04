@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+body {
+    background-color: rgb(144, 148, 151);
+	font-size: 20px;
+}
+
+h1 {
+	font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+    color: #fff;
+    font-family: 'Chilanka', cursive, sans-serif;
+}
+
+h2 {
+	font-weight: bolder;
+    text-transform: uppercase;
+    background-color: grey;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(26, 14, 41);
+    font-family: 'Chilanka', cursive, sans-serif;
+    padding: 5px;
+}
+
+h3 {
+    font-weight: bolder;
+    box-sizing: border-box;
+    background-color: rgb(69, 69, 71);
+    text-align: center;
+    color: rgb(17, 17, 19);
+    font-family: 'Chilanka', cursive, sans-serif;
+    padding: 5px;
+}
+
+hgroup {
+    box-sizing: border-box;
+    background-color: grey;
+}
+aside {
+    text-align: center;
+    background-color: rgb(62, 73, 69);
+    box-sizing: border-box;
+    padding: 2px;
+    
+}
+
+.quote {
+    text-align: left;
+    padding: 2px;
+}
+
+li {
+	font-weight: bold;
+    color: rgb(56, 36, 36);
+    font-family: 'Chilanka', cursive, sans-serif;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(62, 73, 69);
+    padding: 3px;
+    width: 15%;
+    border: 2px solid;
+    border-radius: 30px 30px 30px 30px;
+    
+}
+
+a {
+	font-weight: bolder;
+    color: rgb(36, 21, 77);
+    
+    font-family: 'Chilanka', cursive, sans-serif;
+}
+
+main {
+    width: 100%;
+    display: inline-block;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+article {
+    float:left;
+    width: 31%;
+    height: 70%;
+    text-align: justify;
+    padding: 10px;
+}
+
+p {
+	font-weight: bold;
+    color: rgb(7, 40, 83);
+    font-family: 'Chilanka', cursive, sans-serif;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+	font-weight: bold;
+    color: rgb(42, 35, 56);
+    font-family: 'Chilanka', cursive, sans-serif;
+}
+
+blockquote {
+	font-weight: bold;
+    color: rgb(6, 36, 53);
+    font-family: 'Chilanka', cursive, sans-serif;
+    border: 2px solid;
+    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-sizing: border-box;
+}
+
+address {
+    font-weight: bolder;
+    color: rgba(13, 13, 14, 0.582);
+    background-color: rgb(113, 113, 116);
+    font-family: 'Chilanka', cursive, sans-serif;
+    box-sizing: border-box;
+    padding: 2px;
+    
+}
+
+footer {
+	font-weight: bold;
+    color: rgb(40, 41, 43);
+    font-family: 'Chilanka', cursive, sans-serif;
+    text-align: left;
+    padding: 2px;
+    
+}
+
+.comments {
+    border-radius: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border: 2px solid;
+}
+
+.foot { 
+    font-weight: bold;
+    color: rgb(40, 41, 43);
+    font-family: 'Chilanka', cursive, sans-serif;
+    text-align: right;
+    padding: 2px;
+    
+}

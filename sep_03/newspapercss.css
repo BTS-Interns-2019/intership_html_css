@@ -52,6 +52,7 @@ ol {
     border-radius: 0px 20px 20px 0px;
     width: 100%;
     border-width: 10px;
+    border: solid 1px teal;
     text-align: right;
     background-color: aliceblue;
     float: right;

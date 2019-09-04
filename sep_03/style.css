@@ -1,0 +1,147 @@
+h1{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    word-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+  
+.img{
+    width: 400px;
+    height: 250px;
+    margin-left:35%;
+    border-radius: 5%;
+    
+}
+
+.encabezado{
+
+    text-align: center;
+    font-family: 'Rasa', serif;
+    font-size: 20px;
+    padding: 2px;
+    
+  
+    
+}
+h2{
+    font-family: 'Rasa', serif;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size:35px;
+    margin-top: 50px;
+}
+
+hr{
+    width: 90%;
+    box-shadow:10px 5px 5px #78C0A8 ;
+
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+}
+
+body{
+   width: 100%;
+    background: url("16864155-antiguo-fondo-de-textura-de-fondo-papel-marrón.jpg" );
+   
+   
+
+  
+}
+
+.info{
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 35px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'PT Sans', sans-serif;
+   
+   
+
+
+}
+article{
+    text-align: justify;
+}
+
+
+h4{
+    text-align: center;
+    font-size: 15px;
+    font-family:'Nunito', sans-serif;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#78C0A8;
+    width: 95%;
+    margin-left: 3%;
+    font-size:18px;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  blockquote{
+    font-size: 1.4em;
+    width:60%;
+    margin:50px auto;
+    font-family:Open Sans;
+    font-style:italic;
+    color: #555555;
+    padding:1.2em 30px 1.2em 75px;
+    border-left:8px solid #78C0A8 ;
+    background:#EDEDED;
+    box-shadow:10px 5px 5px #78C0A8 ;
+    
+  }
+  
+  blockquote::before{
+    font-family:Arial;
+    content: "\201C";
+    color:#78C0A8;
+    font-size:4em;
+    left: 10px;
+    top:-10px;
+  }
+  
+  .alumno1{
+      float: left;
+      margin-left: 3%;
+     
+
+  }
+  .alumno2{
+      float:right;
+      margin-right: 3%;
+  }
+
+ .encabezado > p{
+     font-size: 20px;
+     font-family: 'PT Sans', sans-serif;
+ }
+
+
+
+
+

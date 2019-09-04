@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+@font-face{
+    font-family: fuente;
+    src: url(Chomsky.otf);
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eee;
+}
+
+.titulo h1{
+    font: 60px fuente;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 0%
+}
+.titulo p{
+    font-size: 15px;
+    text-align: right;
+}
+
+hr {
+    width: 90%;
+    margin:15;
+    box-shadow: 5px 1px 10px #333;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .nav li{
+    float:left;
+  }
+
+  .nav li a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .articulo h2{
+      text-align: center;
+  }
+
+  p.artexto{
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .datoc{
+    border: 1px solid teal;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: #cee;
+  }
+
+
+  .quote{
+    border: 1px solid teal;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: #ece;
+    font-style: italic;
+  }
+
+
+.extraimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+}
+
+.periodimagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 300;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+    box-shadow: 0px 5px 20px #333;
+}

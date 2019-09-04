@@ -7,15 +7,32 @@
 .celda {
     background-color: aqua;
     padding: 20px;
-    margin: 10px;
+    margin: 8px 12px;
 }
 .col1 {
-    grid-column: 1 ;
+    grid-column: 1;
     display: flex;
     flex-direction: column;
 }
 .col2 {
-    grid-column: 2 ;
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+}
+.col3 {
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+}
+.col4 {
+    grid-column: 4;
+    display: flex;
+    flex-direction: column;
+}
+.col5 {
+    grid-column: 5;
+    display: flex;
+    flex-direction: column;
 }
 
 .a {
@@ -27,6 +44,56 @@
     background-color: skyblue;
 }
 .c {
-    
+    height: 50vh;
+    background-color: darkorange;
 }
 .d {
+    height: 14vh;
+    background-color: skyblue;
+}
+.e {
+    height: 50vh;
+    background-color: darkorange;
+}
+.f {
+    height: 20vh;
+    background-color: red;
+}
+.g {
+    height: 10vh;
+    background-color: limegreen;
+}
+.h {
+    height: 10vh;
+    background-color: red;
+}
+.i {
+    height: 15vh;
+    background-color: magenta;
+}
+.j {
+    height: 50vh;
+    background-color: darkorange;
+}
+.k {
+    height: 18vh;
+    background-color: magenta;
+}
+.l {
+    height: 20vh;
+    background-color: skyblue;
+}
+.m {
+    height: 30vh;
+    background-color: red;
+}
+.n {
+    height: 16vh;
+    background-color: skyblue;
+}
+.o {
+    height: 40vh;
+    background-color: darkorange;
+}
+
+

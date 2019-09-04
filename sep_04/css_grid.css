@@ -1,0 +1,35 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: [col] auto [col] auto [col] auto [col] auto [col];
+     grid-template-rows: [row] 100px [row] 100px [row] 100px; /*[row] 100px [row] 100px [row] 100px  ; */
+    grid-gap: 10px;
+    background-color: white;
+    padding:10px;
+    grid-auto-flow: column;
+}
+
+
+
+.pink{
+    background-color: pink;
+    /* grid-row: row / span 2;
+    grid-column:col; */
+}
+
+.blue{
+    background-color: lightblue;
+    /* grid-row: row /span; */
+}
+
+.yellow{
+    background-color: yellow;
+    /* grid-row:  */
+}
+
+.red{
+    background-color:red;
+}
+
+.green{
+    background-color:lightgreen;
+}

@@ -1,0 +1,36 @@
+body {
+  padding: 10px;
+}
+
+div > div{
+  background: brown;
+  border: solid black;
+}
+
+.parent {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(20, 30px);
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+}
+
+#a {
+  grid-area: 1 / 1 / 5 / 2;
+  background: fuchsia;
+}
+
+#b {
+  grid-area: 5 / 1 / 10 / 2;
+  background: cadetblue;
+}
+
+#c {
+  grid-area: 10 / 1 / 20 / 2;
+  background: cadetblue;
+}
+
+
+

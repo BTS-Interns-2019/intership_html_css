@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color:rgb(27, 27, 92);
+    text-align: center;
+    padding: 6mm;
+}
+h1 {
+    color: lightgreen;
+    font-size: 4em;
+}
+footer{
+    font-family: sans-serif;
+    padding: 6mm;
+    background-color:black;
+    text-align: right;
+}
+footer a{
+    color: white;
+}
+main{
+    margin: 20px;
+    line-height: 24px;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    display: inline-block;
+    padding-bottom: 120px;
+}
+.img > img{
+    height: 360px;
+    width: 300px;
+}
+h2{
+    color: darkblue;
+    padding: 40px;
+    font-size: 2em;
+    line-height: 36px;
+}
+h3{
+    padding: 20px;
+}
+section{
+    width: 100%;
+}
+aside{
+    width: 90%;
+    background-color: whitesmoke;
+    border: 1px dashed darkblue;
+    padding: 20px;
+    float: right;
+    clear: both;
+}
+figure + time{
+    font-style: italic;
+    color: gray;
+}
+.img{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+blockquote{
+    padding: 30px 50px 30px 50px;
+    font-style: italic;
+}
+main p{
+    padding: 8mm 10px 8mm 10px;
+}
+main >.parts{
+    margin-right: 45%;
+}
+.as{
+    width: 25%;
+    margin-left: 70%;
+}
+footer li{
+    text-align: center;
+}
+footer figcaption{
+    color: lightgreen;
+}

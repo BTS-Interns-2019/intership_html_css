@@ -1,0 +1,42 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: rosybrown
+}
+
+#main_title {
+    text-shadow: -3px 2px 8px rgb(161, 95, 87);
+}
+
+.header {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 10px;
+    text-shadow: -1px 1px 5px rgb(116, 78, 78);
+    text-underline-position: under;
+}
+
+
+
+
+.summary_div {
+    background-color: blanchedalmond;
+    float: right;
+    width: 100%;
+    padding: 20px 60px 20px 2px;
+    text-align: right;
+    list-style: none; 
+    border-radius: 5px;
+    box-shadow: 20px;
+}
+
+.summary_div li {
+    padding: 2px;
+}
+
+.center{
+    text-align: center;
+}
+
+.feedbacks {
+    text-align: right;
+}

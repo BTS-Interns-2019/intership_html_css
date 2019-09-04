@@ -1,0 +1,106 @@
+body{
+    background: #fafafa;
+}
+header{
+    background-color: white;
+    margin: 0 auto;
+    padding: 5px 50px;
+    border-bottom: 2px solid #32478B;
+    text-align: center;
+
+}
+.logo{
+    width: 5%;
+    margin-top: 5px;
+    margin: auto;
+    display: inline-block;
+}
+.title1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    text-shadow: gray 1px 2px 1px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    width: 20%;
+}
+.container{
+    font-family: 'Roboto Slab', serif;
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 30px;
+    text-align: justify;
+    font-size: 16px;
+    box-shadow: 0 5px 10px black;
+}
+.main{
+    width: 80%;
+    display: inline-block;
+    padding-left: 5px;
+}
+.main aside{
+    text-align: center;
+}
+.picture{
+    border: 5px solid #fff;
+    width: 40%;
+    margin: auto;
+    box-shadow: 1px 3px 10px black;
+}
+.fig{
+    background-color: #f4f9f8;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 3px solid black;
+}
+.fig + p{
+    text-align: center;
+}
+.nav-info {
+    border-bottom:2px solid  #32478B;
+    text-align: center;
+}
+.nav-info ul{
+    width: 100%;
+    padding: 0
+}
+.nav-info ul li a{
+    text-align: left;
+    text-decoration: none;
+    color: #000;
+    
+}
+.nav-info ul li{
+    list-style: none;
+    display: inline-block;
+    border: 2px solid #32478B;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sub-cat{
+    background-color: #204862;
+    padding: 10px 5px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 4px 1px rgba(50, 124, 139, 0.5);
+}
+.other-news{
+    display: inline-block;
+    width: 16%;
+    height: 100%;
+    margin-left: 30px;
+}
+.footer{
+text-align: center;
+padding-bottom: 10px;;
+}
+.footer a{
+    color: black;
+}

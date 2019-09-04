@@ -1,0 +1,94 @@
+*{
+    background-color: #8FCFEF;
+    font-family: sans-serif;
+}
+.itemMenu{
+    text-decoration: none;
+    color: #9bffa5;
+    background-color: #0B1154;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+header h1{
+    padding: 3.3% 0 3.3% 10%;
+    font-size: 230%;
+    color: #1E7E3E;
+    font-weight: 900;
+}
+.folowUs{
+    text-align: center;
+}
+
+h2{
+    font-size: 1.9em;
+    font-weight: inherit;
+    text-align: center;
+    color: #0B1154;
+}
+.sudoku{
+    border-width: 3px;
+    border-color: black;
+    border-style: dotted;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+    display: inline-block;
+}
+.divA{
+    display: inline-block;
+    width: 60%;
+}
+.divB{
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+}
+.sudoku>iframe{
+    width: auto;
+    height: auto;
+}
+header>img{
+    width: 220px;
+    float: right;
+    padding: 0 5% 2% 10%;
+}
+header h2{
+    padding: 0;
+    margin: 0 0 2% 0 ;
+    font-size: 1.3em;
+    line-height: 0.4;
+}
+nav>ul>li{
+    display: inline-block;
+    padding: 1%;
+    margin: 0, 0%;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: gray darkslategray darkslategray gray;
+    border-width: 1px 3px 3px 1px;
+    background-color: #0B1154;
+}
+nav>ul{
+    padding: 0;
+}
+.fooElement{
+    display: inline-block;
+    color: black;
+    padding: 0 10px;
+}
+section{
+    border-bottom: 4px solid black;
+    margin: 1%;
+}
+article{
+    padding: 0 3%;
+    border-color: gray darkslategray darkslategray gray;
+    border-width: 2px 4px 4px 2px;
+    border-style: solid;
+    margin: 15px 0;
+    border-radius: 8px;
+    background-color: #CEEEFF;
+}
+article *{
+    background-color: #CEEEFF;
+}

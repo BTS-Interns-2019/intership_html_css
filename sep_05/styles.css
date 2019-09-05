@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+}
+
+header,
+nav,
+article,
+aside,
+footer {
+  padding: 15px;
+}
+
+header,
+footer {
+  background-color: #9ccb40;
+  height: 20vh;
+}
+
+nav,
+article,
+aside {
+  height: 50vh;
+}
+
+nav,
+aside {
+  background-color: #f5f4dd;
+  flex: 1;
+}
+
+article {
+  flex: 3;
+}

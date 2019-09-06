@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: 60%;
+}
+header{
+    padding: 10px;
+    background-color: rgb(156,203,54);
+    flex-basis: 20%;
+}
+nav{
+    padding: 10px;
+    background-color: rgb(245,244,221);
+    flex-basis: 20%;
+}
+article{
+    padding: 10px;
+    background-color: white;
+    flex-basis: 60%
+}
+aside{
+    padding: 10px;
+    background-color: rgb(245,244,221);
+    flex-basis: 20%;
+}
+footer{
+    padding: 10px;
+    background-color: rgb(156,203,54);
+    flex-basis: 20%;
+    justify-self: flex-end;
+}

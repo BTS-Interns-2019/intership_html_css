@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: palegreen;
+    display: flex;
+    padding: 15px;
+    height: 130px;
+}
+
+nav, aside {
+    background-color: cornsilk;
+    flex: 1;
+    padding: 15px;
+    height: 350px;
+}
+
+div {
+    display: flex;
+}
+
+article {
+    flex: 3;
+    height: 50vh;
+    padding: 15px;
+}

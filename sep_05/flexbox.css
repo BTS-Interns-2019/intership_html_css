@@ -10,24 +10,24 @@
     
     height: 100px;
     
-    background-color: rgb(65, 180, 36);
+    background-color: rgb(156, 203, 63);
     
 }
 
 #div > #nav {
-    background-color: rgb(231, 210, 184);
+    background-color: rgb(245, 245, 221);
     flex: 1 6 20%;
     order: 1;
 }
 
 #div > #article {
-    background-color: rgb(243, 238, 231);
+    background-color: rgb(255, 255, 255);
     flex: 3 1 60%;
     order: 2;
 }
 
 #div > #aside {
-    background-color: rgb(231, 210, 184);
+    background-color: rgb(245, 245, 221);
     flex: 1 6 20%;
     order: 3;
 }

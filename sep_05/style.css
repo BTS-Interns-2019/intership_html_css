@@ -1,0 +1,43 @@
+.contenedor {
+    display: flex;  
+    flex-flow: row wrap;
+    text-align: center;
+  }
+  
+  .contenedor > * {
+    padding: 10px;
+    flex: 1 100%;
+  }
+  
+  .header {
+    background: lightgreen;
+    height: 50px;
+  }
+  
+  .article {
+    background: whitesmoke;
+    flex: 3 0px;
+    order: 2;
+    height: 350px;
+  }
+  
+  .nav {
+    flex: 1 0 0;
+    background: lightgoldenrodyellow;
+    order: 1;
+  }
+  
+  .aside {
+    flex: 1 0 0;
+    background: lightgoldenrodyellow;
+    order: 3;
+  }
+
+  .footer {
+    background: lightgreen;
+    order: 4;
+    height: 50px;
+  }
+
+
+

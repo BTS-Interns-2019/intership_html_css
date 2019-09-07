@@ -1,0 +1,111 @@
+body{
+        font-family: Helvetica;
+        padding: 0;
+        margin:0;
+    }
+main{
+    display: flex;
+    height: 93vh;
+}
+.uno{
+    box-sizing: border-box;
+    background-color: rgb(29,161,242);
+}
+section{
+    width: 50%;
+    height: 100%;
+}
+.login{
+    color:rgb(29,161,242);
+    border: 1px solid rgb(29,161,242);
+    border-radius: 10px;
+    padding:10px;
+}
+.login:hover{
+    background-color: rgba(29,161,242,.1);
+    cursor: pointer;
+}
+a{
+    color:rgb(170,184,194);
+text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.password{
+    margin-left:190px;
+    color:rgb(170,191,212);
+}
+footer{
+    border-top: solid 1px rgba(170,184,194,.5);
+    padding-top: 13px;
+}
+footer a{
+    font-size: 10pt;
+    margin-left:5px;
+}
+.letras{
+    color:white;
+    padding-left:20%;
+    padding-right: 20%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    text-align: justify;
+}
+.funciones{
+    display:flex;
+    flex-direction: column;
+    padding-top:20px;
+}
+span{
+ display: inline;
+}
+h3{
+    display:inline;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+span i{
+    font-size:20px;
+    padding:10px;
+}
+.prin{
+    display:flex;
+    flex-direction: column;
+    padding:20%;
+    box-sizing: border-box;
+}
+.prin i{
+    color:rgb(29,161,242);
+    font-size:32pt;
+}
+.boton{
+ margin-top:15px;
+ border-radius: 10px;
+ text-align: center;
+ padding: 5px;
+}
+.registro{
+    background-color:rgb(29,161,242);
+    color:white;
+}
+.registro:hover{
+    cursor: pointer;
+    background-color: rgb(27,149,224);
+}
+.dos{
+    padding: 2% 5% 20% 5%;
+    box-sizing: border-box;
+}
+.inp{
+    padding:10px;
+    margin-right:10px;
+    margin-bottom: 5px;
+    border: solid 1px rgba(170,184,194,.5);
+}
+.inp:focus{
+    border: solid 1px rgb(29,161,242);
+}

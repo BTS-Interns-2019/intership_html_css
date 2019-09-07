@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+.container{
+    display: flex;
+    font-family: Helvetica, Arial, sans-serif;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    height: 100vh;
+}
+.msg{
+    flex-basis: 50%;
+    background: #1da1f2 /*url('img/logo.jpg')*/;
+    background-size: cover;
+    background-position: center left;
+    color: #fff;
+    align-items: flex-end;
+    padding: 100px 100px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.msg > div{
+    width: 100%;
+   
+}
+
+.login{
+    flex-basis: 40%;
+    padding: 100px 100px;
+    line-height: 30px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column
+    ;
+}
+.login > div > div{
+display: inline-block;
+line-height: 30px;
+text-align: center;
+font-size: 2em;
+color: #1da1f2;
+align-items: flex-start;
+}
+.innerDiv1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.login > div >div:nth-child(2){
+display: inline-block;
+}
+.btn-outline{
+    border: 1px solid #1da1f2;
+    border-radius: 100px;
+    background: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    color: #1da1f2;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+.btn-outline:hover{
+    border: #006dbf solid 1px;
+    background: #fafafa;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: #1da1f2;
+    color: white;
+    border: 100px;
+    font-weight: bold;
+    border-radius: 100px;
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.btn-primary:hover{
+    background-color: #006dbf;
+    cursor: pointer;
+}
+
+.likns{
+    text-decoration: none;
+    color: #aab8c2;
+    padding: 1px;
+}
+.likns:hover{
+    text-decoration: underline;
+}
+.footer{
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+    color: #aab8c2;
+    width: 100%;
+}
+i{
+    font-size: 40px;
+}

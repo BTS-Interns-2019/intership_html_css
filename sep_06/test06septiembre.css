@@ -1,0 +1,56 @@
+#container {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-flow:row;
+}
+
+#container > #div1{
+    background-image: url('twitter.png');
+    flex: 1 1 50%;
+    order:1;
+    display: flex;
+    flex-flow: column;
+}
+
+#container > #div2{
+    flex: 1 1 50%;
+    order: 2;
+    display: flex;
+    flex-flow: column;
+}
+
+h2 {
+    order : 1;
+}
+
+h3{
+    order: 2;
+}
+
+article {
+     order:3;
+}
+
+#input1 {
+    border-radius: 30px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+input {
+    border-radius: 30px;
+}
+
+footer { 
+    background-color: white;  
+    height: 100px;
+    order:3;
+}
+
+li {
+    display: inline-block;
+}
+
+
+

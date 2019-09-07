@@ -1,0 +1,137 @@
+  /* .contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0px;
+    align-items:left;
+    justify-content: center;
+} 
+
+body{
+    font-family: arial, sans-serif; 
+}
+
+.prim{
+padding:50%;
+}
+
+
+.izq{
+    background-color: #1DA1F2;
+}
+
+.der{
+    background-color: white;
+}
+
+.bienvenida{
+    font-size: 27px;
+    font-weight: bold; 
+}  */
+
+
+
+/* .contenedor{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100%;
+    padding: 10px;
+  }
+
+  .izq {
+    background-color: #1DA1F2;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .der {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+  } */
+
+
+  body{
+    font-family: arial, sans-serif; 
+    font-weight: bold;
+
+}
+
+  .contenedor {
+    display: flex; 
+    align-items:stretch;
+    width: 100%;
+    flex-grow:1;
+  }
+
+  .izq{
+      
+  background-color: #1DA1F2;
+  padding: 5px;
+  width: 50%;
+  height: 600px;
+  flex-grow:1;
+  color: white;
+} 
+
+.izqcontenedor{
+    margin-left: 100px;
+}
+
+.der{
+    background-color: white;
+    padding: 5px;
+    width: 50%;
+    height: 150px;
+    flex-grow:1;
+    text-align: center ;
+}
+
+.bienvenida{
+    margin-top:100px;
+    font-size: 27px;
+    width: 500px;
+    
+}
+.subbienvenida{
+    font-size: 20px;
+    margin-top:10px;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+.explorar{
+    margin-top:20px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.explorartexto{
+    margin-top:5px;
+    font-weight: normal;
+}
+
+.descubre{
+    margin-top:190px;
+    margin-left:120px;
+    width: 350px;
+
+}
+
+.unete{
+    margin-top: 50px;
+}
+
+.btn{
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid #1DA1F2;
+    border-radius: 20px;
+    padding:7px;
+    margin-bottom: 15px;
+    color:#1DA1F2;
+}
+
+.azul{
+    color:white;
+    background-color: #1DA1F2;
+}

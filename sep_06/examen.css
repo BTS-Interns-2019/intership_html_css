@@ -1,0 +1,141 @@
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+}
+
+.info {
+    flex: 2;
+    padding: 15px;
+    background-color: rgb(0, 177, 231)
+}
+
+.moreInfo {
+    flex: 1;
+    text-align: left;
+    margin-left: 100px;
+    width: 420px;
+    margin-top: 100px
+}
+
+.moreInfo2 {
+    line-height: 35px;
+    font-size: 20px;
+    text-align: justify;
+    width: 55%;
+    display:inline-flex;
+    margin-inline-start: 20%;
+    float: right;
+    margin: 100px 150px 
+ 
+}
+
+.moreInfo2 > div {
+    float: right;
+    height: 0px;
+}
+
+.cajita {
+    color: black;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.image {
+    width: 48px;
+    height: 48px
+}
+
+h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+h3 {
+    color: white
+}
+
+p {
+    color: white;
+    font-size: 14px;
+    font-family: 'Segoe UI', Arial
+}
+
+.start {
+    font-size: 18px;
+    font-family: 'Segoe UI', Arial;
+    font-weight: bold
+}
+.login {
+    background-color: white;
+    flex: 2;
+    padding: 15px;
+    height: 600px;
+}
+input {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 180px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #e6ecf0;
+    border-radius: 5px;
+}
+
+.logButton {
+    background-color: white;
+    border-radius: 25px;
+    width: 60px;
+    height: 40px;
+    border-color: rgb(50, 156, 255)
+}
+
+
+.divButtons {
+    margin-top: 300px;
+}
+
+.sign {
+    background-color: white;
+    border-radius: 25px;
+    width: 350px;
+    height: 40px;
+    border-color: rgb(50, 156, 255);
+    margin-bottom: 12px
+}
+
+.forget {
+    margin-left: 300px
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    text-align: center;
+    font-size: 12px;
+    padding: 0px 9px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Arial;
+    display: block;
+    color: gray
+}
+.links {
+    float: left
+}
+
+footer {
+    margin: 10px 70px 10px 70px
+}
+  

@@ -1,0 +1,78 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+    width: 100vw;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: 100%;
+    color: #14171a;
+    font-size: 14px;
+}
+footer{
+    height: 45px;
+    border: 1px solid #e6ecf0;
+    background-color: white;
+}
+.mainbox{
+    flex-grow: 1;
+}
+#left{
+    background: rgb(47, 171, 248);
+    background-image: url("https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1259px-Twitter_Bird.svg.png");
+    background: linear-gradient(rgba(0,110,224,0.6));
+    background-size: 280% 158%;
+    background-repeat: no-repeat;
+    background-position: 25% 42%;
+}
+#right{
+    display: flex;
+    flex-direction: column;
+}
+#up-right{
+
+}
+#down-right{
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    border-radius: 16px;
+    height: 32px;
+}
+#login{
+    border: 1px solid #1da1f2;
+    background: white;
+}
+#login:hover{
+    background: #eaf5fd;
+}
+#widesignup{
+    border: 1px solid #1da1f2;
+    background: #1da1f2;
+}
+#widesignup:hover{
+    background: #006dbf;
+}
+#widelogin{
+    border: 1px solid #1da1f2;
+    background: white;
+}
+#widelogin:hover{
+    background: #eaf5fd;
+}
+#twit-icon{
+    height: 32px;
+    width: 40px;
+}

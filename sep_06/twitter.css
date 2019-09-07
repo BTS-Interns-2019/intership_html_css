@@ -1,0 +1,91 @@
+* {
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+.todo {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.sec1 {
+    background-color: #1DA1F2;
+    color: #FFF;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.sec2 {
+    background-color: white;
+    color: #14171a;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.ventajas {
+    display: inline-block;
+}
+.miniSec {
+    width: 440px;
+}
+.miniSec2 {
+    width: 350px;
+}
+.bold {
+    font-weight: bold;
+}
+.icono {
+    font-weight: lighter;
+    font-size: 35px;
+    margin-top: 16px;
+}
+[type="text"]{
+    padding: 12px;
+    background-color: #fff;
+    border: 1px solid #e6ecf0;
+    border-radius: 3px;
+}
+form [type="submit"]{
+    background-color: #fff;
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+    padding: 12px;
+    border-radius: 100px;
+    font-weight: bold;
+}
+.btnAzul, .btnBlanco{
+    width: 100%;
+    border: 1px solid #1da1f2;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 6px 16px;
+    border-radius: 100px;
+}
+.btnBlanco {
+    background-color: #FFF;
+    color: #1DA1F2;
+}
+.btnAzul {
+    background-color: #1DA1F2;
+    color: #FFF;
+}
+.iconoTwitter {
+    color: #1DA1F2;
+    font-size: 1.5em;   
+}
+h1 {
+    font-family: 1.2em;
+    text-rendering: optimizeLegibility;
+    font-size: 27px;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+form {
+    margin: 20px 0;
+}
+.m1 {
+    margin-top: 16px;
+}

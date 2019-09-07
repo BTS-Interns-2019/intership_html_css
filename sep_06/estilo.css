@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+aside{
+    float: left;
+    width: 50%;
+    height: 587px;
+    background-color: #1da1f2;
+    color:white;
+    background-image: url('twit.png');
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    background-position-y: -100px;
+    background-size: 109%;
+}
+.caja1{
+    margin-left: 20%;
+    margin-top: 17%;
+    widows: 60%;
+}
+.fa-hashtag, .far
+{
+    float: left;
+    font-size: 35px;
+    padding: 20px 20px 10px 0px; 
+}
+.fas{
+    float: left;
+    font-size: 30px;
+    padding: 20px 20px 10px 0px; 
+}
+.explora{
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+.twt{
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+.miles{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+article{
+    float: left;
+    width: 50%;
+    height: 587px;
+}
+footer{
+    width: 99%;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid #e6ecf0;
+    padding: 5px;
+    padding-top: 15px;
+}
+ul{
+    display:inline-block;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color:#aab8c2;
+}
+li{
+    display: inline;
+    margin: 6px;
+}
+
+.fa-twitter{
+    margin-right: 40%;
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: #1da1f2;
+}
+.iniciars{
+    text-decoration: none;
+    border: 1px solid #1da1f2;
+    padding: 10px;
+    border-radius: 20px;
+    color:#1da1f2;
+    font-weight: bold;
+    font-size:12px;    
+}
+.iniciars:hover{
+    background-color: #eaf5fd;
+}
+.descubre{
+    margin-bottom: 20px;
+}
+.registrate{
+    margin-top: 13px;
+    float: left;
+    width: 60%;
+    border:solid 1px #1da1f2;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1da1f2;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color:white;
+}
+.registrate:hover{
+    background-color: #006dbf;
+}
+.segundoinicio{
+    margin-top: 13px;
+    float: left;
+    width: 60%;
+    border:solid 1px #1da1f2;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color:#1da1f2;
+    padding: 5px;
+    border-radius: 20px;
+}
+.segundoinicio:hover{
+    background-color: #eaf5fd;
+}

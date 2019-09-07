@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.login {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.background {
+  width: 50%;
+  height: 90vh;
+  background-image: url('twitter_logo.png');
+  background-repeat: no-repeat; 
+  background-color: #1DA1F2;
+}
+
+.explore {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 12vw 50px 12vw;
+}
+
+.icon {
+  font-size: 25px;
+}
+
+footer {
+  width: 100vw;
+  height: 10vh;
+}
+
+h2 {
+  margin: 80px 12vw 20px 12vw;
+  font-size: 25px;
+}
+
+.text {
+  margin: 0 12vw 50px 12vw;
+  font-size: 18px;
+}
+
+.title {
+  display: inline;
+  margin: 0 0 0 20px;
+}
+
+.description {
+  display: inline;
+  margin: 0 0 0 40px;
+}
+
+.form {
+  margin: 140px 100px 140px 100px;
+}
+
+.fa-twitter {
+  font-size: 40px;
+  color: #1DA1F2;
+}
+
+.see {
+  font-size: 25px;
+}
+

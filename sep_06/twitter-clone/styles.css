@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "twitter-clone";
+  src:url("fonts/twitter-clone.eot");
+  src:url("fonts/twitter-clone.eot?#iefix") format("embedded-opentype"),
+    url("fonts/twitter-clone.woff") format("woff"),
+    url("fonts/twitter-clone.ttf") format("truetype"),
+    url("fonts/twitter-clone.svg#twitter-clone") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "twitter-clone" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="clone-"]:before,
+[class*=" clone-"]:before {
+  font-family: "twitter-clone" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.clone-twitter:before {
+  content: "\61";
+}
+.clone-bookmark-o:before {
+  content: "\62";
+}
+.clone-brush:before {
+  content: "\63";
+}

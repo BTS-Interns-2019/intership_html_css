@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+main.main-wrapper {
+  display: flex;
+  height: 93vh;
+}
+
+section.main-left,
+section.main-right {
+  height: 100%;
+  flex: 0 0 50%;
+}
+
+section.main-left {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+section.main-left::after {
+  font-family: "twitter-clone";
+  content: "\61";
+  color: #1b95e0;
+}
+
+.features-container {
+  display: flex;
+  height: 100%;
+  width: 440px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+}
+
+.features-headers h2 {
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 32px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.features-headers h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-bottom: 48px;
+}
+
+.features {
+  width: 100%;
+}
+
+.features .feature {
+  display: flex;
+  margin-bottom: 22px;
+  align-items: center;
+}
+
+.feature .icon {
+  font-size: 32px;
+  margin-top: 8px;
+  margin-right: 16px;
+}
+
+.feature .icon-hashtag {
+  font-size: 52px;
+  margin-top: 0;
+}
+
+.feature p {
+  margin: 0;
+}
+
+.feature .title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.feature .description {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+section.main-right .flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+}
+
+.login-section {
+  margin-top: 20px;
+  height: 15%;
+}
+
+.login-section form {
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.login-section input{
+  padding: 12px;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+
+.login-section [name="username"],
+.login-section [name="password"] {
+  border: 1px solid #e6ecf0;
+  border-radius: 3px;
+}
+
+.login-section label a {
+  color: #aab8c2;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+}
+
+.login-button {
+  text-decoration: none;
+  background-color: #fff;
+  color: #1da1f2;
+  border: 1px solid #1da1f2;
+  border-radius: 100px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 12px;
+}
+
+/* .flex-wrapper .call-to-action-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.call-to-action-section div {
+  width: 350px;
+}
+
+.call-to-action-section h2 {
+  font-size: 27px;
+  line-height: 32px;
+}
+
+.call-to-action-section h3 {
+  margin-top: 48px;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.call-to-action-section .icon {
+  color: #1da1f2;
+  font-size: 45px;
+  margin-bottom: 8px;
+}
+
+.call-to-action-section .signup-button,
+.call-to-action-section .login-button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.call-to-action-section .signup-button {
+  background-color: #1da1f2;
+  border: 1px solid #1da1f2;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 100px;
+  padding: 6px 16px;
+}

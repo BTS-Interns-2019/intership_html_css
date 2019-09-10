@@ -20,10 +20,11 @@ header #head1{
 header #head2{
     flex: 1;
     align-self: center;
+    line-height: 22px;
 }
 #head2 form{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     font-size: 12px
 }
@@ -36,7 +37,7 @@ form #user{
 }
 form input[type="text"]{
     border: 1px solid #1d2a5b;
-    width: 142px;
+    width: 150px;
     height: 24px;
 }
 form input[type="submit"]{
@@ -47,6 +48,9 @@ form input[type="submit"]{
     line-height: 18px;
     background: #4267b2;
 }
+form input[type="submit"]:hover{
+    background: #365899;
+}
 form label{
     color: white;
 }
@@ -55,11 +59,11 @@ form a{
 }
 #head1{
     align-self: center;
-    padding-left: 5px;
 }
 #head1 h1{
     color: white;
     font-size: 38px;
+    padding-left: 15%;
 }
 main{
     height: 626px;
@@ -69,9 +73,12 @@ main{
     justify-content: 100%;
 }
 footer{
-    height: 150px;
+    padding: 20px 80px 20px 80px;
+    height: 110px;
     background: white;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 #left{
     flex: 11;
@@ -79,10 +86,19 @@ footer{
     justify-content: flex-end;
     padding: 40px 0 0 45px;
 }
+#right a{
+    color: #385898;
+}
 #right{
     flex: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1d2129;
 }
 #registrar{
+    width: 195px;
+    height: 40px;
     font-size: 19px;
     font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
     font-weight: bold;
@@ -96,6 +112,9 @@ footer{
     box-shadow: inset 0 1px 1px #a4e388;
     border-color: #3b6e22 #3b6e22 #2c5115;
 }
+#registrar:hover{
+    background: linear-gradient(#7fc56e, #578843);
+}
 #left p{
     width: 450px;
     color: #0e385f;
@@ -104,15 +123,27 @@ footer{
     line-height: 29px;
     word-spacing: -1px;
 }
-footer{
-    display: flex;
-    flex-direction: column;
-}
 footer #languages{
     border-bottom: 1px solid #dddfe2;
+    word-spacing: 5px;
+}
+#navs a{
+    line-height: 18px;
+    padding-right: 17px;
+}
+#languages button{
+    width: 32px;
+    height: 20px;
+    color: #737373;
+    border: 1px solid #ccd0d5;
+    background: #f3f5f9;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
 }
 footer nav{
     font-size: 12px;
+    padding: 10px 0 10px 0;
 }
 footer a{
     color: #385898;
@@ -120,4 +151,80 @@ footer a{
 footer section{
     color: #737373;
     font-size: 11px;
+    padding: 10px 0 10px 0;
+}
+#sex label{
+    color: #1d2129;
+    font-size: 18px;
+    line-height: 18px;
+}
+#policies{
+    margin-top: 10px;
+    width: 82%;
+    color: #737373;
+    font-size: 11px;
+}
+#info{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #737373;
+    font-size: 13px;
+}
+#right h1{
+    font-size: 36px;
+}
+#right h2{
+    font-size: 19px;
+    font-weight: normal;
+}
+#right form{
+    width: 400px;
+}
+#inputs{
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+}
+#inputs input{
+    margin: 5px;
+    height: 38px;
+    width: 100%;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+}
+#inputs input::placeholder{
+    color: #99a7c7;
+    font-size: 16px;
+}
+#fullname{
+    display: flex;
+    flex-direction: row;
+}
+#right form .heads{
+    color: #90949c;
+    font-weight: bold;
+    padding: 5px 0 10px 0;
+}
+#sex section span{
+    display: inline;
+    padding: 10px;
+}
+#right .help{
+    padding: 0;
+    height: 14px;
+    width: 14px;
+    font-size: 12px;
+    color: white;
+    background-color: #606770;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#birth select{
+    padding: 5px;
+}
+input[type="text"]{
+    padding: 10px;
+}
+input[type="password"]{
+    padding: 10px;
 }

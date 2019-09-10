@@ -1,0 +1,236 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+/*Seccion azul del header, imagen, boton, input y 'a'*/
+header{
+    width: 100%;
+    height: 83px;
+    background: linear-gradient(#4e69a2, #3b5998);
+    display: flex;
+    justify-content: center;
+}
+.arriba{
+    width: 980px;
+    padding-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    box-sizing: content-box;
+}
+.arriba form button{
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    color:white;
+}
+.faceimg{
+    width: 170px;
+    height: 34px;;
+    margin-top: 17px;
+}
+.left h1{
+    font-size: 28px;
+    line-height: 36px;
+}
+.form_Sesion{
+    display:flex;
+    font-size: 12px;
+}
+.form_Sesion div{
+    display:flex;
+    flex-direction: column;
+    margin-left: 14px;
+}
+.form_Sesion input{
+    width: 142px;
+    height: 15px;
+    border:1px solid black;
+    margin-bottom: 4px;
+}
+.form_Sesion button{
+    font-weight: bold;
+    border-radius: 2px;
+}
+.form_Sesion a{
+    color: #9cb4d8;
+    text-decoration: none;
+}
+.form_Sesion a:hover{
+    color: #9cb4d8;
+    text-decoration: underline;
+}
+.form_Sesion label, .form_Sesion input, .form_Sesion button{
+    padding:3px 3px 4px 3px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+}
+/**/
+/*************centro dos secciones*************/
+main{
+    height: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edf0f5;
+}
+.left{
+    width: 565px;
+    margin-right: 16px;
+}
+.right{
+    width: 410px;
+}
+/******************centro izquierda******************/
+.left ul{
+    list-style: none;
+    margin-top: 46px;
+    font-size: 15px;
+}
+.left ul li{
+    display: flex;
+    align-items: center;
+    /* text-align: left; */
+}
+.fa-newspaper, .fa-address-card, .fa-network-wired{
+    margin-bottom: 25px;
+    font-size: 40px;
+    margin-right: 25px;
+    color: #adb9d3;
+}
+/*********************centro derecha*********************/
+.right h1{
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+.right .subtitulo{
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: unset;
+}
+.right input[type="text"]{
+    padding:8px 10px 8px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    margin-bottom: 7px;
+}
+.right .mitad{
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+}
+.right .mitad input{
+    width: 43%;
+ }
+.right .completo{
+    width: 95%;
+    box-sizing: border;
+}
+.right h3{
+    margin-top: 7px;
+    margin-bottom: 5px;
+    color: #90949c;
+}
+.right .selects{
+    display: flex;
+    align-items: center;
+}
+.right .selects select{
+    font-size: 14px;
+    padding:5px;
+    width: 65px;
+    border: 1px solid #ccd0d5;
+}
+.right .fa-question-circle{
+    font-size: 25px;
+    color:#606770;
+}
+.right .fa-question-circle:hover{
+    cursor: pointer;
+}
+.right .radios{
+    width: 80%;
+    font-weight: bold;
+}
+.right .radios input{
+    margin:0px 10px;
+}
+.right .terms{
+    margin-top: 5px;
+    font-size: 11px;
+    width: 78%;
+    color: #777;
+}
+.right .terms a{
+    text-decoration: none;
+}
+.right .terms a:hover{
+    text-decoration: underline;
+}
+.right .terms a:visited{
+    color:#385898;
+}
+/*********************boton verde*********************/
+.right button{
+    font-size: 19px;
+    font-weight: bold;
+    margin: 7px 0px;
+    width: 194px;
+    padding: 7px 20px;
+    color:white;
+    background: linear-gradient(#67ae55, #578843);
+    box-shadow: inset 0 1px 1px #a4e388;
+    border:1px solid #3b6e22;
+    border-radius: 5px;
+}
+.right button:hover{
+    background: linear-gradient(#79bc64, #578843);
+    cursor: pointer;
+}
+.right .page{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 15px;
+    border-top: 1px solid #dddfe2
+}
+.right p a{
+    text-decoration: none;
+}
+.right p a:hover{
+    text-decoration: underline;
+}
+.right p a:visited{
+    color:#385898;
+}
+/********************footer********************/
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+footer a{
+    margin: 0px 8px;
+}
+footer button{
+    padding:0 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+footer nav{
+    margin-top: 5px;
+    width: 980px;
+}
+footer div{
+    margin-top: 10px;
+    border-top: 1px solid #dddfe2;
+    padding: 5px 0px;
+}

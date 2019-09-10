@@ -1,0 +1,233 @@
+body, html {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    height: 100%;
+    font-family:SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+
+}
+
+header {
+    background-color: #1877F2;
+    display: flex;
+    padding: 12px;
+    height: 10%;
+}
+
+.header-info form p {
+    color: white;
+    font-size: 13px;
+    margin-left: 300px;
+    line-height: 2px
+}
+
+.header-info form div.inicio {
+    margin-top: 20px;
+
+}
+
+.info-container {
+    background-color: white;
+    display: flex;
+    flex: 1;
+    padding: 15px;
+    height: 70%px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    padding: 18px;
+    height: 10%;
+    margin: 0px 70px 10px 70px;
+    color: #385898;
+    font-size: 12px;
+    border-bottom: solid 1px gray     
+}
+
+img {
+    width: 170px;
+    height: 34px;
+    padding: 100px;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+}
+
+form {
+    align-content: space-between;
+    margin-left: 400px
+}
+
+.header-info input {
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;
+    padding: 8px 12px;
+    border: solid 1px #1877F2
+}
+.header-info button {
+    width: 117px;
+    height: 36px;
+    padding: 2px 6px;
+    background-color: #0E52B0;
+    color: white;
+    font-weight: bold;
+    border: solid 1px #1877F2;
+    border-radius: 6px;
+    font-size: 18px
+}
+
+.connect-info {
+    width: 35%;
+    align-content: center;
+    margin: 30px 0px 0px 180px;  
+}
+
+.connect-info ul li {
+    font-size: 17px;
+    margin-top: 50px;
+}
+
+.sign-up {
+    width: 50%;
+    box-sizing: border-box;
+    font-size: 13px;
+    line-height: 20px;
+    padding-left: 10px;
+    width: 432px;
+    height: 530px;
+    background: transparent;
+    border-radius: 8px;
+    bottom: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin: 10px 0px 50px 50px
+}
+
+.sign-up h1 {
+    font-size: 32px
+}
+
+.sign-up p.easy {
+    font-size: 15px
+}
+
+.sign-up p {
+    line-height: 15px
+}
+
+.sign-up button {
+    width: 194px;
+    height: 36px;
+    padding: 2px 6px;
+    background-color: #119F16;
+    color: white;
+    font-weight: bold;
+    border: solid 1px #119F16;
+    border-radius: 6px;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 10px
+}
+
+.gender-span {
+    background-color: #fff;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 6px;
+    font-size: 15px;
+    border: solid 1px gray;
+    line-height: 36px;
+    padding: 0;
+    margin-right: 7px
+}
+
+.gender-span label {
+    padding: 15px 28px 0px 0px;
+    margin-left: 20px
+}
+
+.sign-up form {
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;
+    padding: 8px 12px;
+    width: 432px;
+}
+
+.sign-up form input.name {
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: solid 1px gray;
+    width: 194px;
+    height: 40px;
+    margin-right: 7px
+}
+
+.sign-up form input.info {
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: solid 1px gray;
+    width: 399px;
+    height: 40px;
+}
+
+.sign-up form select.date {
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+    padding: 8px 12px;
+    border: solid 1px gray;
+    font-weight: normal;
+    height: 36px;
+    width: 125px;
+    margin: 0;
+}
+
+.sign-up .quick {
+    border-bottom: solid 1px gray
+}
+
+.sign-up form p.policy {
+    font-size: 11px;
+    color: gray
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    text-align: center;
+    font-size: 12px;
+    padding: 0px 9px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Arial;
+    display: block;
+    color: gray
+}
+.links {
+    float: left
+}
+
+.final-note {
+    margin-top: 50px;
+    font-size: 14px;
+    text-align: center
+}

@@ -262,6 +262,20 @@ main.main-container {
   border-color: #3b6e22 #3b6e22 #2c5115;
 }
 
+.sign-up-form .public-page {
+  margin-top: 10px;
+  padding-top: 15px;
+  color: #666;
+  font-size: 13px;
+  font-weight: bold;
+  border-top: 1px solid #dddfe2;
+}
+
+.sign-up-form .public-page a {
+  color: #385898;
+  text-decoration: none;
+}
+
 /* Footer */
 footer {
   height: 12vh;

@@ -1,0 +1,27 @@
+html , body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    background: #4e69a2 linear-gradient(#4e69a2, #3b5998 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgLogo{
+}
+.imgLogo img{
+    width: 70%;
+    /* margin-top: 17px; */
+}
+.form-login{
+display: flex;
+flex-flow: row wrap;
+}
+.form-login label{
+    /* width: 50%; */
+    order: -1;
+}

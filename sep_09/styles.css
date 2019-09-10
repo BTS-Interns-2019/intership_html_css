@@ -1,0 +1,100 @@
+html,
+body {
+  margin: 0;
+}
+
+.container {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.flex-wrapper {
+  display: flex;
+  height: 100%;
+}
+
+/* Header */
+.flex-header {
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+header {
+  height: 13vh;
+  background: linear-gradient(#4d69a2, #3b5998);
+}
+
+header .container {
+  height: 100%;
+}
+
+header img,
+header .form-container {
+  margin-bottom: 10px;
+}
+
+header img {
+  width: 170px;
+  margin-bottom: 15px;
+}
+
+header .form-container {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  width: 50%;
+}
+
+header .log-in-form {
+  justify-content: flex-end;
+}
+
+header .log-in-form div + div {
+  padding-left: 14px;
+}
+
+header .log-in-form input {
+  border: 1px solid #1d2a5b;
+  padding: 3px 3px 4px 3px;
+}
+
+header .log-in-form label,
+header .log-in-form a {
+  display: block;
+}
+
+header .log-in-form label {
+  padding-bottom: 4px;
+}
+
+header .log-in-form a {
+  color: #9cb4d8;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+header .log-in-form button {
+  margin-left: 14px;
+  background-color: #4267b2;
+  border: 1px solid #29487d; 
+  border-radius: 2px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 6px;
+  text-align: center;
+  line-height: 18px;
+  height: 50%;
+  align-self: center;
+}
+
+/* Main */
+main {
+  height: 75vh;
+  background-color: #edf0f5;
+}
+
+footer {
+  height: 12vh;
+  background-color: #fff;
+}

@@ -5,82 +5,190 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Facebook</title>
-    <link rel="stylesheet" href="facebook.css">
+    <link rel="stylesheet" href="facebook.css" />
+    <script src="https://kit.fontawesome.com/a34b97c7da.js"></script>
   </head>
   <body>
     <header class="header">
       <div class="imgLogo"><img src="facebook.png" alt="Facebook" /></div>
-      <div>
-        <form action="#" class="form-login">
+      <form action="#" class="form-login">
+        <div class="div-mail">
           <label for="email">Email or Phone</label>
           <input type="text" />
+        </div>
+        <div class="div-pass">
           <label for="pass"> Password</label>
           <input type="password" />
-          <a href="#">Forgot account</a>
-          <button>Log in</button>
-        </form>
-      </div>
+          <a href="#">Forgot account?</a>
+        </div>
+
+        <button>Log in</button>
+      </form>
     </header>
-    <main>
-      <section>
+    <main class="container">
+      <section class="first-section">
         <h2>Connect with friends and the world around you on Facebook</h2>
         <ul>
-          <li>See photos and updates from friends in News Feed.</li>
-          <li>Share what's new in your life on your Timeline.</li>
-          <li>Find more of what you're looking for with Facebook Search.</li>
+          <li>
+            <div>
+              <img
+                src="https://scontent.fntr4-1.fna.fbcdn.net/v/t39.2365-6/32213527_1720875981299142_7601737152052854784_n.png?_nc_cat=1&_nc_ht=scontent.fntr4-1.fna&oh=e962d02e6eb5b17ada80b2c6aee6d36b&oe=5E0402E8"
+                alt="News"
+              />
+            </div>
+            <p>
+              <span class="bold">See photos and updates</span> from friends in
+              News Feed.
+            </p>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://scontent.fntr4-1.fna.fbcdn.net/v/t39.2365-6/32220240_200651090730619_3989834943638274048_n.png?_nc_cat=1&_nc_ht=scontent.fntr4-1.fna&oh=5e5620dc203fe2de0e63411e81f463e9&oe=5E036E36"
+                alt="Share"
+              />
+            </div>
+            <p>
+              <span class="bold">Share what's new</span> in your life on your
+              Timeline.
+            </p>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://scontent.fntr4-1.fna.fbcdn.net/v/t39.2365-6/32158113_191365994837162_5605369115159035904_n.png?_nc_cat=1&_nc_ht=scontent.fntr4-1.fna&oh=fc3f87f1a6faf34884766b8ed119ff53&oe=5E130BB5"
+                alt="Find"
+              />
+            </div>
+            <p>
+              <span class="bold">Find more</span> of what you're looking for
+              with Facebook Search.
+            </p>
+          </li>
         </ul>
       </section>
-      <section>
+      <section class="second-section">
         <h1>Sign Up</h1>
-        <h3>It’s quick and easy.</h3>
-        <form action="#">
-          <input type="text" placeholder="First name" />
-          <input type="text" placeholder="Last name" />
-          <input type="text" placeholder="Mobile number or email" />
-          <input type="password" placeholder="New assword" />
-          <h3>Birthday</h3>
-          <select name="days" id="days"></select>
-          <select name="months" id="months"></select>
-          <select name="years" id="years"></select>
-          <div>?</div>
-          <h3>Gender</h3>
-          <label for="male">Male</label>
-          <input type="radio" id="male" />
-          <label for="female">Female</label>
-          <input type="radio" id="female" />
-          <label for="custom">custom</label>
-          <input type="radio" id="custom" />
-          <div>?</div>
-          <p>
-            By clicking Sign Up, you agree to our Terms, Data Policy and Cookies
-            Policy. You may receive SMS Notifications from us and can opt out
-            any time.
+        <p>It’s quick and easy.</p>
+        <form action="#" class="form-flex">
+          <input type="text" placeholder="First name" required />
+          <input type="text" placeholder="Last name" required />
+          <input type="text" placeholder="Mobile number or email" required />
+          <input type="password" placeholder="New password" required />
+          <div>
+            <h3>Birthday</h3>
+            <select name="months" id="months">
+              <option value="Jan">Jan</option>
+              <option value="Feb">Feb</option>
+              <option value="Mar">Mar</option>
+              <option value="Apr">Apr</option>
+              <option value="May">May</option>
+              <option value="Jun">Jun</option>
+              <option value="Jul">Jul</option>
+              <option value="Aug">Aug</option>
+              <option value="Sep">Sep</option>
+              <option value="Oct">Oct</option>
+              <option value="Nov">Nov</option>
+              <option value="Dec">Dec</option>
+            </select>
+
+            <select name="days" id="days">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="18">17</option>
+              <option value="19">18</option>
+              <option value="20">19</option>
+              <option value="21">20</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+
+            <select name="years" id="years">
+              <option value="">2010</option>
+              <option value="">2011</option>
+              <option value="">2012</option>
+              <option value="">2013</option>
+              <option value="">2014</option>
+              <option value="">2015</option>
+              <option value="">2016</option>
+              <option value="">2017</option>
+              <option value="">2018</option>
+            </select>
+            <div class="q-mark"><a href="#">?</a></div>
+          </div>
+          <div>
+            <div class="gender">
+              <h3>Gender</h3>
+              <div>
+                <input type="radio" id="male" name="gender" />
+                <label for="male">Male</label>
+              </div>
+              <div>
+                <input type="radio" id="female" name="gender" />
+                <label for="female">Female</label>
+              </div>
+              <div>
+                <input type="radio" id="custom" name="gender" />
+                <label for="custom">Custom</label>
+              </div>
+              <div class="q-mark"><a href="#">?</a></div>
+            </div>
+          </div>
+          <p class="mute">
+            By clicking Sign Up, you agree to our <a class="links" href="#">Terms</a>,
+            <a class="links" href="#">Data Policy</a> and <a class="links" href="#">Cookies Policy</a>. You
+            may receive SMS Notifications from us and can opt out any time.
           </p>
 
-          <button>Sign Up</button>
+          <button class="btn-sign-up">Sign Up</button>
         </form>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="languages">
-        <a href="#">English (US)</a>
-        <a href="#">Español (España)</a>
-        <a href="#">Português (Brasil) </a>
-        <a href="#">Français (France) </a>
-        <a href="#">Italiano </a>
-        <a href="#">Deutsch </a>
+        <a href="#"class="links">English (US)</a>
+        <a href="#"class="links">Español (España)</a>
+        <a href="#"class="links">Português (Brasil) </a>
+        <a href="#"class="links">Français (France) </a>
+        <a href="#"class="links">Italiano </a>
+        <a href="#"class="links">Deutsch </a>
+        <button>+</button>
       </div>
-      <button>+</button>
-      <a href="#">Sign Up</a>
-      <a href="#">Log In</a>
-      <a href="#">InMessenger</a>
-      <a href="#">Facebook Lite</a>
-      <a href="#">People</a>
-      <a href="#">Pages</a>
-      <a href="#">Page Categories</a>
-      <a href="#">PlacesGames</a>
-      <a href="#">Locations</a>
-      <a href="#">Marketplace</a>
+     <div>
+        <a href="#"class="links">Sign Up</a>
+      <a href="#"class="links">Log In</a>
+      <a href="#"class="links">InMessenger</a>
+      <a href="#"class="links">Facebook Lite</a>
+      <a href="#"class="links">People</a>
+      <a href="#"class="links">Pages</a>
+      <a href="#"class="links">Page Categories</a>
+      <a href="#"class="links">PlacesGames</a>
+      <a href="#"class="links">Locations</a>
+      <a href="#"class="links">Marketplace</a>
+     </div>
+     <p class="mute">Facebook &copy; 2019</p>
     </footer>
   </body>
 </html>

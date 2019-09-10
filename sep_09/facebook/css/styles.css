@@ -1,0 +1,145 @@
+html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica, sans-serif;
+    }
+
+    header {
+        box-sizing: border-box;
+        background-color: rgb(62, 91, 153);
+        height: 12%;
+        padding: 0 0 0 17%;
+        display: flex;
+    }
+
+    header img {
+        width: 168px;
+        height: 34px;
+        padding-top: 30px;
+        margin-right:400px;
+    }
+
+    .form-login {
+        display: flex;
+        
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .blanco{
+        color:white;
+    }
+    .column a{
+        color: #9cb4d8;
+        text-decoration: none;
+    }
+    .column a:hover{
+        text-decoration: underline;
+    }
+    #ocultar{
+        background-color: currentColor;
+        color: rgb(62, 91, 153);
+    }
+    .login-button{
+        box-sizing: border-box;
+        border: solid 1px black;
+        color: white;
+        background-color: rgb(66,103,178);
+        font-weight: bold;
+    }
+    .login-button:hover{
+        background-color:rgb(62, 91, 153);
+    }
+    main{
+        display: flex;
+        height: 80%;
+    }
+    main div{
+        width: 60%;
+        padding-left: 17%;
+        padding-right: 10%;
+        justify-content: center;
+        justify-items: center;
+        box-sizing: border-box;
+    }
+    .gris{
+        color:gray;
+        font-size: 18px;
+    }
+    .gente{
+        width: 536px;
+        height: 294px;
+    }
+section{
+    width: 40%;
+    font-size: 16px;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+h2{
+    padding-top: 15px;
+    color: rgb(14,56,95);
+    font-size:19px
+}
+h1{
+    font-size:32px;
+}
+.lab{
+    font-size: 18px;
+}
+.form{
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px gray;
+    padding-left:5px;
+    box-sizing: border-box;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.signo{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: gray;
+    border: solid 1px lightslategray;
+    color:white;
+}
+select{
+    padding: 5px;
+}
+.verde{
+    background-color: rgb(88,138,68);
+    color:white;
+    padding: 7px;
+    width: 170px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: solid 1px black;
+    font-size: 16px;
+}
+.verde:hover{
+    box-shadow: inset 4px 4px 1px lightgreen;
+}
+ul{
+    list-style: none;
+}
+footer{
+    padding-left:40%;
+}
+li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    color:rgb(62, 91, 153);
+}
+li a:hover{
+text-decoration: underline;
+}

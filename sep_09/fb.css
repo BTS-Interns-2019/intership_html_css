@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    width: 100vw;
+    height: 100vh;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.body-container {
+    height: 100%;
+    display: flex;
+    flex-basis: row;
+    flex-wrap: wrap;
+}
+header {
+    width: 100%;
+    height: 69px;
+    background: linear-gradient(to bottom, #4e69a2, #3b5998 50%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-top: 13px;
+}
+header h1 {
+    align-self: center;
+    width: 540px;
+    font-size: 3em;
+    letter-spacing: -2px;
+}
+.header-form {
+    width: 441px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 12px;
+}
+.header-form-mail, .header-form-password{
+    display: flex;
+    flex-direction: column;
+    padding-left: 14px;
+    justify-content: flex-start;
+}
+.header-form [type="text"] {
+    width: 142px;
+    padding: 3px;
+    margin: 5px 0;
+    border: 1px solid #1d2a5b;
+}
+.header-form-mail > input[type="text"] {
+    width: 198px;
+    margin-bottom: 30px;
+}
+.header-form a {
+    color: #9cb4d8;
+    text-decoration: none;
+}
+.header-form [type="submit"] {
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: top;
+    color: white;
+    height: 24px;
+    line-height: 10px;
+    margin-top: 19px;
+    margin-left: 16px;
+    padding: 6px 6px;
+    vertical-align: top;
+}
+
+main {
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(white, #D3D8E8);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+.main-left {
+    height: 100%;
+    align-items: flex-start;
+    width: 536px;
+    
+}
+.main-left p {
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+.main-left img {
+    width: 536px;
+    height: 194px;
+}
+.main-right {
+    padding-left: 25px;
+    height: 100%;
+    width: 400px;
+}
+.main-right h1 {
+    font-size: 36px;
+    color: #333;
+    font-weight: 600;
+    padding-top: 25px;
+}
+.main-right h2 {
+    font-weight: normal;
+    font-size: 19px;
+    margin: 8px 0 19px 0;
+}
+.elemento {
+    margin-top: 8px;
+}
+.form-registro {
+    width: 400px;
+}
+.form-registro-block{
+    font-size: 18px;
+    padding: 8px 10px;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    width: 358px;
+    border: 1px solid #ccd0d5;
+    color: #1c1e21;
+}
+
+.form-registro [name="name"], [name="last_name"]{
+    box-sizing: border-box;
+    padding: 8px 10px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.34;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    color: #1c1e21;
+    width: 172px;
+    margin 0;
+}
+.form-registro [name="last_name"] {
+    margin-left: 7px;
+}
+
+.btn-registrate {
+    font-size: 19px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    text-rendering: optimizelegibility;
+    margin: 10px 0;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-top-color: rgb(59, 110, 34);
+    border-right-color: rgb(59, 110, 34);
+    border-bottom-color: rgb(44, 81, 21);
+    border-left-color: rgb(59, 110, 34);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+[type="radio"] {
+    margin-left: 8px;
+    background-color: #fff;
+    color: #1c1e21;
+}
+select {
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    background-color: #fff;
+    color: #1c1e21;
+    border: 1px solid #ccd0d5;
+}
+.title-input {
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+.terminos {
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color: #385898;
+}
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+}
+::placeholder {
+    color: #606770;
+}
+.iconito {
+    color: white;
+    font-size: 15px;
+    background-color: #606770;
+    border-radius: 50%;
+    display: inline-block;
+    width: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+

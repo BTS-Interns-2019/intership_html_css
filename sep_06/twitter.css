@@ -6,6 +6,7 @@
 .todo {
     display: flex;
     flex-wrap: wrap-reverse;
+    height: 95vh;
 }
 .sec1 {
     background-color: #1DA1F2;
@@ -14,6 +15,7 @@
     display: flex;
     flex-direction: column;
     align-content: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .sec2 {
@@ -23,6 +25,7 @@
     display: flex;
     flex-direction: column;
     align-content: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .ventajas {
@@ -30,9 +33,14 @@
 }
 .miniSec {
     width: 440px;
+    margin: 20px;
 }
 .miniSec2 {
     width: 350px;
+    margin: 20px;
+}
+.form-login {
+        /*align-self: flex-start;*/
 }
 .bold {
     font-weight: bold;

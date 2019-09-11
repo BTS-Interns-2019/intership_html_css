@@ -229,3 +229,8 @@ ul li {
     margin-left: 40px;
     margin-top: 15px
 }
+
+.fa-hashtag, .fa-home, .fa-bell, .fa-envelope,
+.fa-bookmark, .fa-list-alt, .fa-user, .fa-ellipsis-h {
+    font-size: 27px;
+}

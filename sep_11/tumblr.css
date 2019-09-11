@@ -1,0 +1,132 @@
+body, html {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    height: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+    background: url('./penguins.jpg')
+
+}
+
+header {
+    background-color: transparent;
+    display: flex;
+    padding-left: 15px;
+    height: 10%;
+}
+
+.inicio input{
+    width: 480px;
+    height: 34px;
+    margin-right: 16px;
+    position: relative;
+    padding-left: 3px;
+    border-radius: 3px;
+    line-height: inherit;
+    font-size: 15px;
+    margin-top: 10px;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+}
+
+.inicio button {
+    width: 95px;
+    height: 34px;
+    padding: 5px 13px;
+    border-radius: 3px;
+    background-color: white;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    border: solid 1px white;
+    margin-left: 735px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    text-align: center;
+    font-size: 12px;
+    padding: 0px 9px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Arial;
+    display: block;
+    color: gray
+}
+.links {
+    float: left
+}
+
+.info-container {
+    background-color: transparent;
+    display: flex;
+    flex: 1;
+    padding: 15px;
+    height: 70%;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: #00cf35;
+    display: flex;
+    height: 45px;
+    color: white;
+    font-size: 16px;
+    border-bottom: solid 1px gray;   
+    font-weight: 700;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer div {
+    margin-top: 14px
+}
+
+.logo-tumblr {
+    width: 232px;
+    height: 50px
+}
+
+.form-inicio {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 800px;
+    height: 229px;
+    margin-top: 100px;
+}
+
+.form-inicio input {
+    width: 300px;
+    height: 44px;
+    margin-bottom: 10px;
+}
+
+
+.form-inicio button {
+    width: 300px;
+    height: 44px;
+    background-color: #00B8FF;
+    border: solid 1px #00B8FF;
+    color: white;
+    font-weight: 700;
+    font-size: 15px
+}
+
+.logo {
+    margin-bottom: 25px
+}
+
+.info-footer {
+    margin-top: 250px;
+    color: white;
+    font-size: 14px
+}

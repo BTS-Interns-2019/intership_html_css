@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "twitter-layout";
+  src:url("fonts/twitter-layout.eot");
+  src:url("fonts/twitter-layout.eot?#iefix") format("embedded-opentype"),
+    url("fonts/twitter-layout.woff") format("woff"),
+    url("fonts/twitter-layout.ttf") format("truetype"),
+    url("fonts/twitter-layout.svg#twitter-layout") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "twitter-layout" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="twitter-"]:before,
+[class*=" twitter-"]:before {
+  font-family: "twitter-layout" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.twitter-home:before {
+  content: "\61";
+}
+.twitter-twitter:before {
+  content: "\62";
+}
+.twitter-bell-o:before {
+  content: "\63";
+}
+.twitter-envelope-o:before {
+  content: "\64";
+}
+.twitter-bookmark-o:before {
+  content: "\65";
+}
+.twitter-file-text-o:before {
+  content: "\66";
+}
+.twitter-user:before {
+  content: "\67";
+}
+.twitter-dot-3:before {
+  content: "\68";
+}
+.twitter-star-o:before {
+  content: "\69";
+}
+.twitter-picture-o:before {
+  content: "\6a";
+}
+.twitter-settings:before {
+  content: "\6b";
+}
+.twitter-bubble:before {
+  content: "\6c";
+}
+.twitter-retweet:before {
+  content: "\6d";
+}
+.twitter-heart-o:before {
+  content: "\6e";
+}
+.twitter-upload:before {
+  content: "\6f";
+}
+.twitter-down-open-big:before {
+  content: "\70";
+}
+.twitter-smile-o:before {
+  content: "\71";
+}
+.twitter-search:before {
+  content: "\72";
+}
+.twitter-chart-bar:before {
+  content: "\73";
+}

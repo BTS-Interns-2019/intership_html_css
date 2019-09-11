@@ -1,0 +1,94 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    border: none;
+    margin: 0px;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background-image:url("https://wallpaperlayer.com/img/2015/8/tumblr-beach-waves-backgrounds-7096-7377-hd-wallpapers.jpg");
+    height: 93%;
+    width: 100%;
+}
+
+
+
+.dividertop{
+    display: flex;
+    height:33%;
+    width: 100%
+}
+
+.t{
+    display: flex;
+    height: 34px;
+    margin-left:20px;
+    margin-top: 15px;
+}
+
+.t img{
+    width: 30px;
+    height: 34px;
+}
+
+.search{
+    height: 34px;
+    width: 484px;
+}
+
+.search input{
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 39px;
+    background: hsla(0,0%,100%,.25);
+    font-weight: 400;
+    line-height: inherit;
+    font-size: 14px;
+    height: 34px;
+    width: 100%;
+    border: 0;
+    border-radius: 3px;
+    color:white;
+}
+
+.signin{
+text-align: right;
+
+
+}
+
+.signin button{
+    background-color: #fff;
+    color: #444;
+    border: 0;
+    height: 32px;
+    padding-left: 13px;
+    padding-right: 13px;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+.dividermid{
+    height: 33%;
+    width: 100%;
+}
+
+.dividerbot{
+    height: 33%;
+    width: 100%;
+}
+
+
+
+
+/* -----------------------What is tumblr----------------------- */
+
+.whatistumblr{
+    background-color: #00CF35;
+    height: 7%;
+    width: 100%;
+}

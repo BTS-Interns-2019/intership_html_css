@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>twitter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <nav class="menu">
+        <div class="todomenu">
+
+            <img class="icontweeter" src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/944px-Twitter_Bird.svg.png" alt="">
+            <div>
+                <img src="https://cdn2.iconfinder.com/data/icons/responsive-user-interface-3/18/192-512.png" alt="homicon" class="icon">
+                <p class="btnmenu"><a href="#">Home</a></p>
+            </div>
+            <div >
+                <img src="https://uxwing.com/wp-content/themes/uxwing/download/03-text-editing/hashtag.png" alt="sourceicon" class="icon">
+                <p class="btnmenu"><a href="#">Explore</a></p>
+            </div>
+            <div>
+                <img src="https://image.flaticon.com/icons/svg/54/54810.svg" alt="notificationicon" class="icon">
+                <p class="btnmenu"><a href="#">Notifications</a></p>
+            </div>
+            <div>
+                <img src="data:image/png;base64,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" alt="messagesicon" class="icon">
+                <p class="btnmenu"><a href="#">Messages</a></p>
+            </div>
+            <div>
+                <img src="http://cdn.onlinewebfonts.com/svg/img_198285.png" alt="bookmarkicon" class="icon">
+                <p class="btnmenu"><a href="#">Bookmarks</a></p>
+            </div>
+            <div>
+                <img src="http://cdn.onlinewebfonts.com/svg/img_82026.png" alt="listicon" class="icon">
+                <p class="btnmenu"><a href="#">Lists</a></p>
+            </div>
+            <div>
+                <img src="https://cdn4.iconfinder.com/data/icons/contact-us-19/48/92-512.png" alt="profileicon" class="icon">
+                <p class="btnmenu"><a href="#">Profile</a></p>
+            </div>
+            <div>
+                <img src="https://icon-library.net/images/more-icon/more-icon-16.jpg" alt="moreicon" class="icon">
+                <p class="btnmenu"><a href="#">More</a></p>
+            </div>
+            <button>Tweet</button>
+            
+        </div>
+    </nav>
+
+    <main class="principal">
+
+        <div class="indicator"><p>Home</p></div>
+            <div class="write">
+                    <div class="divimagentweet">
+                            <img class="imagentweet" src="https://cdn4.iconfinder.com/data/icons/contact-us-19/48/92-512.png" alt="perfilimg">
+                    </div>
+                    <div class="divtweettext">
+                        <div class="tweet"><input type="text" name="tweet" placeholder="What's happening?"></div>
+                        <div class="iconitos">
+                            <a href="#"><img class="imgimg" src="data:image/png;base64,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" alt="imagen"></a>
+                            <a href="#"><img class="imgimg" src="http://cdn.onlinewebfonts.com/svg/img_54174.png" alt="imgif"></a>
+                            <a href="#"><img class="imgimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyXNkrdiuNNLK7kmXtczRr_dHr9vs5siFwt8F6UwhO_oQYg9_D" alt="imgencuesta"></a>
+                            <a href="#"><img class="imgimg" src="http://cdn.onlinewebfonts.com/svg/img_151507.png" alt="imgemoji"></a>
+                        </div>
+                    </div>
+                    <div class="divbtntweet">
+                        <button class="btntweet">Tweet</button>
+                    </div>
+            </div>
+
+            <div class="publicaciones">
+                <div class="publicacion">
+                    <div class="perfilimagen"><img class="imagentweet" src="https://cdn4.iconfinder.com/data/icons/contact-us-19/48/92-512.png" alt="perfilimg"></div>
+                    <div class="contenido1">
+                        <div class="contenidotexto">
+                           <p><a href="#" class="perfil">Brie</a> @Sketch_ComedyFan </p>
+                            <p>Giving standup comedy a go. Open starts at 7,hit me up if you want ticket <a href="#">#heregoesnothing</a></p>
+                        </div>
+                        <div class="iconitos2">
+                            <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQay9Cy2_D-6QLUlEbFXO4Mt6-pHDmFvotpQ3dMyZMhhB9qINwx" alt="comentario">1</a>
+                            <a href="#"><img src="http://simpleicon.com/wp-content/uploads/retweet.png" alt="retweet"></a>
+                            <a href="#"><img src="https://www.pinclipart.com/picdir/middle/375-3755030_png-file-svg-heart-icon-pulse-png-clipart.png" alt="like">8</a>
+                            <a href="#"><img src="http://cdn.onlinewebfonts.com/svg/img_324143.png" alt="share"></a>
+                        </div>
+                    </div>
+                    <div class="iconoopcion"><a href="#"><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-512.png" alt="opcion"></a></div>
+                </div>
+                <div class="p2">
+                        <div class="perfilimagen"><img class="imagentweet" src="https://cdn4.iconfinder.com/data/icons/contact-us-19/48/92-512.png" alt="perfilimg"></div>
+                        <div class="contenido1">
+                            <div class="contenidotexto2">
+                               <p><a href="#" class="perfil">Harold</a> @h_wang88 </p>
+                                <p>Vacation is going great</p>
+                                <a href="#"><img src="https://www.muralswallpaper.com/app/uploads/malaysian-sunset-beach-plain-820x532.jpg" alt=""></a>
+                            </div>
+                            <div class="iconitos2">
+                                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQay9Cy2_D-6QLUlEbFXO4Mt6-pHDmFvotpQ3dMyZMhhB9qINwx" alt="comentario">1</a>
+                                <a href="#"><img src="http://simpleicon.com/wp-content/uploads/retweet.png" alt="retweet"></a>
+                                <a href="#"><img src="https://www.pinclipart.com/picdir/middle/375-3755030_png-file-svg-heart-icon-pulse-png-clipart.png" alt="like">8</a>
+                                <a href="#"><img src="http://cdn.onlinewebfonts.com/svg/img_324143.png" alt="share"></a>
+                            </div>
+                        </div>
+                        <div class="iconoopcion"><a href="#"><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-512.png" alt="opcion"></a></div>
+                    </div>
+            </div>
+    </main>
+
+    <aside class="contenedoraside">
+        <div class="asidecontenido">
+            <input type="text" class="derecha" placeholder="Search on twitter">
+            <div class="trends">
+                <div class="trendstitle">
+                    <p>Trends for you</p>
+                </div>
+                <div class="trend1">
+                    <h2>#BreakingNews</h2>
+                    <p>Lunar photography improves the discovery of the moon</p>
+                </div>
+                <div class="trend1">
+                    <h2>#BreakingNews</h2>
+                    <p>These cats are ready for #internationalCatDay</p>
+                </div>
+                <div class="trend1">
+                    <h2>#GreatestOfAllTime</h2>
+                    <p>100K Tweets</p>
+                </div>
+
+
+            </div>
+        </div>
+    </aside>
+</div>
+</body>
+</html>

@@ -1,5 +1,5 @@
 html , body{
-    height: 100%;
+    height: 95%;
     margin: 0;
     padding: 0;
 }
@@ -9,25 +9,21 @@ html , body{
     font-family: 'Roboto', sans-serif;
     width: 100%;
 }
-
-
 .nav{
     display: flex;
     flex-flow: column;
     align-items: center;
     font-weight: bold;
-    width: 25%;
+    width: 20%;
+    height: 100%;
     padding-top: 20px;
     justify-content: flex-start;
-    border-right: #ccc solid 2px;
     font-size: 20px;
-}
-.nav  i {
-    /* font-size: 20px; */
 }
 .nav ul li:first-child {
     font-size: 25px;
     color: #1da1f2;
+    line-height: 30px;
 }
 .nav ul{
     list-style: none;
@@ -39,8 +35,6 @@ display: flex;
 flex-direction: row;
 align-items: center;
 margin-left: 2px;    
-/* width: 50%; */
-/* justify-content: space-evenly; */
 }
 .nav li:hover{
     color: #1da1f2;
@@ -81,30 +75,28 @@ margin-left: 2px;
     background: #006dbf;
     cursor: pointer;
 }
+/* MAIN CONTENT */
 .main{
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    box-sizing: border-box;
+    box-sizing: content-box;
+    border-left: 2px solid #ccc;
 }
-
 .main i{
-    color: #1da1f2;
     font-size: 20px
 }
-
 .new-tweet{
     width: 100%;
     align-self: center;
-    /* padding: 0 10px; */
     display: flex;
     flex-flow: row wrap;
-    margin-bottom: 20px;
     border-bottom: 15px solid #ccc;
 }
 .new-tweet h1{
     padding-left: 10px;
+    margin: 5px;
 }
 .new-tweet > div:first-child{
     width: 100%;
@@ -115,6 +107,7 @@ margin-left: 2px;
 }
 .new-tweet i{
     margin-right: 10px;
+    color: #1da1f2;
 }
 .new-tweet div:nth-child(2){
     width: 100%;
@@ -127,6 +120,8 @@ margin-left: 2px;
 }
 .new-tweet .sprite{
     display: inline-block;
+    width: 50px;
+    height: 50px;
 }
 .new-tweet input{
     width: 90%;
@@ -141,23 +136,176 @@ margin-left: 2px;
     justify-content: space-between;
     align-items: center;
 }
+.buttons div{
+    margin-left: 8%;
+}
 .buttons button{
     width: 18%;
     margin-right: 10px;
     height: 100%;
 }
-.aside {
-    width: 25%;
+.content{
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 16px;
+    width: 100%;
 }
+.content article{
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.content article div:first-child {
+    display: inline-block;
+    border: black solid1 1px;
+    width: 10%;
+    position: relative;
+}
+
+.content article div:nth-child(n+2){
+    align-self: center;
+    width: 90%;
+}
+.actions{
+    width: 80%;
+    padding: 10px 0;
+    
+}
+.actions a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20%;
+}
+.actions a:hover{
+    color: #1da1f2;
+}
+.mute-color{
+    color: rgb(151, 138, 138);
+}
+.mute {
+    color: rgb(151, 138, 138);
+    font-size: 12px
+}
+.bold{
+    font-weight: bold;
+}
+.link{
+    color: #1da1f2;
+    text-decoration: none;
+}
+.link:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+
 .sprite {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    border: 1px solid black;
+    margin: auto;
 
 }
 .sprite img {
     width: 100%;
     margin: auto;
     border-radius: 50%;
+}
+.picture{
+    width: 50%;
+    border-radius: 10px;
+}
+.options{
+    color: rgb(151, 138, 138);
+    width: 10%;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 500px;
+}
+.options:hover{
+    color: #1da1f2;
+    cursor: pointer;
+}
+/*=============================================== ASIDE =============================================*/
+.aside {
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border-left: 2px solid #ccc;
+    padding: 0 10px;
+    
+}
+.aside input{
+    width: 90%;
+    border-radius: 100px;
+    border: #e7edf0 solid 1px;
+    color: #6a7d8a;
+    padding: 5px 0;
+    padding-left: 30px;
+    background: #e7edf0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.iconS{
+    position: relative;
+    width: 90%;
+}
+.iconS i{
+    color: #6a7d8a;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.trends{
+    background: #f5f8fa;
+    border-radius: 20px;
+    padding: 0 5px;
+    width: 90%;
+    font-size: 14px;
+}
+.trends h2{
+    margin: 5px;
+}
+.trends div:nth-child(-n+5){
+    border-bottom: 1px solid #ccc;
+    /* display: flex;
+    flex-flow: row wrap; */
+}
+.trends div:first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trends i{
+    color: #1da1f2;
+}
+.trends i:hover{
+    cursor: pointer;
+}
+
+.trends div figure{
+    font-size: 12px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 1px #ccc;
+    height: 60px;
+    width: 90%;
+    margin: auto;
+}
+.trends div figure img{
+    width: 50%;
+    height: 60px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.trends div figure figcaption{
+    padding: 10px;
 }

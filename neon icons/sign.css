@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+@import url('./style.css');
+
+body{
+    padding-top: 10vh;
+    text-align: center;
+    font-family: 'Chilanka', cursive;
+}
+.uno{
+    font-size: 14vw;
+}
+.dos{
+    font-size: 20vw;
+}
+.uno, .dos{
+    color: #A5FFFB;
+    text-shadow: 0 0 20px #00CCB1, 0 0 20px #00CCB1, 0 0 20px #00CCB1, 0 0 20px #00CCB1;
+    font-weight: 100;
+}
+*{
+    background: black;
+}
+
+/*
+#00CCB1
+#A5FFFB
+#00806F

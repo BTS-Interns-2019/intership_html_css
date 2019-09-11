@@ -24,11 +24,11 @@ header {
     flex-wrap: nowrap;
     padding-top: 13px;
 }
-header h1 {
+header img {
     align-self: center;
-    width: 540px;
-    font-size: 3em;
-    letter-spacing: -2px;
+    margin-right: 360px;
+    width: 170px;
+    height: 34px;
 }
 .header-form {
     width: 441px;
@@ -36,6 +36,7 @@ header h1 {
     flex-direction: row;
     flex-wrap: nowrap;
     font-size: 12px;
+    padding-top: 2px;
 }
 .header-form-mail, .header-form-password{
     display: flex;
@@ -50,8 +51,10 @@ header h1 {
     border: 1px solid #1d2a5b;
 }
 .header-form-mail > input[type="text"] {
-    width: 198px;
     margin-bottom: 30px;
+}
+.header-form-mail > label {
+    width: 160px;
 }
 .header-form a {
     color: #9cb4d8;
@@ -213,7 +216,7 @@ footer {
     
 }
 ::placeholder {
-    color: #606770;
+    color: #999999;
 }
 .iconito {
     color: white;

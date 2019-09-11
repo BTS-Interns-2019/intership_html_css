@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.grad {
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(to right, rgb(0,0,0,.6) 20%, transparent 20%), linear-gradient(135deg, rgb(0,0,0,.6) 20%, transparent 20%), linear-gradient(45deg, rgb(0,0,0,.6) 17%, transparent 17%);
+}

@@ -306,7 +306,7 @@ button{
 }
 #right{
     flex: 27;
-    border: 1px solid red;
+    border-left: 1px solid rgb(213, 221, 227);
     display: flex;
     flex-direction: row;
     margin-right: 2%;
@@ -341,7 +341,66 @@ button{
     height: 10px;
 }
 #container > article{
-    flex: 1;
-    border: 1px solid magenta;
+    height: 540px;
+    background: rgb(245, 248, 250);
     border-radius: 15px;
+}
+article .news-block{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+#right > #container > article > #head-news{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+#right > #container > article > div{
+    border-bottom: 1px solid rgb(213, 221, 227);
+}
+#right .blue{
+    color: rgb(6, 150, 240);
+}
+#right > #container > article > div{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0 5px 5%;
+    align-items: flex-start;
+}
+#right > #container > article > span{
+    padding: 5px 0 5px 5%;
+}
+#right > #container > article .gray-one{
+    color: rgb(117, 135, 147);
+    font-weight: normal;
+    font-size: 12px;
+}
+#right > #container > article p{
+    font-size: 12px;
+}
+#right > #container > article h2{
+    font-size: 14px;
+}
+.news-block .news-content{
+    border: 1px solid rgb(213, 221, 227);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.article-image{
+    background: gray;
+    height: 76px;
+    width: 76px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#img1{
+    background-image: url("https://static.bhphotovideo.com/explora/sites/default/files/styles/top_shot/public/ts-photographing-the-moon.jpg?itok=Mq0-zKUQ");
+    background-size: cover;
+    background-position: center;
+}
+#img2{
+    background-image: url("https://images.all-free-download.com/images/graphicthumb/white_cat_515522.jpg");
+    background-size: cover;
+    background-position: center;
 }

@@ -1,0 +1,347 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-decoration: none;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+main{
+    flex: 45;
+    display: flex;
+    flex-direction: column;
+}
+#title{
+    flex: 2;
+    border: 1px solid rgb(230, 236, 240);
+    display: flex;
+    flex-direction: column;
+}
+#space{
+    height: 10px;
+    background: rgb(230, 236, 240);
+}
+#content{
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+#title #userhome{
+    height: 52px;
+    display: flex;
+    direction: row;
+    border-bottom: 1px solid rgb(230, 236, 240);
+}
+#title #comment{
+    height: 100px;
+    display: flex;
+    direction: row;
+}
+#title > #userhome h1{
+    padding: 10px;
+    display: block;
+    flex: 1;
+}
+#title > #userhome span{
+    padding: 7px 5px 7px 5px;
+    width: 42px;
+}
+#title > #userhome span > button{
+    height: 32px;
+    width: 32px;
+    background: white;
+    background-image: url("https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_1/v1529617500/tulsaschoolsorg/a8anzyuqtmixchahxcdp/sparkle.png");
+    background-size: contain;
+}
+#title > #comment #profile{
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 24px;
+}
+#title > #comment #profile > div{
+    width: 42px;
+    height: 42px;
+    background-image: url("https://banner2.kisspng.com/20180405/fow/kisspng-transvaal-daisy-cut-flowers-pink-color-gerbera-5ac6ede1ba4993.6961051515229864657631.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#title > #comment #message{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+#comment #comment-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#comment #comment-text > input{
+    height: 30px;
+    padding: 5px;
+}
+#comment #comment-options{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+#comment-options > #miscellanius{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+#comment-options > #miscellanius span{
+    padding: 2px 5px 2px 5px;
+    font-size: 28px;
+}
+#comment-options > #miscellanius span > a{
+    color: rgb(16, 156, 241);
+}
+#comment-options > #post{
+    width: 96px;
+    padding: 4px 12px 4px 12px;
+}
+#content #artcl1{
+    height: 114px;
+    border-bottom: 1px solid rgb(230, 236, 240);
+    display: flex;
+    flex-direction: row;
+}
+#content #artcl2{
+    height: 354px;
+    border-bottom: 1px solid rgb(230, 236, 240);
+    display: flex;
+    flex-direction: row;
+}
+#content #artcl3{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+#content #artcl1 .source > div{
+    background-image: url("https://localtvktvi.files.wordpress.com/2019/04/gettyimages-873431730.jpg?quality=85&strip=all&w=400&h=225&crop=1");
+    background-position: center;
+    background-size: cover;
+}
+#content #artcl2 .source > div{
+    background-image: url("https://live.staticflickr.com/7503/15604399149_4cd9d4226c_b.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#content .source{
+    width: 62px;
+    display: flex;
+    padding-top: 16px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#content .source > div{
+    width: 42px;
+    height: 42px;
+}
+#artcl1 > #artcl1-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0 5px 0;
+}
+#artcl2 > #artcl2-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0 5px 0;
+}
+#artcl3 > #artcl3-content{
+    flex: 1;
+}
+#artcl1-content > #art-post1{
+    flex: 1;
+}
+#artcl2-content > #art-post2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#artcl3 > #art-post3{
+    flex: 1;
+}
+#artcl2-content > #art-post2 img{
+    margin: 5px;
+    align-self: center;
+    height: 252px;
+    width: 485px;
+    border-radius: 5px;
+}
+#content .control{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: flex-start;
+}
+#content .control span{
+    width: 25%;
+    padding: 2px 5px 2px 5px;
+    font-size: 16px;
+    color: rgb(94, 112, 119)
+}
+#content .control span > a{
+    font-size: 24px;
+    color: rgb(94, 112, 119)
+}
+#content .user-post{
+    align-self: flex-start;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button{
+    background: rgb(29, 161, 242);
+    color: white;
+}
+#post button{
+    padding-bottom: 2px;
+    width: 72px;
+    height: 38px;
+    border-radius: 19px;
+    font-weight: bold;
+}
+button{
+    cursor: pointer;
+}
+.photo{
+    background: gray;
+    border-radius: 50%;
+}
+.user{
+    font-weight: bold;
+}
+.tweet{
+    color: rgb(99, 118, 131);
+}
+.hashtag{
+    color: rgb(45, 156, 226)
+}
+.more{
+    align-self: center;
+    width: 24px;
+    font-size: 18px;
+}
+#left{
+    margin-left: 40px;
+    flex: 20;
+    border-right: 2px solid rgb(230, 236, 240);
+    display: flex;
+    flex-direction: column;
+}
+#left > figure{
+    height: 52px;
+}
+#left > figure img{
+    height: 44px;
+    width: 52px;
+}
+#left > nav{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#left > nav a{
+    margin-left: 15px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    display: block;
+}
+#left .f{
+    color: rgb(6, 150, 240);
+}
+#left section{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#left section > span .photo{
+    width: 20px;
+    height: 20px;
+    background-image: url("https://banner2.kisspng.com/20180405/fow/kisspng-transvaal-daisy-cut-flowers-pink-color-gerbera-5ac6ede1ba4993.6961051515229864657631.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#left section > span{
+    font-size: 20px;
+}
+#left section > span div{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+#left #left-button{
+    width: 220px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 24px;
+}
+#right{
+    flex: 27;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    margin-right: 2%;
+    justify-content: center
+}
+#right > #container{
+    margin-top: 20px; 
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+#container > #search{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+#search input{
+    background: rgb(230, 237, 240)
+}
+#search > input[type="submit"]{
+    flex: 1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#search > input[type="text"]{
+    flex: 9;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 3px;
+}
+#container > span{
+    height: 10px;
+}
+#container > article{
+    flex: 1;
+    border: 1px solid magenta;
+    border-radius: 15px;
+}

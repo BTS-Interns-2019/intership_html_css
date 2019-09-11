@@ -20,6 +20,16 @@ body {
   font-size: 20px;
 }
 
+.icon.twitter-gif {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 900;
+  border: 2px solid #1da1f2;
+  border-radius: 4px;
+  padding: 2px;
+  margin-left: 12px;
+}
+
 ::placeholder {
   font-family: "Lato", Helvetica, sans-serif;
   font-size: 16px;
@@ -177,7 +187,11 @@ main .trends-section {
   padding-left: 8px;
 }
 
-.tweeting-form .attachments-container i {
+.attachments-container {
+  align-items: flex-start;
+}
+
+.attachments-container i {
   color: #1da1f2;
   font-size: 20px;
 }

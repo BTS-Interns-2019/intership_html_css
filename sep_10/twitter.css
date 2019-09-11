@@ -1,0 +1,163 @@
+html , body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+
+.nav{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-weight: bold;
+    width: 25%;
+    padding-top: 20px;
+    justify-content: flex-start;
+    border-right: #ccc solid 2px;
+    font-size: 20px;
+}
+.nav  i {
+    /* font-size: 20px; */
+}
+.nav ul li:first-child {
+    font-size: 25px;
+    color: #1da1f2;
+}
+.nav ul{
+    list-style: none;
+    padding: 0;
+}
+.nav ul  li{
+margin-bottom: 20px;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-left: 2px;    
+/* width: 50%; */
+/* justify-content: space-evenly; */
+}
+.nav li:hover{
+    color: #1da1f2;
+}
+.nav ul li div {
+    text-align: center;
+    margin-right: 20px;
+    width: 25px
+}
+
+.nav ul li a {
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    margin-left: 2px;
+}
+.nav ul li a:hover{
+    color: #1da1f2;
+}
+.nav .btn-primary{
+    box-shadow: 10px 24px 16px -17px rgba(0,0,0,0.75);
+}
+.btn-primary{
+    width: 80%;
+    background-color: #1da1f2;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 14px;
+    border: #1da1f2 solid 1px;
+    padding: 10px;
+    line-height: 18px;
+    margin-left: 10px;
+    
+}
+.btn-primary:hover{
+    background: #006dbf;
+    cursor: pointer;
+}
+.main{
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.main i{
+    color: #1da1f2;
+    font-size: 20px
+}
+
+.new-tweet{
+    width: 100%;
+    align-self: center;
+    /* padding: 0 10px; */
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+    border-bottom: 15px solid #ccc;
+}
+.new-tweet h1{
+    padding-left: 10px;
+}
+.new-tweet > div:first-child{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+}
+.new-tweet i{
+    margin-right: 10px;
+}
+.new-tweet div:nth-child(2){
+    width: 100%;
+    padding: 10px;
+}
+.text-box{
+
+    display: flex;
+    align-items: center;
+}
+.new-tweet .sprite{
+    display: inline-block;
+}
+.new-tweet input{
+    width: 90%;
+    height: 100%;
+    align-self: center;
+    height: 32px;
+    border: none;
+    margin-left: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons button{
+    width: 18%;
+    margin-right: 10px;
+    height: 100%;
+}
+.aside {
+    width: 25%;
+}
+.sprite {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+.sprite img {
+    width: 100%;
+    margin: auto;
+    border-radius: 50%;
+}

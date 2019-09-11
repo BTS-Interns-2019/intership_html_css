@@ -29,6 +29,7 @@ body, html{
     height: 100%;
     background-color:white;
     border-right: 2px #e6ecf0 solid;
+    font-family: sans-serif;
 
 }
 .panel-derecho{
@@ -37,6 +38,7 @@ body, html{
     width: 25%;
     height: 100%;
     background-color: white;
+    font-family: sans-serif;
 }
 .panel-izquierdo ul{
   list-style: none;
@@ -50,13 +52,15 @@ button{
     border-radius: 100px;
     background-color: #1da1f2;
     border:none;
-    height: 6%;
-    width: 77%;
+    height: 37px;
+    width: 83px;
     align-self: center;
     font-family: sans-serif;
     font-weight: bold;
     color: white;
     float: right;
+    margin-right: 5px
+
 
 }
 li{
@@ -66,7 +70,7 @@ li{
 
 }
 li i{
-    margin-right: 6px;
+    margin-right: 51px;
 }
 .div-publiacion{
     width: 100%;
@@ -80,6 +84,7 @@ li i{
     width: 100%;
     height: 15%;
     border-top: 2px #e6ecf0 solid;
+    margin-bottom: 10px;
 
   
     
@@ -88,21 +93,10 @@ li i{
 .div-publicacion1 p{
     font-family: sans-serif;
     color:#cbdbe6;
+   
 
 }
 
-
-.publicacion-tweet{
-    border-radius: 100px;
-    background-color: #1da1f2;
-    border:none;
-    height: 30%;
-    width: 10%;
-    align-self: center;
-    font-family: sans-serif;
-    font-weight: bold;
-    color: white;
-}
 .publicacion{
     width: 100%;
     height: 20%;
@@ -169,10 +163,24 @@ div.div-publiacion ,.fa-user-circle{
 div img{
     width: 50%
 }
-.icons{
-    width: 100%;
+.icons ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  
 
 }
+.icons li{
+    float: left;
+}
+
+.icons i{
+    display: block;
+    padding: 12px 50px;
+}
+
+
 .panel-aside{
     height: 90%;
     background-color:  #eff4f7;
@@ -187,12 +195,12 @@ div img{
     color: #1da1f2;
 }
 .news{
-    border-top: 2px #74b5e7;
-    height:30%;
+    border-top: 3px #e6ecf0 solid;
+    height:40%;
     width: 100%;
 }
 .div-space{
-    height: 20%;;
-    border-radius: 2px #59ace4 solid;
-    border-radius: 20px;
+    width: 100%;
+    height: 20%;
+    border-radius: 20px #59ace4 solid;
 }

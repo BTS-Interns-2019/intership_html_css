@@ -171,4 +171,28 @@ div img{
 }
 .icons{
     width: 100%;
+
+}
+.panel-aside{
+    height: 90%;
+    background-color:  #eff4f7;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+.fa-cog{
+    float:right;
+    margin-right: 8px;
+    color: #1da1f2;
+}
+.news{
+    border-top: 2px #74b5e7;
+    height:30%;
+    width: 100%;
+}
+.div-space{
+    height: 20%;;
+    border-radius: 2px #59ace4 solid;
+    border-radius: 20px;
 }

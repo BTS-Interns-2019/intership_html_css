@@ -387,3 +387,47 @@ main .trends-section {
   margin-top: 20px;
   width: 85%;
 }
+
+.suggestions {
+  padding: 10px;
+}
+
+.suggestions .suggestions-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.suggestion {
+  padding-left: 20px;
+  align-items: center;
+}
+
+.suggestion + .suggestion {
+  margin-top: 15px;
+}
+
+.suggestion img {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
+
+.suggestion .suggestion-info {
+  width: 75%;
+  margin-left: 15px;
+}
+
+.suggestion-info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.suggestion-info .user {
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.suggestion-info .username {
+  color: #8e8e8e;
+}

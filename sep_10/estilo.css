@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "arial";
+}
+html, body{
+    height: 100%;
+}
+.container{
+    display: flex;
+    height: 100%;
+}
+
+
+/**************lista de la izquierda********/
+nav{
+    width:24%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    border-right: 2px solid #e2e8ec;
+}
+nav .fa-twitter{
+    color: #17a2f2;
+    font-size: 30px;
+    margin:15px 60px 0px 60px;
+
+}
+nav ul{
+    list-style: none;
+    font-family: "arial";
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 18px;
+}
+nav ul li{
+    margin:22px 0px 0px 30px;
+}
+nav ul li:hover{
+    cursor: pointer;
+}
+nav ul li:first-child{
+    color: #17a2f2;
+}
+nav ul li i{
+    margin-right: 15px;
+    font-size: 22px;
+}
+nav ul li img{
+    width: 26px;
+    height: 26px;
+    border-radius: 40px;
+    margin-right: 12px;
+}
+nav ul .perfil{
+    display:flex;
+    margin-left: 26px;
+}
+/************boton de tweet de la izquierda inferior************/
+nav button{
+    margin: 25px;
+    margin-top: 29px;
+    margin-left: 35px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    border:none;
+    color:white;
+    background-color: #17a2f2;
+    font-weight: bold;
+    font-size: 14px;
+    width: 200px;
+}
+
+/***************************centro************************************/
+main{
+    width: 50%;
+    height: 100%;
+    border-right: 2px solid #e2e8ec;
+}
+/************centro HOME******/
+main section{
+    width: 100%;
+    height: 135px;
+    border-bottom: 8px solid #e2e8ec;
+}
+/*parte superior central home*******************/
+main section .home{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    width: 100%-10px;
+    height: 50px;
+    border-bottom: 1px solid #e2e8ec;
+}
+main section .home i{
+    font-size: 20px;
+    color:#17a2f2;
+}
+main section .img_perfil{
+    width: 60px;
+}
+main section .img_perfil img{
+    width: 45px;
+    height: 45px;
+    margin:7px;
+    border-radius: 50px;
+}
+
+/*wats hapenin******************************/
+main section .content_home{
+    display:flex;
+}
+main section .content_post{
+    margin-top:7px;
+}
+main section .content_post input{
+    width: 40vw;
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+}
+main section .footer_post{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 95%;
+    margin-top: 3px;
+    justify-content: space-between;
+    margin-left: 8px;
+}
+main section .new_post .footer_post i{
+    color:#17a2f2;
+    font-size: 20px;
+    margin-right: 5px;
+}
+main section .new_post  button{
+    padding: 8px 14px;
+    border-radius: 20px;
+    background-color: #17a2f2;
+    border:none;
+    font-weight: bold;
+    color:white;
+}
+/*contenido de los post*****************************************/
+main article{
+    border:1px solid #e2e8ec;
+    display: flex;
+    width: 100%;
+}
+main article .img_post img{
+    width: 45px;
+    height: 45px;
+    margin:7px;
+    border-radius: 50px;
+}
+/*post derecha*/
+main article .content_post{
+    font-size: 12px;
+    width: 90%;
+}
+main article .content_post .name_post{
+    display:flex;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+    width: 97%;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+main article .content_post .name_post b:hover{
+    cursor: pointer;
+}
+main article .content_post ._post{
+    font-size: 15px;
+}
+main article .content_post .name_post span{
+    color:#8694a0;
+}
+main article .content_post ._post span{
+    color: #17a2f2;
+}
+/*imagen**************************/
+main article .content_post ._post img{
+    width: 92%;
+    border-radius: 10px;
+}
+/*iconos inferiores*/
+main article .content_post .follow_post i{
+    font-size: 20px;
+    margin-right: 18%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/*aside lado derecho*********************************************/
+aside{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+    position: relative;
+}
+aside input{
+    margin-top: 10px;
+    width: 80%;
+    padding:6px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border:none;
+    background-color: #e7edf0;
+    color:#94a2ae;
+    padding-left: 25px;
+}
+aside .fa-search{
+    position: absolute;
+    top:16px;
+    left: 4px;
+    color:#94a2ae;
+}
+aside .treds{
+    background-color: #f5f8fa;
+    border-radius: 15px;
+    height: 100%;
+    width: 80%;
+}
+aside .treds .title{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ebeff2;
+}
+aside .treds .title .fa-spinner{
+    color:#17a2f2;
+}
+aside .news{
+    margin: 10px;
+}
+aside .news .transparent{
+    font-size: 10px;
+    color:#93a0ab;
+    margin-bottom: 3px;
+}
+aside .news .jashtag{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+aside .news .space{
+    display: flex;
+    border:1px solid #ebeff2;
+    border-radius: 10px;
+}
+aside .news .space .text{
+    font-size: 11px;
+    padding:5px;
+}
+aside .news .space .text .img_title{
+    color:#80909b;
+}
+aside .news .space .img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 0 10px 10px 0;
+}
+i:hover{
+    cursor:pointer;
+}
+button:hover{
+    cursor: pointer;
+}

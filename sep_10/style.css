@@ -1,0 +1,174 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    flex-direction: row;
+}
+.contenedor-main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+   
+}
+.panel-izquierdo{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    flex-direction: column;
+    border-right: 2px #e6ecf0 solid;
+}
+
+.panel-central{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color:white;
+    border-right: 2px #e6ecf0 solid;
+
+}
+.panel-derecho{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    background-color: white;
+}
+.panel-izquierdo ul{
+  list-style: none;
+}
+.logo{
+    width: 15%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+button{
+    border-radius: 100px;
+    background-color: #1da1f2;
+    border:none;
+    height: 6%;
+    width: 77%;
+    align-self: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    float: right;
+
+}
+li{
+    margin-bottom: 26px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+li i{
+    margin-right: 6px;
+}
+.div-publiacion{
+    width: 100%;
+    height:6%;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+ 
+}
+.div-publicacion1{
+    width: 100%;
+    height: 15%;
+    border-top: 2px #e6ecf0 solid;
+
+  
+    
+}
+
+.div-publicacion1 p{
+    font-family: sans-serif;
+    color:#cbdbe6;
+
+}
+
+
+.publicacion-tweet{
+    border-radius: 100px;
+    background-color: #1da1f2;
+    border:none;
+    height: 30%;
+    width: 10%;
+    align-self: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.publicacion{
+    width: 100%;
+    height: 20%;
+    border-top: 10px #e6ecf0 solid;
+  
+    
+}
+
+.div-foto{
+    width: 100%;
+    height: 60%;
+    border-top: 2px #e6ecf0 solid;
+  
+}
+.div-foto img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10%;
+}
+.div-final{
+    width: 100%;
+    height: 15%;
+    border-top: 2px #e6ecf0 solid;
+    
+
+}
+
+.panel-derecho input{
+    border-radius: 50px;
+    width: 290px;
+    height:32px;
+    margin-top: 17px;
+    margin-left: 31px;
+    border: none;
+    background-color: #e6ecf0;
+    text-align: center;
+}
+
+ h3{
+    margin-left: 12px;
+    margin-top: 8px;
+}
+
+
+.fa-angle-down{
+    float: right;
+    margin-right: 6px;
+}
+.fa-user-circle{
+    font-size: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+div.div-publiacion ,.fa-user-circle{
+    float: left;
+    margin-top: 8px;
+}
+.fa-star{
+    float: right;
+    margin-right: 5px;
+}
+div img{
+    width: 50%
+}
+.icons{
+    width: 100%;
+}

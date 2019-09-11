@@ -15,11 +15,12 @@ body, html{
 .panel-izquierdo{
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 21%;
     height: 100%;
     background-color: white;
     flex-direction: column;
-    border-right: 2px #e6ecf0 solid;
+    border-right: 2px rgb(230, 236, 240) solid;
+    font-size: 19px;
 }
 
 .panel-central{
@@ -28,7 +29,7 @@ body, html{
     width: 50%;
     height: 100%;
     background-color:white;
-    border-right: 2px #e6ecf0 solid;
+    border-right: 2px rgb(230, 236, 240) solid;
     font-family: sans-serif;
 
 }
@@ -63,8 +64,24 @@ button{
 
 
 }
+
+.button-izquierdo{
+
+    border-radius: 100px;
+    background-color: #1da1f2;
+    border:none;
+    height: 43px;
+    width: 214px;
+    align-self: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    float: right;
+    margin-right: 5px
+
+}
 li{
-    margin-bottom: 26px;
+    margin-bottom: 34px;
     font-family: sans-serif;
     font-weight: bold;
 
@@ -103,7 +120,7 @@ li{
 .publicacion{
     width: 100%;
     height: 23%;
-    border-top: 10px #e6ecf0 solid;
+    border-top: 10px rgb(230, 236, 240) solid;
   
     
 }
@@ -111,7 +128,7 @@ li{
 .div-foto{
     width: 100%;
     height: 60%;
-    border-top: 2px #e6ecf0 solid;
+    border-top: 2px rgb(230, 236, 240) solid;
   
 }
 .div-foto img{
@@ -123,7 +140,7 @@ li{
 .div-final{
     width: 100%;
     height: 15%;
-    border-top: 2px #e6ecf0 solid;
+    border-top: 2px rgb(230, 236, 240) solid;
     
 
 }
@@ -189,7 +206,10 @@ div img{
     width: 90%;
     margin: auto;
     border-radius: 20px;
-    text-align: center;
+    
+}
+.panel-aside h3, h4, p{
+    margin-left: 13px;
 }
 .fa-cog{
     float:right;
@@ -197,15 +217,22 @@ div img{
     color: #1da1f2;
 }
 .news{
-    border-top: 3px #e6ecf0 solid;
+    border-top: 3px rgb(230, 236, 240) solid;
     height:40%;
     width: 100%;
 }
 .div-space{
-    width: 100%;
-    height: 20%;
-    border-radius: 20px #59ace4 solid;
+    width: 95%;
+    height: 50%;
+    border: 2px solid rgb(230, 236, 240);
+    border-radius: 28px;
+    margin:auto;
 }
 .fa-home{
     color: #1da1f2;
+}
+.div-treding{
+    border-top: 3px rgb(230, 236, 240) solid;
+    height:40%;
+    width: 100%;
 }

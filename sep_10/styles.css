@@ -12,6 +12,10 @@ body {
   background-color: #fff;
 }
 
+button {
+  cursor: pointer;
+}
+
 .flex-wrapper {
   display: flex;
 }
@@ -70,6 +74,10 @@ header .nav-list .flex-wrapper:hover {
   color: #1da1f2;
 }
 
+header .nav-list .flex-wrapper:hover a {
+  color: #1da1f2;
+}
+
 header .nav-list li + li {
   margin-top: 25px;
 }
@@ -89,6 +97,16 @@ header .nav-list .icon {
   text-align: center;
   width: 100%;
 }
+
+header .nav-list li:last-of-type .icon-container {
+  border: 2px solid #000;
+  border-radius: 50%;
+  height: 28px;
+}
+
+header .nav-list li:last-of-type:hover .icon-container {
+  border-color: #1da1f2;
+} 
 
 header .nav-list img {
   width: 100%;
@@ -194,6 +212,7 @@ main .trends-section {
 .attachments-container i {
   color: #1da1f2;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .attachments-container i + i {
@@ -268,6 +287,7 @@ main .trends-section {
 .tweet-meta .meta-content {
   width: 25%;
   color: #8e8e8e;
+  cursor: pointer;
 }
 
 .meta-content .meta-info {
@@ -332,6 +352,7 @@ main .trends-section {
 .header-container .icon.twitter-settings {
   margin-left: auto;
   color: #1da1f2;
+  cursor: pointer;
 }
 
 .trends-container .trend-container {

@@ -211,6 +211,7 @@ main .trends-section {
 
 .tweets-container .tweet-info {
   margin-left: 12px;
+  width: 100%;
   font-size: 16px;
 }
 
@@ -247,6 +248,7 @@ main .trends-section {
 .tweet-content img {
   width: 100%;
   border-radius: 7px;
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
 }
 
 .tweet-meta .meta-content {
@@ -303,14 +305,85 @@ main .trends-section {
 
 .trends-section .header-container {
   align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #dfdfdf;
 }
 
 .header-container h1 {
-  margin: 10px;
+  margin: 0;
+  font-size: 20px;
   font-weight: 900;
 }
 
 .header-container .icon.twitter-settings {
   margin-left: auto;
   color: #1da1f2;
+}
+
+.trends-container .trend-container {
+  padding: 10px;
+}
+
+.trends-container .trend-container + .trend-container {
+  border-top: 1px solid #dfdfdf;
+}
+
+.trend-container .trend {
+  border: 1px solid #dfdfdf;
+  border-radius: 7px;
+}
+
+.trend-container .small-gray {
+  color: #8e8e8e;
+  font-size: 14px;
+  margin: 0;
+}
+
+.trend-container h2 {
+  font-weight: 900;
+  font-size: 16px;
+  margin: 5px 0 7px;
+}
+
+.trend .trend-text {
+  width: 75%;
+  padding: 10px;
+}
+
+.trend-container .tweets-count {
+  font-size: 16px;
+  color: #8e8e8e;
+  margin: 0;
+}
+
+.trend-text p {
+  margin: 0;
+}
+
+.trend-text .topic {
+  color: #8e8e8e;
+  margin-bottom: 3px;
+}
+
+.trend img {
+  width: 25%;
+  height: 25%;
+
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.trend-container .trend-count {
+  padding-top: 5px;
+}
+
+.trend-container .show-more {
+  color: #1da1f2;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.follow-suggestions-container {
+  margin-top: 20px;
+  width: 85%;
 }

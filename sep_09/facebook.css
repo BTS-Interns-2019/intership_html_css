@@ -56,7 +56,7 @@ body, html {
   padding: 3px 3px 4px 3px;
 }
 
-.title forms label,
+.title .forms label,
 .title .forms a {
   display: block;
 }
@@ -91,6 +91,7 @@ body, html {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #333;
+  height: 80%;
 }
 
 .sections {
@@ -211,7 +212,7 @@ body, html {
   font-weight: bold;
   font-size: 12px;
   color: #fff;
-  padding: 2px 8px;
+  padding: 4px 8px;
 }
 
 .signform .gender .radio {
@@ -275,7 +276,7 @@ footer {
   background-color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
-  margin-top: 90px;
+  
 }
 
 .languages ul {
@@ -286,7 +287,6 @@ footer {
 
 .languages ul li {
   list-style: none;
-  height: auto;
   display: inline-block;
 }
 
@@ -317,9 +317,7 @@ footer {
 }
 
 footer .divide {
-  height: 8px;
   border-bottom: 1px solid #dddfe2;
-  margin-bottom: 8px;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -336,7 +334,6 @@ footer .divide {
 .options ul li {
   list-style: none;
   display: inline-block;
-  margin-bottom: 5px;
 }
 
 .options a {
@@ -346,7 +343,6 @@ footer .divide {
 
 footer .legal {
   font-size: 11px;
-  margin: 20px 0;
   color: #737373;
   padding-left: 100px;
 }

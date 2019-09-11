@@ -78,6 +78,26 @@ ul li {
     width: 598px
 }
 
+.new {
+    border: solid 1px rgb(179, 177, 177);
+    height: 100px;
+    width: 320px;
+    display: flex;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 0;
+    font-size: 15px;
+}
+
+.trending-img {
+    height: 100px;
+    width: 100px;
+    margin-right: 0;
+    padding: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
 .happening div.foto {
     display: flex
 }
@@ -196,9 +216,11 @@ ul li {
 }
 
 .trend-one {
-    
-    padding: 10px
+    padding: 10px;
+    border: solid 1px #E6ECF0;
 }
+
+
 
 .first-tweet img {
     width: 500px;

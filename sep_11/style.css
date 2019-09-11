@@ -1,0 +1,77 @@
+html, body { 
+  margin: 0; padding: 0;
+  width: 100%; height: 100%; 
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  background-image: url("img/background.jpg"); 
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.head-tumblr {
+  width: 100%; height: 62px;
+  display: flex;
+}
+
+.fa-tumblr {
+  margin: 10px 15px 10px 20px;
+  font-size: 34px;
+  color: white;
+}
+
+.find {
+  margin: 10px 0 10px 20px;
+  height: 25px;
+  width: 480px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+  padding-bottom: 10px; 
+  margin-left: 0;
+}
+
+.head-tumblr input {
+  border: none;
+  background: none;
+}
+
+.head-tumblr input::placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+.fa-search {
+  padding: 12px 0 12px 0;
+  margin: 0;
+  color: white;
+}
+
+.sign {
+  margin-left: 51%;
+  margin-top: 10px;
+  height: 32px;
+  width: 98px;
+  border-radius: 5px;
+  background: white;
+  border: none;
+  font-weight: bold;
+}
+
+main {
+  
+}
+
+footer {
+  height: 49px;
+  width: 100%;
+  background: #00CF35;
+  border-top: 3px solid #00BA30; 
+  text-align: center;
+  padding-top: 10px; 
+  font-size: 16px;
+}

@@ -1,0 +1,51 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(flor.jpg);
+    
+}
+.contenedor{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height:15%;
+    
+}
+.div-input{
+   max-width: 480px;
+   margin-right: 16px;
+   position: relative;
+   padding-left: 3px;
+}
+div input{
+    background-color: hsla(0,0%,100%,.25);
+    padding-bottom: 2px;
+    padding-left:37px;
+    font-weight: 400;
+    line-height: inherit;
+    height: 34px;
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 10px;
+
+}
+footer{
+    height: 10%;
+    width: 100%;
+    background-color: #00cf35;
+}
+main{
+    width: 100%;
+    height:90%;
+}
+button{
+    background-color: rgb(0, 184, 255);
+    width: 300px;
+}
+.login input{
+    width: 300px;
+}

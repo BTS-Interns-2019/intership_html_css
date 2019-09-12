@@ -1,3 +1,4 @@
+/*System properties*/
 *{
     border: 0px;
     margin: 0px;
@@ -21,19 +22,18 @@ main{
     height: 100%;
     border: 1px solid red;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /*transform: scaleY(0.5);*/
 }
+/*Head properties*/
 .head{
     position: relative;
-    top: 20px;
+    bottom: 388px;
     height: 200px;
     width: 220px;
-    background: 
-    linear-gradient(to top,black 80%,#202020,transparent 7px), 
-    linear-gradient(to left,black 80%,#202020,transparent 7px),
-    linear-gradient(to right,black 80%,#202020,transparent 7px),
-    linear-gradient(to bottom,black 80%,#202020,transparent 7px);
+    z-index: 2;
+    background: radial-gradient(rgb(20, 9, 49),black);
     border-top-left-radius: 40%;
     border-top-right-radius: 40%;
     border-bottom-left-radius: 50px;
@@ -48,6 +48,7 @@ main{
     width: 80%;
     display: flex;
     flex-direction: row;
+    z-index: 3;
     justify-content: space-between;
 }
 .eyes{
@@ -57,68 +58,223 @@ main{
     bottom: 0;
     border-radius: 50%;
     background: yellow;
-    box-shadow: 0 0 10px yellow;
+    box-shadow: 0 0 14px yellow;
 }
-.ears2{
-    float: right;
-}
-.bottom-ear{
+.ear1 .bottom-ear{
     position: relative;
-    right: 28px;
+    right: 27px;
     top: 160px;
     width: 0; 
     height: 0; 
     border-left: 120px solid transparent;
     border-right: 5px solid transparent;
     border-bottom: 60px solid black;
+    z-index: 2;
     transform: rotate(94deg);
 }
-.bottom-ear2{
+.ear2 .bottom-ear{
+    position: relative;
+    bottom: 112px;
+    left: 123px;
+    width: 0; 
+    height: 0; 
+    border-left: 120px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 60px solid black;
+    z-index: 2;
+    transform: rotate(86deg) rotateX(-180deg);
+}
+.ear1 .bottom-ear2{
     position: relative;
     left: 4px;
     top: 135px;
     width: 0; 
     height: 0; 
     border-left: 35px solid transparent;
-    border-right: 50px solid transparent;
+    border-right: 49px solid transparent;
     border-bottom: 15px solid black;
+    z-index: 2;
     transform: rotate(226deg);
 }
-.middle-ear{
+.ear2 .bottom-ear2{
+    position: relative;
+    left: 133px;
+    bottom: 142px;
+    width: 0; 
+    height: 0; 
+    border-left: 35px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 15px solid black;
+    z-index: 2;
+    transform: rotate(315deg) rotateX(-180deg);
+}
+.ear1 .middle-ear{
     position: relative;
     right: 30px;
     top: 85px;
-    width: 80px;
+    width: 79px;
     border-bottom: 30px solid black;
+    z-index: 2;
     transform: rotate(71deg);
 }
-.middle-ear2{
+.ear2 .middle-ear{
+    position: relative;
+    left: 170px;
+    bottom: 192px;
+    width: 80px;
+    border-bottom: 30px solid black;
+    z-index: 2;
+    transform: rotate(110deg) rotateX(-180deg);
+}
+.ear1 .middle-ear2{
     position: relative;
     right: 53px;
-    top: 28px;
+    top: 27px;
     width: 65px;
-    border-bottom: 10px solid black;
+    border-bottom: 12px solid black;
+    z-index: 2;
     transform: rotate(350deg);
 }
-.middle-ear3{
+.ear2 .middle-ear2{
     position: relative;
-    top: 0;
-    right: 62px;
+    left: 210px;
+    bottom: 246px;
+    width: 65px;
+    border-bottom: 10px solid black;
+    z-index: 2;
+    transform: rotate(10deg) rotateX(-180deg);
+}
+.ear1 .middle-ear3{
+    position: relative;
+    bottom: 3px;
+    right: 63px;
+    width: 0; 
+    height: 0; 
+    border-left: 36px solid transparent;
+    border-right: 36px solid transparent;
+    border-bottom: 21px solid black;
+    z-index: 2;
+    transform: rotate(347deg);
+}
+.ear2 .middle-ear3{
+    position: relative;
+    bottom: 274px;
+    left: 210px;
     width: 0; 
     height: 0; 
     border-left: 36px solid transparent;
     border-right: 36px solid transparent;
     border-bottom: 20px solid black;
-    transform: rotate(350deg)
+    z-index: 2;
+    transform: rotate(190deg) rotateX(-180deg);
 }
-.top-ear{
+.ear1 .top-ear{
     position: relative;
-    right: 77px;
-    top: 18px;
+    right: 81px;
+    top: 21px;
     width: 0; 
     height: 0; 
     border-left: 60px solid transparent;
     border-right: 5px solid transparent;
-    border-bottom: 30px solid black;
+    border-bottom: 20px solid black;
+    z-index: 2;
     transform: rotate(270deg);
+}
+.ear2 .top-ear{
+    position: relative;
+    left: 235px;
+    bottom: 252px;
+    width: 0; 
+    height: 0; 
+    border-left: 60px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 20px solid black;
+    z-index: 2;
+    transform: rotate(275deg) rotateX(-180deg);
+}
+.ear1 .shine1{
+    background: radial-gradient(rgb(20, 9, 49),transparent);
+    position: relative;
+    bottom: 30px;
+    left: 4px;
+    height: 100px;
+    width: 20px;
+    z-index: 3;
+    transform: rotate(160deg);
+}
+.ear2 .shine1{
+    background: radial-gradient(rgb(20, 9, 49),transparent);
+    position: relative;
+    bottom: 302px;
+    left: 198px;
+    height: 100px;
+    width: 20px;
+    z-index: 3;
+    transform: rotate(20deg);
+}
+.ear1 .shine2{
+    background: radial-gradient(rgb(20, 9, 49),transparent);
+    position: relative;
+    bottom: 146px;
+    right: 30px;
+    height: 30px;
+    width: 20px;
+    z-index: 3;
+    transform: rotate(110deg);
+}
+.ear2 .shine2{
+    background: radial-gradient(rgb(20, 9, 49),transparent);
+    position: relative;
+    bottom: 416px;
+    left: 230px;
+    height: 30px;
+    width: 20px;
+    z-index: 3;
+    transform: rotate(70deg);
+}
+.top{
+    transform: rotate(355deg);
+}
+/*Body properties*/
+.upperbody{
+    position: relative;
+    bottom: 400px;
+    left: 7px;
+    width: 80px;/*Anchra*/
+    height: 0;
+    border-left: 20px solid transparent;/*left*/
+    border-right: 20px solid transparent;/*right*/
+    border-bottom: 65px solid black;/*Altura*/
+    z-index: -1;
+}
+.lowerbody{
+    position: relative;
+    bottom: 415px;
+    width: 95px;
+    height: 90px;
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    background: radial-gradient(rgb(20, 9, 49),black);
+}
+.body .shine{
+    background: radial-gradient(rgb(20, 9, 49),transparent);
+    z-index: 2;
+    position: relative;
+    bottom: 540px;
+    left: 21px;
+    height: 36px;
+    width: 50px;
+    border-radius: 40%
+}
+.arm1 .forearm{
+    position: relative;
+    z-index: -2;
+    bottom: 570px;
+    right: 40px;
+    height: 20px;
+    width: 60px;
+    border: 1px solid blue;
+    background: yellow;
 }

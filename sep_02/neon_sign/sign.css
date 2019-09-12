@@ -12,13 +12,30 @@ body{
     font-size: 20vw;
 }
 .uno, .dos{
-    color: #A5FFFB;
-    text-shadow: 0 0 20px #00CCB1, 0 0 20px #00CCB1, 0 0 20px #00CCB1, 0 0 20px #00CCB1;
     font-weight: 100;
+    color: #009cea;
+    text-shadow: none;
+    animation: apagar 8s linear infinite both;
 }
 *{
     background: black;
 }
-.uno:hover, .dos:hover {
-    color: black;
+
+@keyframes apagar{
+    0% {
+        color: #009cea;
+        text-shadow: none;
+    }
+    30% {
+        color: #A5FFFB;
+        text-shadow: 0 0 20px #00CCB1, 0 0 20px #00CCB1, 0 0 20px #00CCB1, 0 0 20px #00CCB1;
+    }
+    50% {
+        color: #A5FFFB;
+        text-shadow: 0 0 20px #00CCB1, 0 0 20px #00CCB1, 0 0 20px #00CCB1, 0 0 20px #00CCB1;
+    }
+    70% {
+        color: #009cea;
+        text-shadow: none;
+    }
 }

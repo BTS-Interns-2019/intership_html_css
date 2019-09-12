@@ -1,0 +1,117 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.pokemon-container {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokemon {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 96px;
+  width: 96px;
+}
+
+.gastly-container {
+  background-color: #805777;
+}
+
+.gastly {
+  background-image: url('img/gastly.png');
+}
+
+.machop-container {
+  background-color: #94bdbd;
+}
+
+.machop {
+  background-image: url('img/machop.png');
+}
+
+.mudkip-container {
+  background-color: #41a4de;
+}
+
+.mudkip {
+  background-image: url('img/mudkip.png');
+}
+
+.bagon-container {
+  background-color: #62ace6;
+}
+
+.bagon {
+  background-image: url('img/bagon.png');
+}
+
+.magnemite-container {
+  background-color: #8bb4a4;
+}
+
+.magnemite {
+  background-image: url('img/magnemite.png');
+}
+
+/* First evolution */
+@media screen and (min-width: 40em) {
+  .pokemon {
+    transform: scale(1.5);
+  }
+
+  .gastly {
+    background-image: url('img/haunter.png');
+  }
+
+  .machop {
+    background-image: url('img/machoke.png');
+  }
+
+  .mudkip {
+    background-image: url('img/marshtomp.png');
+  }
+
+  .bagon {
+    background-image: url('img/shelgon.png');
+  }
+
+  .magnemite {
+    background-image: url('img/magneton.png');
+  }
+}
+
+/* Second evolution */
+@media screen and (min-width: 64em) {
+  .pokemon {
+    transform: scale(2);
+  }
+
+  .gastly {
+    background-image: url('img/gengar.png');
+  }
+
+  .machop {
+    background-image: url('img/machamp.png');
+  }
+
+  .mudkip {
+    background-image: url('img/swampert.png');
+  }
+
+  .bagon {
+    background-image: url('img/salamence.png');
+  }
+
+  .magnemite {
+    background-image: url('img/magnezone.png');
+  }
+}

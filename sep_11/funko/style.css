@@ -1,0 +1,337 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width:100% ;
+    height: 100%;
+    
+}
+.main{
+    width: 60%;
+    height: 80%;
+    background-color: rgb(241, 241, 245);
+    margin:auto;
+    padding: 100px;
+}
+.cara{
+position: relative;
+width: 220px;
+height: 187px;
+/* background-color: yellow; */
+/* background: -webkit-radial-gradient(60px 70px, circle farthest-side, yellow, rgb(168, 168, 31)); */
+border-radius: 35px;
+border-top-left-radius: 70px;
+border-top-right-radius: 70px;
+margin:auto;
+background-image: radial-gradient(yellow 67%, rgb(177, 177, 51));
+margin-top: 20%;
+}
+.ojo-izq{
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: 62px;
+    margin-left: 38px;
+
+
+    
+}
+.ojo-der{
+    width: 43px;
+    height: 43px;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: 65px;
+    margin-left: 136px;
+    position: absolute;
+    /* background-image:
+    radial-gradient(
+      circle at top left,
+      #ffffff,
+      black 50%
+    );
+} */
+}
+    
+
+.chachete-der{
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    border-radius: 100px;
+    float: right;
+    margin-top: 126px;
+    background-image: radial-gradient(red 33%, rgb(201, 8, 8));
+ 
+}
+
+.chachete-izq{
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    border-radius: 100px;
+    margin-top: 126px;
+    position: absolute;
+    background-image: radial-gradient(red 33%, rgb(161, 4, 4))
+
+}
+
+
+.nariz {
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black;
+    margin-left: 99px;
+    margin-top: 111px;
+    position: absolute;
+  }
+
+  .boca{
+    width: 35px;
+    height: 32px;
+    background-color:#fb617c;
+    border-radius: 100px;
+    margin-top: 137px;
+    margin-left: 94px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    /* position: absolute; */
+  }
+
+  .boca1{
+    width: 45px;
+    height: 33px;
+    background-color:yellow;
+    border-radius: 100px;
+    margin-top: -27px;
+    /* position: absolute; */
+    margin-left: -26px;
+    position: absolute;
+  }
+
+  .boca2{
+    width: 45px;
+    height: 33px;
+    background-color:yellow;
+    border-radius: 100px;
+    margin-top: -28px;
+    margin-left: 12px;
+    position: absolute;
+
+  }
+
+  /* .oreja1{
+    width: 102px;
+    height: 150px;
+    background-color: yellow;
+    border-radius:0 99% / 0 100%;
+    margin-top: 18px;
+    margin-left: 238px;
+    margin-bottom: 15px;
+    position: absolute;
+
+  } */
+
+  .punta-oreja{
+      position: absolute;
+    width: 30px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+
+  }
+
+  .oreja1{
+    width: 102px;
+    height: 150px;
+    background-image: radial-gradient(yellow 51%,rgb(177, 177, 51));
+    border-radius: 0 103% / 0 103%;
+    margin-top: 56px;
+    margin-left: 216px;
+    margin-bottom: 15px;
+    position: absolute;
+    transform: rotate(-15deg);
+    /* background-image: radial-gradient(yellow 70%, rgb(177, 177, 51)); */
+  }
+
+  .oreja2{
+  width: 102px;
+  height: 150px;
+  background-image: radial-gradient(yellow 51%,rgb(177, 177, 51));
+  border-radius: 0 103% / 0 103%;
+  margin-top: 61px;
+  margin-left: 484px;
+  margin-bottom: 15px;
+  position: absolute;
+  transform: rotate(71deg);
+  /* background-image: radial-gradient(yellow 70%, rgb(177, 177, 51)); */
+
+  }
+
+  .cuerpo{
+    position: absolute;
+    width: 151px;
+    height: 100px;
+    background: yellow;
+    margin-top: 314px;
+    margin-left: 336px;
+    border-radius: 0 33% / 0 95%;
+    transform: rotate(50deg);
+    
+}
+.brazo1{
+    position: absolute;
+    width: 96px;
+    height: 43px;
+    border-radius: 50%;
+    background-image: radial-gradient(yellow 51%,rgb(177, 177, 51));
+    margin-top: 372px;
+    margin-left: 330px;
+    transform: rotate(51deg);
+}
+
+.brazo2{
+    position: absolute;
+    width: 96px;
+    height: 43px;
+    border-radius: 50%;
+    background-image: radial-gradient(yellow 51%,rgb(177, 177, 51));
+    margin-top: 372px;
+    margin-left: 403px;
+    transform: rotate(123deg);
+}
+
+.pansa{
+    position: absolute;
+    width: 125px;
+    height: 137px;
+    background: yellow;
+    margin-top: 340px;
+    margin-left: 348px;
+    border-radius: 35px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 70px;
+}
+
+.punta1 {
+	position: absolute;;
+	background-color: black;
+    text-align: left;
+    margin-top: 67px;
+    margin-left: 201px;
+}
+.punta1:before,
+.punta1:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.punta1,
+.punta1:before,
+.punta1:after {
+	width:  2em;
+	height: 2em;
+	border-top-right-radius: 46%;
+}
+
+.punta1 {
+	transform: rotate(-111deg) skewX(-30deg) scale(1,.866);
+}
+.punta1:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.punta1:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+.punta2 {
+	position: absolute;;
+	background-color: black;
+    text-align: left;
+    margin-top: 71px;
+    margin-left: 550px;
+}
+.punta2:before,
+.punta2:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.punta2,
+.punta2:before,
+.punta2:after {
+	width:  2em;
+	height: 2em;
+	border-top-right-radius: 46%;
+}
+
+.punta2 {
+	transform: rotate(-143deg) skewX(-30deg) scale(1,.866);
+}
+.punta2:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.punta2:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+.cola1{
+    position: absolute;
+    width: 0px;
+     height: 0px;
+     border-right: 78px solid transparent;
+     border-top: 115px solid transparent;
+     border-left: 43px solid yellow;
+     border-bottom: 33px solid yellow;
+     margin-top: 355px;
+    margin-left: 481px;
+    transform: rotate(118deg);
+}
+
+.cola2{
+    position: absolute;
+    width: 80px;
+    height: 0;
+    border-right: 46px solid transparent;
+    border-left: -22px solid transparent;
+    border-top: 47px solid yellow;
+    margin-top: 383px;
+    margin-left: 508px;
+    transform: rotate(24deg);
+}
+.cola3{
+    position: absolute;
+    width: 77px;
+    height: 11px;
+    border: 3px solid yellow;
+    background: yellow;
+     margin-top: 402px;
+    margin-left: 459px;
+    transform: rotate(142deg);
+
+}
+/* 
+.chachete-der:hover{
+    background-color: aliceblue;
+    transition:  all 3s ease-in-out;
+    cursor: pointer;
+}
+
+.cara:hover .chachete-izq{
+    background-color: aliceblue;
+    transition:  all 3s ease-in-out;
+    cursor: pointer;
+} */
+
+
+@keyframes animacion{
+    from{
+        
+    }
+}

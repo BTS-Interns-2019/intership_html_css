@@ -12,6 +12,7 @@ h1 {
   font-family: 'PT Sans', sans-serif;
 }
 
+
 .neon {
   color: #fff;
   margin-top: 30%;
@@ -24,4 +25,8 @@ h1 {
     0 0 90px #7bacff, 
     0 0 100px #7bacff,
     0 0 150px #7bacff;
+    transition: all 3s ease-in-out;
+}
+.neon:hover {
+  transform: rotate(360deg) scale(0.2);
 }

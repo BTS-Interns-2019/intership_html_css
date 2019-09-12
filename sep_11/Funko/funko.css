@@ -404,3 +404,33 @@ html body {
   border-left: 0.1px solid transparent;
 
 }
+
+.eye-bag{
+  width: 100px;
+  height: 130px;
+  background: #ffc641;
+  position: absolute;
+  border-radius: 50%;
+
+  /* border-top-left-radius: 30%;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%; */
+
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+.eye-bag-1{
+  top: 150px;
+  left: 90px;
+  border-bottom: #28282a 5px solid;
+  border-right: #28282a 2px solid;
+  transform: rotate(35deg);
+}
+.eye-bag-2{
+  top: 150px;
+  left: 220px;
+  border-bottom: #28282a 5px solid;
+  border-left: #28282a 2px solid;
+  transform: rotate(325deg);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}

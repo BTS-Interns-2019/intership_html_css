@@ -1,0 +1,155 @@
+body {
+  margin: 0; padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.all {
+  width: 250px;
+  height: 500px;
+  /*border: 1px dotted black;*/
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+}
+
+.complete-head {
+  display: flex;
+  width: 100%;
+  height: 180px;
+  /*border: 1px dotted black;*/
+  justify-content: center;
+}
+
+.head {
+  width: 90%;
+  height: 180px;
+  border-radius: 40px;
+  border: 1px solid black;
+  background-image: radial-gradient(ellipse at right, #F1D0AD, #EABD86 50%);
+}
+
+.band {
+  width: 100%;
+  height: 30px;
+  border: 1px solid black;
+  margin-top: 15px;
+  border-radius: 20px 20px 0 0;
+  z-index: 1;
+
+  background: radial-gradient(circle at right,  #AE6D73 2%, #B71120 40%);
+}
+
+.brows {
+  width: 100%;
+  height: 30px;
+  /*border: 1px dotted black;*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.brow {
+  width: 60px;
+  height: 10px;
+  margin-top: 5px;
+  border: 1px solid black;
+}
+
+.left-brow {
+  margin-left: 18px;
+
+  width: 0px; 
+  height: 6px; 
+  border-top: 6px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 60px solid black;
+
+  transform: rotate(15deg);
+}
+
+.right-brow {
+  margin-right: 18px;
+
+  width: 0; 
+  height: 6px; 
+  border-top: 6px solid transparent;
+  border-bottom: 0px solid transparent; 
+  border-right:60px solid black; 
+
+  transform: rotate(-15deg);
+}
+
+.eyes {
+  width: 100%;
+  height: 50px;
+  /*border: 1px dotted black;*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.eye {
+  width: 32px;
+  height: 32px;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+.nose {
+  align-self: flex-end;
+  margin-bottom: 5px;
+  width: 5px; 
+  height: 10px; 
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  
+  border-bottom: 15px solid rgb(240, 213, 171);
+  box-shadow: 2px 2px 4px rgb(180, 159, 126), -2px 2px 4px rgb(180, 159, 126);
+}
+
+.right-eye { 
+  margin-right: 30px; 
+  background-image: radial-gradient(ellipse at top right, white 1%, black 50%);
+}
+.left-eye {
+  margin-left: 30px;
+  background-image: radial-gradient(ellipse at top right, white 1%, black 50%);
+}
+
+.ear {
+  width: 3%;
+  height: 30px;
+  border: 1px solid black;
+  align-self: center;
+  background-image: radial-gradient(ellipse at right, #F1D0AD, #EABD86 50%);
+}
+
+.right-ear {
+  border-radius: 100px 0 0 100px;
+}
+
+.left-ear {
+  border-radius: 0 100px 100px 0;
+}
+
+.final-band {
+  width: 20px;
+  height: 30px;
+  border: 1px solid black;
+  position: relative;
+  z-index: -1;
+  
+  background: #B71120;
+}
+
+.fbl {
+  top: 155px;
+  left: 15px;
+  transform: rotate(45deg);
+}
+
+.fbr {
+  top: 155px;
+  right: 15px;
+  transform: rotate(-45deg);
+}

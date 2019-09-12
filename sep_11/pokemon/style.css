@@ -1,0 +1,114 @@
+* {margin: 0; padding: 0;}
+
+.one {
+  background:#EFDF8D; 
+}
+
+.two {
+  background: #85B6E2; 
+}
+
+.three {
+  background: #89CA7D;
+}
+
+.four {
+  background: #B29E8C;
+}
+
+.five {
+  background: #FAD884
+}
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .pokemon {
+    width: 100vw;
+    height: 20vh;
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .one {
+    background-image: url("./img/abra.png");
+  }
+
+  .two {
+    background-image: url("./img/dratini.png");
+  }
+
+  .three {
+    background-image: url("./img/chikorita.png");
+  }
+
+  .four {
+    background-image: url("./img/slakoth.png");
+  }
+
+  .five {
+    background-image: url("./img/elekid.png");
+  }
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .pokemon {
+    width: 100vw;
+    height: 50vh;
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .one {
+    background-image: url("./img/kadabra.png");
+  }
+
+  .two {
+    background-image: url("./img/dragonair.png");
+  }
+
+  .three {
+    background-image: url("./img/bayleef.png");
+  }
+
+  .four {
+    background-image: url("./img/vigoroth.png");
+  }
+
+  .five {
+    background-image: url("./img/electabuzz.png");
+  }
+}
+
+/* Large only */
+@media screen and (min-width: 64em) {
+  .pokemon {
+    width: 100vw;
+    height: 100vh;
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .one {
+    background-image: url("./img/alakazam.png");
+  }
+
+  .two {
+    background-image: url("./img/dragonite.png");
+  }
+
+  .three {
+    background-image: url("./img/meganium.png");
+  }
+
+  .four {
+    background-image: url("./img/slaking.png");
+  }
+
+  .five {
+    background-image: url("./img/electivire.png");
+  }
+}
+

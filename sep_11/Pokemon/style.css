@@ -1,0 +1,162 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+section{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section > div{
+    height: 80%;
+    width: 60%;
+}
+@media screen and (max-width: 39.9375em) {
+    main section:first-of-type{
+        background: skyblue;
+    }
+    main section:first-of-type div{
+        background-image: url("http://static.pokemonpets.com/images/monsters-images-800-800/116-Horsea.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    main section:nth-child(2){
+        background: steelblue;
+    }
+    main section:nth-child(2) div{
+        background-image: url("https://static.pokemonpets.com/images/monsters-images-300-300/60-Poliwag.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    main section:nth-child(3){
+        background: chocolate;
+    }
+    main section:nth-child(3) div{
+        background-image: url("http://static.pokemonpets.com/images/monsters-images-800-800/69-Bellsprout.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    main section:nth-child(4){
+        background: dodgerblue;
+    }
+    main section:nth-child(4) div{
+        background-image: url("https://static.pokemonpets.com/images/monsters-images-300-300/147-Dratini.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    main section:last-child{
+        background: olivedrab;
+    }
+    main section:last-child div{
+        background-image: url("http://static.pokemonpets.com/images/monsters-images-800-800/10-Caterpie.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+}
+@media screen and (min-width: 40em) {
+    main section:first-of-type{
+        background: steelblue;
+    }
+    main section:first-of-type div{
+        background-image: url("https://static.pokemonpets.com/images/monsters-images-300-300/117-Seadra.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    main section:nth-child(2){
+        background: royalblue;
+    }
+    main section:nth-child(2) div{
+        background-image: url("https://static.pokemonpets.com/images/monsters-images-300-300/2061-Shiny-Poliwhirl.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    main section:nth-child(3){
+        background: yellowgreen;
+    }
+    main section:nth-child(3) div{
+        background-image: url("https://static.pokemonpets.com/images/monsters-images-300-300/70-Weepinbell.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    main section:nth-child(4){
+        background: lightseagreen;
+    }
+    main section:nth-child(4) div{
+        background-image: url("https://cdn.bulbagarden.net/upload/9/93/148Dragonair.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    main section:last-child{
+        background: limegreen;
+    }
+    main section:last-child div{
+        background-image: url("http://static.pokemonpets.com/images/monsters-images-800-800/11-Metapod.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+}
+@media screen and (min-width: 64em) {
+    main section:first-of-type{
+        background: cornflowerblue;
+    }
+    main section:first-of-type div{
+        background-image: url("http://static.pokemonpets.com/images/monsters-images-800-800/8230-Mega-Kingdra.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    main section:nth-child(2){
+        background: darkslateblue;
+    }
+    main section:nth-child(2) div{
+        background-image: url("https://static.pokemonpets.com/images/monsters-images-300-300/62-Poliwrath.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    main section:nth-child(3){
+        background: yellow;
+    }
+    main section:nth-child(3) div{
+        background-image: url("http://static.pokemonpets.com/images/monsters-images-800-800/71-Victreebel.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    main section:nth-child(4){
+        background: orange;
+    }
+    main section:nth-child(4) div{
+        background-image: url("https://cdn.bulbagarden.net/upload/8/8b/149Dragonite.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    main section:last-child{
+        background: purple;
+    }
+    main section:last-child div{
+        background-image: url("https://vignette.wikia.nocookie.net/es.pokemon/images/9/96/Butterfree.png/revision/latest?cb=20160703192952");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+}

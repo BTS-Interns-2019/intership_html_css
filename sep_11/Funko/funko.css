@@ -1,0 +1,192 @@
+html body {
+  height: 100%;
+}
+
+/* #ffc641 eye shadow */
+/* #818286 */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+  border: solid 1px rebeccapurple;
+  padding-top: 50px;
+}
+
+.head {
+  width: 400px;
+  height: 350px;
+  border: solid 1px black;
+  background: #2e3192;
+  position: relative;
+  border-radius: 25%;
+}
+.ear {
+  width: 100px;
+  height: 100px;
+  background: #9e1a3f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.ear1 {
+  right: 350px;
+  top: -40px;
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+.inner-ear1 {
+  background: #7e1417;
+  width: 80%;
+  height: 80%;
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+.inner-ear2 {
+  background: #7e1417;
+  width: 80%;
+  height: 80%;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+}
+.ear2 {
+  left: 350px;
+  top: -40px;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+}
+.eye-shadow {
+  box-sizing: border-box;
+  background: #ffc641;
+  width: 200px;
+  height: 250px;
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid #3d3d3f;
+}
+.eye-shadow1 {
+  left: 15px;
+  top: 30px;
+}
+.eye-shadow2 {
+  /* position: absolute; */
+  left: 190px;
+  top: 30px;
+}
+.yellow-rag {
+  width: 100px;
+  height: 110px;
+  background: #ffc641;
+  position: absolute;
+  top: 98px;
+  left: 150px;
+}
+.eyebrow {
+  background: #2e3192;
+  position: absolute;
+  z-index: 1;
+}
+.eyebrow-1 {
+  width: 35px;
+  height: 20px;
+  border: #3d3d3f solid 2px;
+  top: 60px;
+  left: 110px;
+}
+.eyebrow-2 {
+  width: 35px;
+  height: 20px;
+  border: #3d3d3f solid 2px;
+  top: 60px;
+  left: 260px;
+}
+
+.eyebrow-3 {
+    top: 70px;
+    left: 80px;
+  width: 40px;
+  height: 20px;
+
+  border-top: 2px solid #3d3d3f;
+  border-bottom: 2px solid #3d3d3f;
+  /* border-left: 2px solid #3d3d3f; */
+  border-right: 2px solid #3d3d3f;
+  transform: rotate(140deg);
+}
+.eyebrow-4 {
+    width: 50px;
+    height: 20px;
+}
+.eye {
+  width: 120px;
+  height: 200px;
+  background: #f38669;
+  position: absolute;
+}
+
+.eye-1 {
+  top: 95px;
+  left: 40px;
+  padding: 0 10px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 60%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 30%;
+
+  border-top: 2px solid #3d3d3f;
+  border-bottom: 5px solid #3d3d3f;
+  border-left: 4px solid #3d3d3f;
+  border-right: 1px solid #3d3d3f;
+}
+.eye-2 {
+  top: 95px;
+  left: 226px;
+  padding: 0 10px;
+  border-top-left-radius: 60%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 50%;
+
+  border-top: 0.5px solid #3d3d3f;
+  border-bottom: 5px solid #3d3d3f;
+  border-left: 2px solid #3d3d3f;
+  border-right: 4px solid #3d3d3f;
+}
+
+.cornea {
+  background: #2e3192;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.cornea-1 {
+  top: 140px;
+  left: 60px;
+}
+.cornea-2 {
+  top: 140px;
+  left: 240px;
+}
+
+.iris {
+  width: 90px;
+  height: 90px;
+  background: #000;
+  position: absolute;
+  border-radius: 50%;
+}
+.iris-1 {
+  top: 150px;
+  left: 70px;
+}
+.iris-2 {
+  top: 150px;
+  left: 250px;
+}

@@ -1,0 +1,119 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:100%;
+    
+}
+
+
+.pidgey {
+     background: rgba(202, 172, 96, 1) url('./Pidgey.png') no-repeat fixed center;
+     background-size: contain;
+     width: 100%;
+     height: 100%;
+}
+
+.bulbasaur {
+    background: rgba(138, 198, 172, 1) url('./bulbasaur.png') no-repeat fixed center;
+     background-size: contain;
+     width: 100%;
+     height: 100%;
+}
+
+.abra {
+    background: rgba(242, 217, 92, 1) url('./abra.png') no-repeat fixed center;
+     background-size: contain;
+     width: 100%;
+     height: 100%;
+}
+
+.gastly {
+    background: rgba(126, 100, 129, 1) url('./gastly.png') no-repeat fixed center;
+     background-size: contain;
+     width: 100%;
+     height: 100%;
+}
+
+.caterpie {
+    background: rgba(229, 205, 138, 1) url('./caterpie.png') no-repeat fixed center;
+     background-size: contain;
+     width: 100%;
+     height: 100%;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .pidgey {
+     background: rgba(210, 153, 65, 1) url('./Pidgeotto.png') no-repeat fixed center;
+     background-size: contain;
+     width: 100%;
+     height: 100%;
+}
+
+.bulbasaur {
+    background: rgba(141, 194, 199, 1) url('./ivysaur.png') no-repeat fixed center;
+     background-size: contain;
+     width: 100%;
+     height: 100%px;
+}
+
+.abra {
+    background: rgba(196, 171, 79, 1) url('./kadabra.png') no-repeat fixed center;
+     background-size: contain;
+     width: 100%;
+     height: 100%;
+}
+
+.gastly {
+    background: rgba(85, 75, 90, 1) url('./haunter.png') no-repeat fixed center;
+     background-size: contain;
+     width: 100%;
+     height: 100%;
+}
+
+.caterpie {
+    background: rgba(131, 167, 81, 1) url('./metapod.png') no-repeat fixed center;
+     background-size: contain;
+     width: 100%;
+     height: 100%;
+}
+
+}
+
+@media screen and (min-width: 64em) {
+    .pidgey {
+     background: rgba(254, 254, 205, 1) url('./pidgeot.png') no-repeat fixed center;
+     background-size: contain;
+     width: 100%;
+     height: 100%;
+}
+
+.bulbasaur {
+    background: rgba(65, 123, 129, 1) url('./venasaur.png') no-repeat fixed center;
+     background-size: contain;
+     width: 100%;
+     height: 100%;
+}
+
+.abra {
+    background: rgba(237, 221, 140, 1) url('./alakazam.png') no-repeat fixed center;
+     background-size: contain;
+     width: 100%;
+     height: 100%;
+}
+
+.gastly {
+    background: rgba(161, 156, 186, 1) url('./gengar.png') no-repeat fixed center;
+     background-size: contain;
+     width: 100%;
+     height: 100%;
+}
+
+.caterpie {
+    background: rgba(96, 87, 123, 1) url('./butterfree.png') no-repeat fixed center;
+     background-size: contain;
+     width: 100%;
+     height: 100%;
+}
+
+}

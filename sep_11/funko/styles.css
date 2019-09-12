@@ -13,13 +13,13 @@ body {
 .main-container {
   justify-content: center;
   padding-top: 15px;
+  background-color: brown;
 }
 
 /* Gandalf */
 .gandalf {
   width: 400px;
-  height: 520px;
-  background-color: brown;
+  height: 820px;
   position: relative;
 }
 
@@ -504,4 +504,227 @@ body {
   height: 38px;
   top: 112px;
   transform: skewY(-41deg) rotate(-3deg);
+}
+
+/* Body */
+.body {
+  position: absolute;
+  top: 315px;
+  left: 71px;
+  width: 250px;
+  height: 270px;
+  /* background-color: #fff; */
+}
+
+.body .cape {
+  position: absolute;
+  top: -20px;
+  transform: perspective(350px) rotateX(25deg);
+  height: 240px;
+  width: 240px;
+  background-color: #181816;
+  border-left: 6px solid #c1bdbc;
+  border-right: 6px solid #c1bdbc;
+}
+
+.body .upper-body {
+  position: absolute;
+  height: 85px;
+  width: 130px;
+  background-color: #6c7079;
+  top: 4px;
+  left: 60px;
+  transform: perspective(500px) rotateX(-15deg);
+}
+
+.scarf .round-neck .wide {
+  background-color: #8e9399;
+  position: absolute;
+  width: 110px;
+  height: 50px;
+  border-radius: 15px;
+  left: 47px;
+  top: 3px;
+  transform: skewY(3deg) skewX(-10deg) rotate(1deg);
+  z-index: 1;
+}
+
+.scarf .round-neck .thin {
+  background-color: #8e9399;
+  position: absolute;
+  width: 80px;
+  height: 46px;
+  right: 53px;
+  top: 5px;
+  transform: skew(-28deg, -20deg) rotate(15deg);
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.scarf .hanging .short {
+  background-color: #8e9399;
+  position: absolute;
+  width: 35px;
+  height: 140px;
+  top: 21px;
+  left: 64px;
+  z-index: 1;
+  transform: perspective(400px) rotateX(40deg) rotateZ(4deg);
+  border-radius: 7px;
+}
+
+.scarf .hanging .long {
+  background-color: #8e9399;
+  position: absolute;
+  width: 45px;
+  height: 160px;
+  top: 17px;
+  left: 70px;
+  z-index: 1;
+  transform: perspective(400px) rotateX(40deg) rotateZ(2deg);
+  border-radius: 7px;
+}
+
+.body .arm {
+  background-color: #5D6067;
+  height: 85px;
+  width: 100px;
+  position: absolute;
+}
+
+.arm.arm-left {
+  transform: perspective(20px) rotateY(5deg) rotate(-6deg);
+  left: -30px;
+}
+
+.hand {
+  background-color: #f0a882;
+  position: absolute;
+  width: 53px;
+  height: 40px;
+  border-radius: 10px;
+  top: -7px;
+}
+
+.hand.hand-left {
+  left: -85px;
+  transform: rotate(3deg);
+}
+
+.hand.hand-right {
+  right: -85px;
+  transform: rotate(-3deg);
+}
+
+.arm.arm-right {
+  transform: perspective(20px) rotateY(-5deg) rotate(6deg);
+  right: -30px;
+}
+
+.body .belt {
+  background-color: #624235;
+  width: 135px;
+  height: 25px;
+  position: absolute;
+  top: 83px;
+  left: 57px;
+  border-radius: 25px;
+}
+
+.belt .knot {
+  width: 32px;
+  height: 25px;
+  position: absolute;
+  left: 60px;
+  border-radius: 50%;
+  z-index: 2;
+  transform: rotate(45deg);
+  background-color: #5a3f36;
+}
+
+.belt .hanging {
+  width: 22px;
+  height: 50px;
+  background-color: #624235;
+  position: absolute;
+  left: 66px;
+  top: 21px;
+  z-index: 1;
+}
+
+.body .lower-body {
+  position: absolute;
+  height: 204px;
+  width: 148px;
+  background-color: #6c7079;
+  top: 52px;
+  left: 51px;
+  transform: perspective(500px) rotateX(56deg);
+}
+
+.foot {
+  position: absolute;
+  top: 210px;
+  background-color: #363739;
+}
+
+.foot-left {
+  left: 30px;
+}
+
+.foot-right {
+  right: 55px;
+}
+
+.foot .top {
+  border-radius: 50%;
+  background-color: #363739;
+  height: 18px;
+  width: 33px;
+  position: absolute;
+}
+
+.foot .sole {
+  width: 45px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #363739;
+  position: absolute;
+}
+
+.foot .spike {
+  width: 15px;
+  height: 10px;
+  background-color: #363739;
+  position: absolute;
+}
+
+.foot-left .top {
+  top: -2px;
+}
+
+.foot-left .sole {
+  top: 8px;
+}
+
+.foot-left .spike {
+  left: 25px;
+  top: 3px;
+  transform: rotate(28deg);
+}
+
+.foot-right .top {
+  top: -2px;
+  right: -25px;
+}
+
+.foot-right .sole {
+  top: 8px;
+  right: -25px;
+}
+
+.foot-right .spike {
+  right: -1px;
+  top: 3px;
+  transform: rotate(-28deg);
 }

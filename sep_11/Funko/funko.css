@@ -528,11 +528,15 @@ html body {
   width: 100px;
 top: 57px;
 left: -2px;
+border-bottom-right-radius: 35px;
+border-bottom-left-radius: 3px;
 }
 .suit-2{
   width: 98px;
   top: 57px;
   left: 100px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 35px;
 }
 .patch-b{
   width: 50px;
@@ -558,4 +562,35 @@ left: -2px;
   position: absolute;
   top: 200px;
   left: 10px;
+}
+.belt{
+  width: 130px;
+  height: 30px;
+  background: #262262;
+  border: #11103b solid 2px;
+  position: absolute;
+  top: 220px;
+  left: 30px;
+  z-index: -1;
+}
+.leg{
+  background: #262262;
+  border: #11103b solid 2px;
+  position: absolute;
+}
+.leg-1{
+  width: 80px;
+  height: 180px;
+  top: 190px;
+  left: 10px;
+  transform: rotate(10deg);
+  z-index: -2;
+}
+.leg-2{
+  width: 80px;
+  height: 180px;
+  top: 190px;
+  left: 109px;
+  transform: rotate(350deg);
+  z-index: -2;
 }

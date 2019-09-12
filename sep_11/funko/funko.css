@@ -4,9 +4,9 @@
 }
 body {
     position: absolute;
-    height: 100vh;
+    height: 400vh;
     width: 100vw;
-    background-color: antiquewhite;
+    background-color: #6CAFB8;
 }
 .todo {
     position: absolute;
@@ -63,7 +63,7 @@ body {
 }
 .cabellos {
     width: 60px;
-    height: 86px;
+    height: 83px;
     position: absolute;
     background-color: #606D67;
     border-radius: 0 55px 14px 0
@@ -91,20 +91,20 @@ body {
     height: 30px;
     position: absolute;
     background-color: #606D67;
-    /*transform: rotateZ(7deg);*/
     border-radius: 0 0 15px 0;
+    border-bottom-right-radius: 11px 30px;
     top: -3px;
     left: -5px;
 }
 .nariz {
     position: absolute;
     top: 120px;
-    left: 130px;
+    left: 142px;
     width: 0; 
     height: 0; 
-    border-bottom: 50px solid #F0BF00;;
-    border-right: 20px solid transparent;
-    border-left: 20px solid transparent;
+    border-bottom: 50px solid #F0BF00;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
     border-radius: 100px;
     box-shadow: 0 5px 5px black;
 }
@@ -127,5 +127,117 @@ body {
 }
 .corbata {
     position: absolute;
-    
+    width: 0;
+    height: 0;
+    left: 141px;
+    top: 196px;
+    border-top: 15px solid #160d0d;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-radius: 20px;
 }
+.corbata2 {
+    top: 198px;
+    transform: rotateX(180deg);
+    border-top: 58px solid #160d0d;
+    border-radius: 0;
+}
+.brazos {
+    position: absolute;
+    background-color: #00595A;
+    width: 18px;
+    height: 80px;
+    border-radius: 15px 0 15px 25px
+}
+.brazo1 {
+    top: 198px;
+    left: 78px;
+    transform: rotateZ(37deg);
+}
+.brazo2 {
+    top: 198px;
+    left: 207px;
+    transform: rotateY(180deg) rotateZ(37deg);
+}
+.antebrazos {
+    position: absolute;
+    width: 18px;
+    height: 50px;
+    top: 241px;
+    background-color: #00595A;
+    border-radius: 5px 5px 8px 20px;
+}
+.antebrazo1 {
+    left: 81px;
+    transform: rotateZ(95deg)
+}
+.antebrazo2 {
+    transform: rotateY(180deg) rotateZ(95deg);
+    left: 204px;
+}
+.manga {
+    position: absolute;
+    background-color: #F5F2F1;
+    width: 16px;
+    height: 11px;
+    left: 2px;
+    bottom: 40px;
+    border-radius: 4px 4px 10px 10px;
+}
+.pantalones {
+    position: absolute;
+    background-color: #00595A;
+    width: 30px;
+    height: 90px;
+    top: 340px;
+    border-bottom-left-radius: 10px 5px;
+    border-bottom-right-radius: 10px 5px;
+}
+.pantalon1 {
+    left: 111px;
+}
+.pantalon2 {
+    left: 163px;
+    transform: rotateY(180deg);
+}
+.calceta {
+    position: absolute;    
+    width: 20px;
+    height: 10px;
+    left: 5px;
+    bottom: -10px;
+    background-color: #D7CFC6;
+}
+.zapato {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    bottom: -34px;
+    right: 2px;
+    border-bottom-right-radius: 50px 3px;
+    border-top-right-radius: 3px 10px;
+    border-top-left-radius: 35px 30px;
+}
+
+
+
+
+
+
+
+.torax {
+    background: #00595A linear-gradient(to right, #011c1a 5%, #065B56, rgb(255,255,255,.3) 48%, #065B56 50%, rgb(255,255,255,.3) 51%, #065B56, #011c1a 95%)
+}
+.pantalones{
+    background: #00595A linear-gradient(to right, #011c1a 5%, #065B56 30%, rgb(255,255,255,.1),#065B56 70%, #011c1a 95%),
+}
+/*colores*/
+
+/*
+linea del saco
+#065B56
+
+
+
+*/

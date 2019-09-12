@@ -19,8 +19,6 @@ body{
 *{
     background: black;
 }
-
-/*
-#00CCB1
-#A5FFFB
-#00806F
+.uno:hover, .dos:hover {
+    color: black;
+}

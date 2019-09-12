@@ -33,7 +33,7 @@ main{
     height: 200px;
     width: 220px;
     z-index: 2;
-    background: radial-gradient(rgb(20, 9, 49),black);
+    background: radial-gradient(rgb(20, 9, 49),black 70%, black 100%);
     border-top-left-radius: 40%;
     border-top-right-radius: 40%;
     border-bottom-left-radius: 50px;
@@ -193,7 +193,7 @@ main{
     transform: rotate(275deg) rotateX(-180deg);
 }
 .ear1 .shine1{
-    background: radial-gradient(rgb(20, 9, 49),transparent);
+    background: radial-gradient(rgb(20, 9, 49),transparent 80%, transparent);
     position: relative;
     bottom: 30px;
     left: 4px;
@@ -203,7 +203,7 @@ main{
     transform: rotate(160deg);
 }
 .ear2 .shine1{
-    background: radial-gradient(rgb(20, 9, 49),transparent);
+    background: radial-gradient(rgb(20, 9, 49),transparent 80%, transparent);
     position: relative;
     bottom: 302px;
     left: 198px;
@@ -256,25 +256,92 @@ main{
     border-top-right-radius: 36px;
     border-bottom-left-radius: 45%;
     border-bottom-right-radius: 45%;
-    background: radial-gradient(rgb(20, 9, 49),black);
+    background: radial-gradient(rgb(20, 9, 49),black 50%, black 100%);
 }
 .body .shine{
     background: radial-gradient(rgb(20, 9, 49),transparent);
     z-index: 2;
     position: relative;
     bottom: 540px;
-    left: 21px;
+    left: 25px;
     height: 36px;
-    width: 50px;
+    width: 40px;
     border-radius: 40%
 }
-.arm1 .forearm{
+.arm1 .bicep{
     position: relative;
     z-index: -2;
     bottom: 570px;
-    right: 40px;
+    right: 25px;
     height: 20px;
     width: 60px;
-    border: 1px solid blue;
-    background: yellow;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background: radial-gradient(rgb(20, 9, 49),black 45%);
+    transform: rotate(330deg)
+}
+.arm2 .bicep{
+    position: relative;
+    z-index: -2;
+    bottom: 608px;
+    left: 59px;
+    height: 20px;
+    width: 60px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background: radial-gradient(rgb(20, 9, 49),black 45%);
+    transform: rotate(230deg);
+}
+.arm1 .forearm{
+    position: relative;
+    bottom: 581px;
+    right: 68px;
+    height: 22px;
+    width: 60px;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background: radial-gradient(rgb(20, 9, 49),black 80%);
+    transform: rotate(10deg)
+}
+.arm2 .forearm{
+    position: relative;
+    bottom: 624px;
+    left: 92px;
+    height: 22px;
+    width: 60px;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background: radial-gradient(rgb(20, 9, 49),black 80%);
+    transform: rotate(140deg)
+}
+.leg1 .thigh{
+    z-index: -1;
+    position: relative;
+    bottom: 575px;
+    left: 62px;
+    background: black 60%;
+    width: 60px;
+    height: 60px;
+    border-radius: 80% 15% 55% 50% / 55% 15% 80% 50%;
+    transform: rotate(90deg);
+}
+.leg1 .aux-thigh{
+    position: relative;
+    z-index: -2;
+    bottom: 638px;
+    left: 32px;
+    width: 88px;/*Anchra*/
+    height: 0;
+    border-left: 14px solid transparent;/*left*/
+    border-right: 30px solid transparent;/*right*/
+    border-bottom: 50px solid black;/*Altura*/
+    transform: rotate(134deg);
 }

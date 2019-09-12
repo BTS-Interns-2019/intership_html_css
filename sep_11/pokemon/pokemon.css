@@ -1,0 +1,127 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon{
+    padding: 10px;
+    /* border: 1px solid black; */
+    
+}
+
+.item1{
+width: 100%;
+height: 500px;
+background: #89bbe1 url('img/Swampert.png') no-repeat center;
+background-size: contain;
+}
+.item2{
+    width: 100%;
+    height: 500px;
+    background: #4e6068 url('img/Aggron.png') no-repeat center;
+    background-size: contain;
+    
+}
+.item3{
+    width: 100%;
+    height: 500px;
+    background: #e23f3d url('img/blaziken.png') no-repeat center;
+    background-size: contain;
+     
+}
+.item4{
+    width: 100%;
+    height: 500px;
+    background: #68cbe9 url('img/Feraligatr.png') no-repeat center;
+    background-size: contain;
+     
+}
+.item5{
+    width: 100%;
+    height: 500px;
+    background: #9dcfa0 url('img/Sceptile.png') no-repeat center;
+    background-size: contain; 
+}
+/* / Medium and up / */
+@media screen and (min-width: 40em) {
+    .item1{
+        /* background: red; */
+    }
+}
+
+/* / Medium only / */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .item1{
+        width: 100%;
+        height: 500px;
+        background: #c7e3e6 url('img/Marshtomp.png') no-repeat center;
+        background-size: contain;
+        }
+        .item2{
+            width: 100%;
+            height: 500px;
+            background: #787b7b url('img/Lairon.png') no-repeat center;
+            background-size: contain;
+            
+        }
+        .item3{
+            width: 100%;
+            height: 500px;
+            background: #f6dd92 url('img/Combusken.png') no-repeat center;
+            background-size: contain;
+             
+        }
+        .item4{
+            width: 100%;
+            height: 500px;
+            background: #8acbd3 url('img/croconaw.png') no-repeat center;
+            background-size: contain;
+             
+        }
+        .item5{
+            width: 100%;
+            height: 500px;
+            background: #5c845b url('img/Grovyle.png') no-repeat center;
+            background-size: contain; 
+        }
+}
+
+/* / Small only / */
+@media screen and (max-width: 39.9375em) {
+    .item1{
+        width: 100%;
+        height: 500px;
+        background: #a7d7da url('img/mudkip.png') no-repeat center;
+        background-size: contain;
+        }
+        .item2{
+            width: 100%;
+            height: 500px;
+            background: #e4e3e3 url('img/Aron.png') no-repeat center;
+            background-size: contain;
+            
+        }
+        .item3{
+            width: 100%;
+            height: 500px;
+            background: #ee9261 url('img/Torchic.png') no-repeat center;
+            background-size: contain;
+             
+        }
+        .item4{
+            width: 100%;
+            height: 500px;
+            background: #8acbd3 url('img/totdile.png') no-repeat center;
+            background-size: contain;
+             
+        }
+        .item5{
+            width: 100%;
+            height: 500px;
+            background: #cae184 url('img/Treecko.png') no-repeat center;
+            background-size: contain; 
+        }
+}

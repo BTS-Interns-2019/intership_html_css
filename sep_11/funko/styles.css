@@ -520,9 +520,9 @@ body {
   position: absolute;
   top: -20px;
   transform: perspective(350px) rotateX(25deg);
-  height: 240px;
+  height: 235px;
   width: 240px;
-  background-color: #181816;
+  background-color: #222220;
   border-left: 6px solid #c1bdbc;
   border-right: 6px solid #c1bdbc;
 }
@@ -612,9 +612,53 @@ body {
   transform: rotate(3deg);
 }
 
+.staff {
+  background-color: #5a3e32;
+  position: absolute;
+}
+
+.staff.long {
+  width: 15px;
+  height: 355px;
+  left: 20px;
+  top: -25px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 15px;
+  transform: perspective(500px) rotateX(-50deg);
+}
+
+.staff.ellipse {
+  top: -82px;
+  left: 12px;
+  border-radius: 50%;
+  transform: perspective(500px) rotateX(5deg) rotate(9deg);
+  height: 85px;
+  width: 40px;
+}
+
+.staff.spike {
+  background-color: transparent;
+  border: 20px solid transparent;
+  border-left: 20px solid #5a3e32;
+  transform: rotate(-5deg);
+  top: -105px;
+  left: -60px;
+}
+
 .hand.hand-right {
   right: -85px;
   transform: rotate(-3deg);
+}
+
+.hand-right .thumb {
+  background-color: #f0a882;
+  position: absolute;
+  width: 12px;
+  height: 30px;
+  border-radius: 10px;
+  top: -20px;
+  transform: rotate(35deg);
+  right: 25px;
 }
 
 .arm.arm-right {

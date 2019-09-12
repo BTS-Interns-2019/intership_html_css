@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+
+/*small*/
+@media screen and (max-width: 39.9375em) {
+    section {
+        height: 150px;
+    }
+    .s1 {
+        background: #7BBFE2 url('./images/a1.png') no-repeat scroll center;
+        background-size: 100px auto;
+    }
+    .s2 {
+        background: #71B887 url('./images/b1.png') no-repeat scroll center;
+        background-size: 100px auto;
+    }
+    .s3 {
+        background: #F3F2F2 url('./images/c1.png') no-repeat scroll center;
+        background-size: 100px auto;
+    }
+    .s4 {
+        background: #EBDEB9 url('./images/d1.png') no-repeat scroll center;
+        background-size: 100px auto;
+    }
+    .s5 {
+        background: #94BFD3 url('./images/e1.png') no-repeat scroll center;
+        background-size: 100px auto;
+    }
+}
+
+/*medium*/
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    section {
+        height: 280px;
+    }
+    .s1 {
+        background: #EB9D77 url('./images/a2.png') no-repeat scroll center;
+        background-size: 220px auto;
+    }
+    .s2 {
+        background: #578D33 url('./images/b2.png') no-repeat scroll center;
+        background-size: 220px auto;
+    }
+    .s3 {
+        background: #929292 url('./images/c2.png') no-repeat scroll center;
+        background-size: 220px auto;
+    }
+    .s4 {
+        background: #39A5D1 url('./images/d2.png') no-repeat scroll center;
+        background-size: 220px auto;
+    }
+    .s5 {
+        background: #6B6A6A url('./images/e2.png') no-repeat scroll center;
+        background-size: 220px auto;
+    }
+}
+
+/*large*/
+@media screen and (min-width: 64em) {
+    section {
+        height: 500px;
+    }
+    .s1 {
+        background: #002C66 url('./images/a3.png') no-repeat scroll center;        
+    }
+    .s2 {
+        background: #5b2a00 url('./images/b3.png') no-repeat scroll center;        
+    }
+    .s3 {
+        background: #4A4B50 url('./images/c3.png') no-repeat scroll center;        
+    }
+    .s4 {
+        background: #00557a url('./images/d3.png') no-repeat scroll center;        
+    }
+    .s5 {
+        background: #7A000E url('./images/e3.png') no-repeat scroll center;        
+    }
+}

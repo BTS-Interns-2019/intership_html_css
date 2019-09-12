@@ -594,3 +594,49 @@ border-bottom-left-radius: 3px;
   transform: rotate(350deg);
   z-index: -2;
 }
+
+.right-arm-1{
+  width: 150px;
+  height: 60px;
+  background: #262262;
+  border: #11103b solid 2px;
+  position: absolute;
+  top: 430px;
+  left: 290px;
+  transform: rotate(60deg);
+  z-index: -2;
+}
+.right-arm-2{
+  width: 85px;
+  height: 50px;
+  position: absolute;
+  background: #262262;
+  border: #11103b solid 2px;
+  top: 530px;
+  left: 363px;
+  transform: rotate(330deg);
+  border-bottom-right-radius: 28px;
+}
+.sleeve{
+  height: 50px;
+  width: 20px;
+  position: absolute;
+  top: 557px;
+  left: 350px;
+  background: #fff;
+  transform: rotate(330deg);
+  border: 1px solid #28282a;
+}
+.left-arm{
+  width: 60px;
+  height: 140px;
+  background: #262262;
+  border: #11103b solid 2px;
+  position: absolute;
+  top: 413px;
+  left: 110px;
+  border-top-left-radius: 35px;
+  transform: rotate(10deg);
+  z-index: -1;
+  border-right: transparent;
+}

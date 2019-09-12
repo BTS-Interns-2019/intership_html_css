@@ -6,12 +6,119 @@
 html{
     height: 100%;
     width: 100%;
+    border: 1px solid green;
 }
 body{
+    height: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    border: 1px solid blue;
+}
+main{
+    width: 450px;
+    height: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .head{
-    background: black;
+    position: relative;
+    top: 20px;
+    height: 200px;
+    width: 220px;
+    background: 
+    linear-gradient(to top,black 80%,#202020,transparent 7px), 
+    linear-gradient(to left,black 80%,#202020,transparent 7px),
+    linear-gradient(to right,black 80%,#202020,transparent 7px),
+    linear-gradient(to bottom,black 80%,#202020,transparent 7px);
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.face{
+    /*border: 1px solid pink;*/
+    height: 110px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.eyes{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    bottom: 0;
+    border-radius: 50%;
+    background: yellow;
+    box-shadow: 0 0 10px yellow;
+}
+.ears2{
+    float: right;
+}
+.bottom-ear{
+    position: relative;
+    right: 28px;
+    top: 160px;
+    width: 0; 
+    height: 0; 
+    border-left: 120px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 60px solid black;
+    transform: rotate(94deg);
+}
+.bottom-ear2{
+    position: relative;
+    left: 4px;
+    top: 135px;
+    width: 0; 
+    height: 0; 
+    border-left: 35px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 15px solid black;
+    transform: rotate(226deg);
+}
+.middle-ear{
+    position: relative;
+    right: 30px;
+    top: 85px;
+    width: 80px;
+    border-bottom: 30px solid black;
+    transform: rotate(71deg);
+}
+.middle-ear2{
+    position: relative;
+    right: 53px;
+    top: 28px;
+    width: 65px;
+    border-bottom: 10px solid black;
+    transform: rotate(350deg);
+}
+.middle-ear3{
+    position: relative;
+    top: 0;
+    right: 62px;
+    width: 0; 
+    height: 0; 
+    border-left: 36px solid transparent;
+    border-right: 36px solid transparent;
+    border-bottom: 20px solid black;
+    transform: rotate(350deg)
+}
+.top-ear{
+    position: relative;
+    right: 77px;
+    top: 18px;
+    width: 0; 
+    height: 0; 
+    border-left: 60px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 30px solid black;
+    transform: rotate(270deg);
 }

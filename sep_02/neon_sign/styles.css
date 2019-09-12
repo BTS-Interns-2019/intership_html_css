@@ -7,6 +7,7 @@ body{
     margin: 100px auto;
     border: 5px solid white;
     box-shadow: 1px 0px 10px 5px rgba(95,165,245,1);
+    animation: shineBorder  1s infinite ease-in;
 }
 
 .text{
@@ -16,4 +17,28 @@ body{
     font-size: 200px;
     text-decoration: underline;
     font-family: 'Lobster',cursive,sans-serif;
+    transition: font-size, .1s ease;
+    animation: shine  1s infinite ease-in;
+}
+.text:hover{
+    font-size: 190px;
+}
+
+@keyframes shine {
+    from{
+       
+        text-shadow: 5px 2px 20px  #C5C5C5 , 10px 5px 10px   #93ddff;
+    }
+    to{
+        text-shadow: 5px 2px 20px  #93ddff , 10px 5px 10px   #11396c;
+    }
+}
+@keyframes shineBorder {
+    from{
+       
+        box-shadow: 5px 2px 20px  #C5C5C5;
+    }
+    to{
+        box-shadow: 1px 0px 10px 5px rgba(95,165,245,1);
+    }
 }

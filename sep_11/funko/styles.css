@@ -1,0 +1,290 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.flex {
+  display: flex;
+}
+
+.main-container {
+  align-items: center;
+  justify-content: center;
+}
+
+/* Gandalf */
+.gandalf {
+  width: 400px;
+  height: 520px;
+  background-color: brown;
+  position: relative;
+}
+
+/* Hat */
+.hat {
+  position: absolute;
+  left: 10px;
+  height: 210px;
+  width: 380px;
+}
+
+.hat .cover-up {
+  position: absolute;
+  border: 50px solid transparent;
+  z-index: 1;
+}
+
+.hat .cover-up-1 {
+  border-left: 50px solid brown;
+  transform: rotate(90deg);
+  left: 187px;
+}
+
+.hat .cover-up-2 {
+  border-right: 50px solid brown;
+  transform: rotate(44deg);
+  left: 60px;
+  top: -49px;
+}
+
+.hat .cone {
+  position: absolute;
+  width: 123px;
+  height: 120px;
+}
+
+.hat .top {
+  width: 20px;
+  height: 25px;
+  background-color: #7a848e;
+  border-radius: 7px;
+  position: absolute;
+  top: -7px;
+  left: 176px;
+  transform: perspective(15px) rotateX(55deg);
+}
+
+.hat .cone-1 {
+  left: 66px;
+  background-image: linear-gradient(277deg, #7a848e 7%, transparent 41%), linear-gradient(312deg, #555C62 52%, transparent 45%),
+  linear-gradient(314deg, #7a848e 51%, transparent 0);
+}
+
+.hat .cone-2 {
+  right: 75px;
+  background-image: linear-gradient(68deg, #78808b 10%, #7a848e 26%, transparent 40%),
+  linear-gradient(57deg, #7a848e 15%, #989fa9 36%, transparent 47%), 
+  linear-gradient(46deg, #7a848e 51%, transparent 0);
+}
+
+.hat .bottom {
+  position: absolute;
+  bottom: 10px;
+  border-radius: 50%;
+  height: 110px;
+  width: 100%;
+  background-image: radial-gradient(ellipse at 50% 60%, #706f74 62%, #5e5d65 72% , #2e2e2e 75%);
+  border-top: 1px solid rgba(89, 87, 88, 0.25);
+}
+
+/* Head */
+.head {
+  width: 255px;
+  height: 170px;
+  background-image: linear-gradient(85deg, #d19485 20%, #e5a595 40%, transparent 55%),   linear-gradient(85deg, #eea796, #f4b8a8);
+  position: absolute;
+  top: 130px;
+  left: 70px;
+  border-radius: 25px;
+  transform: perspective(100px) rotateX(3deg);
+  box-shadow: 0px -1px 3px 2px #4e4139;
+}
+
+.sideburns {
+  width: 20px;
+  height: 185px;
+  background-color: #c4c0bf;
+  position: absolute;
+}
+
+.sideburn-1-front {
+  left: -1px;
+  top: 2px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 10px;
+  transform: skewY(-10deg);
+  z-index: 1;
+  background-image: linear-gradient(272deg, #b7a5a1 25%, transparent 60%);
+}
+
+.sideburn-1-back {
+  height: 50px;
+  top: 80%;
+  left: -3px;
+  transform: rotate(6deg);
+  width: 15px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.sideburn-2-front {
+  right: -1px;
+  top: 2px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 10px;
+  transform: skewY(10deg);
+  background-image: linear-gradient(89deg, #b7a5a1 2%, transparent 25%);
+}
+
+.sideburn-2-back {
+  height: 50px;
+  top: 81%;
+  right: -3px;
+  transform: rotate(-6deg);
+  width: 15px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.eyebrow {
+  position: relative;
+}
+
+.eyebrow .portion {
+  width: 20px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #c4c0bf;
+  box-shadow: -1px -5px 7px -3px #7f7f7f;
+  
+  position: absolute;
+}
+
+.eyebrow-1 .portion-1 {
+  left: 34px;
+  top: 9px;
+  transform: rotate(-110deg) skewY(-20deg);
+}
+
+.eyebrow-1 .portion-2 {
+  left: 40px;
+  top: 8px;
+  transform: rotate(-65deg) skewY(-10deg);  
+}
+
+.eyebrow-1 .portion-3 {
+  left: 50px;
+  top: 7px;
+  transform: rotate(-45deg) skewY(-10deg);
+}
+
+.eyebrow-1 .portion-4 {
+  left: 60px;
+  top: 9px;
+  transform: rotate(-25deg) skewY(-10deg);
+}
+
+.eyebrow-2 .portion-1 {
+  right: 34px;
+  top: 9px;
+  transform: rotate(110deg) skewY(-20deg);
+}
+
+.eyebrow-2 .portion-2 {
+  right: 40px;
+  top: 8px;
+  transform: rotate(65deg) skewY(-10deg);  
+}
+
+.eyebrow-2 .portion-3 {
+  right: 50px;
+  top: 7px;
+  transform: rotate(45deg) skewY(-10deg);
+}
+
+.eyebrow-2 .portion-4 {
+  right: 60px;
+  top: 9px;
+  transform: rotate(25deg) skewY(-10deg);
+}
+
+.eye {
+  height: 45px;
+  width: 45px;
+  background-color: #020001;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+}
+
+.eye-1 {
+  left: 30px
+}
+
+.eye-2 {
+  right: 30px;
+}
+
+.eye-shine {
+  height: 8px;
+  width: 5px;
+  background-color: rgba(255, 255, 255, 0.45);
+  border-radius: 50%;
+  transform: rotate(340deg);
+  position: absolute;
+  top: 25px;
+  left: 11px;
+  box-shadow: 0px 0px 15px 5px #fff;
+}
+
+.nose {
+  width: 24px;
+  height: 22px;
+  position: absolute;
+  top: 78px;
+  left: 115px;
+}
+
+.nose .left {
+  height: 20px;
+  top: 4px;
+  left: 5px;
+  position: absolute;
+  border: 13px solid transparent;
+  border-top-color: #d19485;
+  transform: rotate(-29deg) skewY(-40deg);
+}
+
+.nose .right {
+  position: absolute;
+  top: 4px;
+  right: 3px;
+  height: 20px;
+  border: 13px solid transparent;
+  border-top-color: #f3b5a5;
+  transform: rotate(28deg) skewY(40deg);
+}
+
+.nose .bottom {
+  position: absolute;
+  top: -18px;
+  right: 1px;
+  height: 20px;
+  border: 10px solid transparent;
+  border-bottom-color: #eeab90;
+}
+
+.beard {
+  width: 250px;
+  height: 65px;
+  background-color: #cac4c4;
+  position: absolute;
+  top: 120px;
+  left: 5px;
+  z-index: 1;
+}

@@ -61,13 +61,13 @@ text-align: right;
 }
 
 .signin button{
+    text-align: right;
     background-color: #fff;
     color: #444;
     border: 0;
     height: 32px;
     padding-left: 13px;
-    padding-right: 13px;
-    text-align: center;
+    padding-right: 13px; 
     vertical-align: top;
 }
 

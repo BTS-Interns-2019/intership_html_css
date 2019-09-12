@@ -1,0 +1,93 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin:0px;
+    border: 0px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-items: center; */
+    height: 100%;
+    width: 100%;
+}
+
+.baymax{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+}
+
+.cabeza{
+    position: relative;
+    background-color: white;
+    height: 120px;
+    width: 170px;
+    margin-left: 165px;
+    margin-top: 50px;
+    border-radius: 29px;
+}
+
+.blcabeza{
+    position:absolute;
+    height: 80px;
+    width: 12px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.bizquierdo{
+    top:20px;
+    left: -4px}
+
+.bderecho{
+    top:20px;
+    right: -4px;
+}
+
+.baltura{
+    position: absolute;
+    height: 12px;
+    width: 125px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.barriba{
+    left: 20px;
+    top: -5px;
+}
+
+.babajo{
+left: 20px;
+bottom: -5px;
+}
+
+.eyes{
+    position: absolute;
+    top: 25px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.eyeleft{
+    left:15px;
+}
+
+.eyeright{
+    right: 15px;
+}
+
+.mouth{
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    top: 47px;
+    left: 35px;
+}

@@ -1,0 +1,115 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    border: none;
+}
+
+.todos{
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+/* --------------------------pequeño----------------------------------- */
+@media screen and (max-width: 39.9375em) {
+    .primer{
+        background-color: #2ED2E8;
+        background-image:url(./ba1.png);
+        background-size: 200px 200px;
+    }
+
+    .segundo{
+        background-color: #1979FF;
+        background-image:url(./blue1.png);
+        background-size: 200px 200px;
+    }
+
+    .tercero{
+        background-color: #5E4105;
+        background-image:url(./brown1.png);
+        background-size: 200px 200px;
+    }
+
+    .cuarto{
+        background-color: #00FFBE;
+        background-image:url(./f1.png);
+        background-size: 200px 200px;
+    }
+
+    .quinto{
+        background-color: #A6FFE4;
+        background-image:url(./ping1.png);
+        background-size: 200px 200px;
+    }
+}
+
+/* -------------------------------mediano-------------------------------------- */
+@media screen and (min-width: 40em) {
+    .primer{
+        background-color: #3FB6FF;
+        background-image:url(./ba2.png);
+        background-size: 250px 250px;
+    }
+
+    .segundo{
+        background-color: #0C2DE8;
+        background-image:url(./blue2.png);
+        background-size: 250px 250px;
+    }
+
+    .tercero{
+        background-color: #693B05;
+        background-image:url(./brown2.png);
+        background-size: 250px 250px;
+    }
+
+    .cuarto{
+        background-color: #13BD92;
+        background-image:url(./f2.png);
+        background-size: 250px 250px;
+    }
+
+    .quinto{
+        background-color: #68BDA4;
+        background-image:url(./ping2.png);
+        background-size: 250px 250px;
+    }
+
+
+}
+
+/* -----------------------------------grande--------------------------------------------- */
+@media screen and (min-width: 64em) {
+    .primer{
+        background-color: #2E70E8;
+        background-image:url(./ba3.png);
+        background-size: 300px 300px;
+    }
+
+    .segundo{
+        background-color: #280DFF;
+        background-image:url(./blue3.png);
+        background-size: 300px 300px;
+    }
+
+    .tercero{
+        background-color: #521E00;
+        background-image:url(./brown3.png);
+        background-size: 300px 300px;
+    }
+    .cuarto{
+        background-color: #007054;
+        background-image:url(./f3.png);
+        background-size: 300px 300px;
+    }
+
+    .quinto{
+        background-color: #32705E;
+        background-image:url(./ping3.png);
+        background-size: 300px 300px;
+    }
+}

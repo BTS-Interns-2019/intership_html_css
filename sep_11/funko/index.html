@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +7,13 @@
     <title>Document</title>
 </head>
 <style>
-    .container {
+    body{
         position: relative;
-        
+    }
+    .container {
+        position: absolute;
+        top:13px;
+        transition: top 500ms;
     }
     .cabeza {
         width: 354px;
@@ -89,7 +92,7 @@
     }
 
     .oreja-der {
-        left: 345px
+        left: 352px
     }
 
     .nariz {
@@ -178,6 +181,7 @@
         top:400px;
         left: 95px;
         border: solid 1px black;
+        box-shadow: #00000077 2px 2px 2px 2px;
         
     }
     .lateral{
@@ -187,22 +191,90 @@
         background-color: rgb(196,152,57);
         position: absolute;
         top:410px;
-        
         border: solid 1px black;
-        opacity: 1;
     }
     .lateral-izq{
         left: 45px;
     }
     .lateral-der{
-        left:314px;
+        left:316px;
         transform: rotateZ(180deg);
     }
     .respaldo{
-    
+        background:linear-gradient(rgb(196,152,57), black,black) ;
+        border-radius: 35px 35px 0 0;
+        width: 220px;
+        height: 155px;
+        position: absolute;
+        left:95px;
+        top:315px;
+        opacity: 1;
+        z-index: -1;
+    }
+    .brazo{
+        position: absolute;
+        top: -3px;
+        z-index: 2;
+    }
+    .brazo-izq{
+        left: -24px;
+    }
+    .brazo-der{
+        left: 120px;
+        transform: rotateY(180deg);
+    }
+    .antebrazo{
+        width: 49px;
+        height: 95px;
+        border-radius: 42%;
+        background-color: rgb(94,120,55);
+        border-bottom: solid 1px black;
+        transform: rotateZ(45deg);
+        transition: transform 500ms;       
+    }
+    .manga{
+        width: 36px;
+        height: 29px;
+        background-color: rgb(80, 99, 43);
+        background: linear-gradient(rgb(94,120,55),rgb(80, 99, 43));
+        position: absolute;
+        transform: skew(12deg,341deg);
+        border-radius: 26%;
+        top:79px;
+        left:10px;
+
+    }
+    .mano{
+        width: 30px;
+        height: 56px;
+        background-color: rgb(213, 179, 152);
+        position: absolute;
+        border-radius: 0 0 50% 50%;
+        top:24px;
+        left:0px;
     }
     .molde{
-        opacity: .4;
+        opacity: 0;
+    }
+    .sombra{
+        width: 0px;
+        height: 0px;
+        border-radius: 60%;
+        box-shadow: #000000CC 20px 15px 15px 15px;
+        background: radial-gradient(black, gray);
+        position: absolute;
+        top:675px;
+        left:175px;
+        transition: box-shadow 2s;
+    }
+    .container:hover{
+        top:0px;
+    }
+    .container:hover ~ .sombra{
+        box-shadow: #000000CC 20px 15px 20px 20px;
+    }
+    .antebrazo:hover{
+       transform: rotateZ(180deg);
     }
 </style>
 
@@ -210,7 +282,6 @@
     <div class="container">
         <img src="x1.png" alt="" width="400px" class="molde">
         <div class="cabeza">
-    
     <svg class="ceja ceja-izq" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="3.235294117647072 4.102941176470665 89.5 30" width="85.5" height="26"><path d="M16.24 19.1L29.74 15.1L35.74 19.1L45.74 22.1L57.24 25.1L71.74 31.1L85.74 31.1L89.74 25.1L83.74 25.1L77.24 22.1L69.74 17.6L61.74 17.6L53.24 17.6L44.24 13.1L35.74 9.1L29.74 5.1L20.24 5.1L13.24 9.1L10.24 15.1L5.74 22.1L4.24 29.1L10.24 26.6L16.24 19.1Z" id="afgD2S4NB"></path></svg>
     <svg class="ceja ceja-der" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="3.235294117647072 4.102941176470665 89.5 30" width="85.5" height="26"><path d="M16.24 19.1L29.74 15.1L35.74 19.1L45.74 22.1L57.24 25.1L71.74 31.1L85.74 31.1L89.74 25.1L83.74 25.1L77.24 22.1L69.74 17.6L61.74 17.6L53.24 17.6L44.24 13.1L35.74 9.1L29.74 5.1L20.24 5.1L13.24 9.1L10.24 15.1L5.74 22.1L4.24 29.1L10.24 26.6L16.24 19.1Z" id="afgD2S4NB"></path></svg>
     <div class="ojo ojo-izq">
@@ -230,12 +301,27 @@
         <div class="camisa cam-der"></div>
         <div class="corbata-cir"></div>
         <div class="corbata"></div>
+        <div class="brazo brazo-izq">
+            <div class="antebrazo">
+                <div class="manga">
+                    <div class="mano"></div>
+                </div>
+            </div>
+        </div>
+        <div class="brazo brazo-der">
+            <div class="antebrazo">
+                <div class="manga">
+                    <div class="mano"></div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="silla"></div>
     <div class="lateral lateral-izq"></div>
     <div class="lateral lateral-der"></div>
     <div class="respaldo"></div>
 </div>
+<div class="sombra"></div>
 </body>
 
 </html>

@@ -9,61 +9,72 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* justify-items: center; */
     height: 100%;
     width: 100%;
 }
 
 .baymax{
+    position: relative;
+    text-align: center;
     height: 500px;
     width: 500px;
     background-color: black;
 }
 
+
+/* ------------------------cabeza-------------------------- */
+
 .cabeza{
     position: relative;
-    background-color: white;
+    /* background-image: radial-gradient(white 65%, #aaa 90%); */
+    background-color: #fff;
     height: 120px;
     width: 170px;
-    margin-left: 165px;
+    margin: auto;
     margin-top: 50px;
-    border-radius: 29px;
+    border-radius: 20px;
 }
 
 .blcabeza{
     position:absolute;
-    height: 80px;
-    width: 12px;
+    height: 100px;
+    width: 25px;
     background-color: white;
     border-radius: 50%;
 }
 
 .bizquierdo{
-    top:20px;
-    left: -4px}
+    top:10px;
+    left: -7px;
+    /* background-image:linear-gradient(to left, white , #aaa 50%); */
+}
 
 .bderecho{
-    top:20px;
-    right: -4px;
+    top:10px;
+    right: -7px;
+    /* background-image:linear-gradient(to right, white, #aaa 50%); */
 }
 
 .baltura{
     position: absolute;
-    height: 12px;
-    width: 125px;
+    height: 25px;
+    width: 150px;
     background-color: white;
     border-radius: 50%;
 
 }
 
 .barriba{
-    left: 20px;
-    top: -5px;
+    left: 10px;
+    top: -9px;
+    /* background-image:linear-gradient(to top, white, #aaa 50%); */
+
 }
 
 .babajo{
-left: 20px;
-bottom: -5px;
+left: 10px;
+bottom: -9px;
+/* background-image:linear-gradient(to bottom, white, #aaa 50%); */
 }
 
 .eyes{
@@ -72,7 +83,9 @@ bottom: -5px;
     height: 40px;
     width: 40px;
     border-radius: 100%;
-    background-color: black;
+    /* background-color: black; */
+    background-image: radial-gradient(circle at top right, white, black 50%);
+    z-index: 1;
 }
 
 .eyeleft{
@@ -90,4 +103,222 @@ bottom: -5px;
     background-color: black;
     top: 47px;
     left: 35px;
+    z-index: 0;
+}
+
+
+/* ----------------------cuerpo----------------------------- */
+
+.cuerpo{
+    position: relative;
+    /* background-image: radial-gradient(white 68%, #aaa); */
+    background-color: white;
+    height: 180px;
+    width: 125px;
+    margin: auto;
+    margin-top: 4px;
+    border-radius: 30px;
+}
+
+
+.clado{
+    position:absolute;
+    height: 143px;
+    width: 30px;
+    background-color: white;
+    border-radius: 60%;
+}
+
+.cizquierdo{
+    top:20px;
+    left: -10px;
+    /* background-image:linear-gradient(to left, white, #aaa); */
+}
+
+.cderecho{
+    top:20px;
+    right: -10px;
+    /* background-image:linear-gradient(to right, white, #aaa); */
+}
+
+.cabajo{
+    position: absolute;
+    width: 95px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:white;
+    bottom: -3px;
+    left: 15px;
+}
+
+
+/* -------------------brazo izquierdo------------------------- */
+
+.brazos{
+    position: absolute;
+    background-color: white;
+    height: 150px;
+    width: 50px;
+    top: 160px;
+
+
+border-bottom-left-radius: 20px 50px; 
+border-bottom-right-radius: 20px 50px;
+}
+
+
+.brazoizquierdo{
+    border-top-left-radius: 30px 50px;
+    left: 155px;
+    transform: rotate(30deg);
+}
+
+.brazoderecho{
+    border-top-right-radius: 30px 50px;
+    right: 155px;
+    transform: rotate(-30deg);
+}
+
+.dedoi1{
+    position: absolute;
+    height: 11px;
+    width: 20px;
+    background-color: white;
+    bottom:-5px;
+    left: 10px;
+    border-radius: 20px;
+    transform: rotate(80deg);
+}
+.dedoi2{
+    position: absolute;
+    height: 12px;
+    width: 20px;
+    background-color: white;
+    bottom:-2px;
+    left: 25px;
+    border-radius: 15px;
+    transform: rotate(60deg);
+}
+
+
+.dedod1{
+    position: absolute;
+    height: 11px;
+    width: 20px;
+    background-color: white;
+    bottom:-5px;
+    right: 10px;
+    border-radius: 20px;
+    transform: rotate(-80deg);
+}
+.dedod2{
+    position: absolute;
+    height: 12px;
+    width: 20px;
+    background-color: white;
+    bottom:-2px;
+    right: 25px;
+    border-radius: 15px;
+    transform: rotate(-60deg);
+}
+
+.manchabrazoder{
+    position: absolute;
+    width: 10px;
+    height: 70px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: lightgray;
+    bottom:50px;
+    right:-10px;
+    z-index: 2;
+}
+
+.manchabrazoizq{
+    position: absolute;
+    width: 10px;
+    height: 70px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: lightgray;
+    bottom:50px;
+    left:-10px;
+    z-index: 2;
+}
+
+
+
+
+/* ------------piernas-------------- */
+
+.piernas{
+    background-color: white;
+    position: absolute;
+    height: 90px;
+    width: 70px;
+    border-top-left-radius: 20px 80px;
+    border-top-right-radius: 20px 80px;
+    top:320px;
+}
+
+.pizquierda{
+    left: 175px;
+    transform: rotate(10deg);
+    border-bottom-left-radius: 20px 80px; 
+    border-bottom-right-radius: 20px 80px;
+}
+
+.piderecha{
+    right:175px;
+    transform: rotate(-10deg);
+    border-bottom-left-radius: 20px 80px;  
+    border-bottom-right-radius: 20px 80px;
+}
+
+.manchapies{
+    position: absolute;
+    height: 10px;
+    width: 50px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    background-color: lightgray;
+    bottom:1px;
+    left:10px;
+}
+
+.mancha2{
+    position: absolute;
+    height: 18px;
+    width: 30px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    background-color: lightgray;
+    bottom:1px;
+    left:20px;
+}
+
+
+.manchapiernaizq{
+    position: absolute;
+    width: 5px;
+    height: 40px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: lightgray;
+    bottom:20px;
+    left:0px;
+    z-index: 2;
+}
+
+
+.manchapiernader{
+    position: absolute;
+    width: 5px;
+    height: 40px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: lightgray;
+    bottom:20px;
+    right:0px;
+    z-index: 2;
 }

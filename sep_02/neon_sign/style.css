@@ -13,5 +13,28 @@ body{
     font: 400 19vh 'Vibur';
     color: #fee;
     text-shadow:0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+    animation: blink infinite 3s  ;
 }
 
+
+
+
+@keyframes blink {
+
+    69%{
+        color: inherit;
+        text-shadow: inherit;
+    }
+    70%{
+        color:#333;
+    }
+    71%{
+        text-shadow: none;
+    }
+    72%{
+        color: inherit;
+        text-shadow: inherit;
+    }
+
+
+}

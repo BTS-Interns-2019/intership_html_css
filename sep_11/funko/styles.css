@@ -590,6 +590,7 @@ body {
   height: 85px;
   width: 100px;
   position: absolute;
+  top: 3px;
 }
 
 .arm.arm-left {
@@ -603,7 +604,7 @@ body {
   width: 53px;
   height: 40px;
   border-radius: 10px;
-  top: -7px;
+  top: -4px;
 }
 
 .hand.hand-left {

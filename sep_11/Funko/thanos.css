@@ -100,9 +100,24 @@ html {
     border: 3px solid #75172f;
     position: absolute;
     background: linear-gradient(#4a151f, #75172f, #641727, #692436);
+    box-shadow: 0px 3px 10px 7px rgba(0,0,0,0.80);
     margin-top: 165px;
     margin-left: -80px;
     z-index: 6;
+}
+
+.ojo1som {
+    box-sizing: border-box;
+    width: 95px;
+    height: 30px;
+    transform: rotate(5deg) scale(1.3,1.2);
+    border-radius: 0% 50%/ 0% 100%; 
+    border: 3px solid #000;
+    position: absolute;
+    background: #000;
+    margin-top: 165px;
+    margin-left: -80px;
+    z-index: 5;
 }
 
 .ojo2 {
@@ -114,9 +129,25 @@ html {
     border: 3px solid #75172f;
     position: absolute;
     background: linear-gradient(#4a151f, #75172f, #641727, #692436);
+    box-shadow: 0px 3px 10px 7px rgba(0,0,0,0.80);
     margin-top: 135px;
     margin-left: 75px;
     z-index: 6;
+}
+
+.ojo2som {
+    box-sizing: border-box;
+    width: 25px;
+    height: 95px;
+    transform: rotate(85deg)  scale(1.5,1.2);
+    border-radius: 0% 100%/ 0% 50%; 
+    border: 3px solid #000;
+    position: absolute;
+    background: #000;
+    /*box-shadow: 0px 3px 10px 7px rgba(0,0,0,0.80);*/
+    margin-top: 135px;
+    margin-left: 75px;
+    z-index: 5;
 }
 
 .nariz {
@@ -139,18 +170,128 @@ html {
     z-index: 6;
 }
 
+.risa,
+.risa:before,
+.risa:after {
+  position: relative;
+  display:block;
+    width:  38px;
+    height: 38px;
+    background: #000;
+    border-top-right-radius: 20px;
+    
+}
 .risa {
-    box-sizing: border-box; /*
-    transform: rotate(100deg) skew(35deg); 
-    border-right: 30px solid transparent;
-    border-top: 35px solid transparent;
-    border-left: 20px solid #fff;
-    border-bottom: 45px solid #fff; */
-    border-bottom: 40px solid #fff; 
-    border-left: 170px solid transparent;
-    position: absolute;
-    margin-top: 260px;
-    margin-left: 10px;
-    z-index: 6;
+  margin: 60px auto 0 auto;
+  transform: rotate(120deg) skewX(30deg) scale(.8,2);
+  position: absolute;
+    z-index: 10;
+    margin-top: 280px;
+    margin-left: 30px;
 }
 
+.risa:before,
+.risa:after {
+    content: '';
+    position: absolute;
+}
+.risa:before {
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+
+.risa:after {
+    transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+.risa2,
+.risa2:before,
+.risa2:after {
+  position: relative;
+  display:block;
+    width:  35px;
+    height: 35px;
+    background: #fff;
+    border-top-right-radius: 20px;
+    
+}
+.risa2 {
+  margin: 60px auto 0 auto;
+  transform: rotate(120deg) skewX(30deg) scale(.8,2);
+  position: absolute;
+    z-index: 11;
+    margin-top: 280px;
+    margin-left: 30px;
+}
+
+.risa2:before,
+.risa2:after {
+    content: '';
+    position: absolute;
+}
+.risa2:before {
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+
+.risa2:after {
+    transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+.dientes {
+    width: 45px;
+    position:absolute;
+    margin-top: 278px;
+    margin-left: 50px;
+}
+.diente1 {
+    position: absolute;
+    z-index: 15;
+    width: 100%;
+    height:30px;
+    outline:0px solid red;
+    background: linear-gradient(-45deg, transparent 75%, #fff 75%),
+                linear-gradient( 45deg, transparent 75%, #fff 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size:30px 30px, 30px 30px;
+}
+
+.diente2 {
+    position: absolute;
+    z-index: 14;
+    width: 100%;
+    height:30px;
+    margin-top: 5px;
+    border-top: 0px solid #000;
+    background: linear-gradient(-45deg, transparent 75%, #000 75%),
+                linear-gradient( 45deg, transparent 75%, #000 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size:30px 30px, 30px 30px;
+    
+}
+.diente3 {
+    position: absolute;
+    z-index: 13;
+    width: 100%;
+    height:5px;
+    background-color: #000;
+    
+}
+
+.cuerpo {
+    position: absolute;
+    width: 200px;
+    border-width: 150px 43px 0;
+    border-style: solid;
+    border-color: blue transparent;
+    margin-top: 350px;
+    background-image: linear-gradient(to right, #253147, #334867, #141c2f, #192030 );
+}
+
+.cuerpo:after {
+    transform: rotate(180deg);
+    content: "";
+    position: absolute;
+    left: 0px;
+    border-width: 0 100px 54px;
+    border-style: solid;
+    border-color: transparent transparent blue;
+}

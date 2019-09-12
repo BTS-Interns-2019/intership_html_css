@@ -9,7 +9,24 @@ p{
     text-align: center;
     border: 5px solid chartreuse;
     box-shadow: 5px 5px 20px chartreuse, 5px 5px 20px chartreuse;
+    animation: letrero 0.4s infinite;
+    transition: all 2s;
 }
 body{
     background-color: black;
+}
+
+@keyframes letrero{
+    from{
+        color:chartreuse;
+        box-shadow: 5px 5px 20px chartreuse, 5px 5px 20px chartreuse;
+        border: 5px solid chartreuse;
+        transform: scale(1);
+    }
+    to{
+        color: rgba(128, 255, 0, 0.205);
+        box-shadow: 5px 5px 20px rgba(128, 255, 0, 0.075), 5px 5px 20px rgba(128, 255, 0, 0.096);
+        border: 5px solid rgba(128, 255, 0, 0.144);
+        transform: scale(2);
+    }
 }

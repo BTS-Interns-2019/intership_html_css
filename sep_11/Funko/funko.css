@@ -739,7 +739,7 @@ border-bottom-left-radius: 3px;
 .sprite{
   width: calc(512px / 8);
   height: 85px;
-  animation: fire 1s 6s infinite steps(8) both, opacity 11s 7s both;
+  animation: fire 1s 6 s infinite steps(8) both, opacity 11s 7s both;
   /* animation-name: fire;
   animation-delay: 12s;
   animation-duration: 1s;

@@ -15,15 +15,13 @@ body {
     background-color: black;
     background-image: url("fondo.jpg");
     background-size: 100% 100%;
-    padding-top: (50% - 500px);
 }
 .todo {
     position: absolute;
-    padding: 0px;
-    margin: 5%;
-    width: 90%;
-    height: 90%;
-    margin-left: 150px;
+    width: 300px;
+    height: 465px;
+    left: 15%;
+    bottom: 3px;
 }
 .cabeza {
     width: 238px;
@@ -219,7 +217,11 @@ body {
 .pantalon2 {
     left: 163px;
     transform: rotateY(180deg);
-    animation: patea 1.5s ease-in infinite, patea2 3.5s ease-in 9s 1;
+/*    animation-name: patea;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;*/
+    animation: patea 1.5s ease-in infinite;
 }
 .calceta {
     position: absolute;    
@@ -289,12 +291,12 @@ body {
 }
 .apagador {
     position: absolute;
-    height: 36px;
-    width:  28px;
-    top: 317px;
-    left: 168px;
+    height: 6.9%;
+    width: 2.45%;
+    top: 60.4%;
+    left: 15.4%;
     background-color: transparent;
-    border: 1px solid black;
+    border: 0;
     z-index: 1;
 }
 
@@ -314,16 +316,6 @@ body {
 .nariz {
     background: linear-gradient(to bottom, rgb(255, 249, 96, .3)30%, rgb(242, 194, 0, .1) 90%, rgb(162, 130, 0, .9)99%), linear-gradient(to right, #A28200 5%, #F2C200, rgb(255, 249, 96, 1) 40%, rgb(255, 249, 96, 1) 60%, #F2C200 70%, #C2A200);
 }
-.toro {
-    position: absolute;
-    width: 222px;
-    height: 416px;
-    left: 350px;
-    bottom: 5px;
-    background-image: url("./toro.png");
-    background-size: 100%;
-    animation: caer .5s ease-in 0s 10s forwards;
-}
 
 /*eventos*/
 .apagador:active ~ .universo .todo .luz, .apagador:active ~ .universo, .apagador:active ~ .universo .todo {
@@ -338,8 +330,7 @@ body {
     background: linear-gradient(202deg, transparent 100%, black 0%);
 }
 
-
-}
+/*animaciones*/
 @keyframes patea {
     0% {
         height: 90px;
@@ -350,42 +341,7 @@ body {
         transform: rotateY(180deg) rotate(40deg) translateX(-42px) translateY(-20px);
     }
 }
-@keyframes patea2 {
-    0% {
-        height: 90px;
-        transform: rotateY(180deg);
-    }
-    15% {
-        top: 335px;
-        left: 200px;
-        height: 140px;
-        transform: rotateY(180deg) rotate(50deg) translateX(-42px) translateY(-20px);
-    }
-    20% {
-        top: 280px;
-        left: 260px;
-        height: 250px;
-        transform: rotateY(180deg) rotate(70deg) translateX(-42px) translateY(-20px);
-    }
-    65% {
-        top: 335px;
-        left: 200px;
-        height: 140px;
-        transform: rotateY(180deg) rotate(50deg) translateX(-42px) translateY(-20px);
-    }
-}
-@keyframes caer {
-    0% {
-        left: 350px;
-        bottom: 5px;
-    }
-    33% {
-        left: 450px;
-        bottom: 105px;
-    }
-    66% {
-        left: 550px;
-        bottom: 5px;
-    }
-}
+
+
+
 

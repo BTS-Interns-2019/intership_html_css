@@ -148,12 +148,12 @@ margin-left: 296px
     height: 150px;
     background-image: radial-gradient(#fce502 51%,rgb(177, 177, 51));
     border-radius: 0 103% / 0 103%;
-    margin-top: 57px;
-    margin-left: 220px;
+    margin-top: 69px;
+    margin-left: 213px;
     margin-bottom: 15px;
     position: absolute;
-   
-    transform: rotate(-15deg);
+
+    transform: rotate(-18deg);
   
     
     /* background-image: radial-gradient(#fce502 70%, rgb(177, 177, 51)); */
@@ -164,11 +164,14 @@ margin-left: 296px
   height: 150px;
   background-image: radial-gradient(#fce502 51%,rgb(177, 177, 51));
   border-radius: 0 103% / 0 103%;
-  margin-top: 61px;
-  margin-left: 484px;
+  margin-top: 207px;
+  margin-left: 477px;
   margin-bottom: 15px;
   position: absolute;
-  transform: rotate(71deg);
+  transform: rotate(-80deg);
+  animation: ear_anim 4s infinite 0s;
+  transform-origin: 0 0;
+  /* animation: ear_anim 4s infinite 0s; */
  
   /* background-image: radial-gradient(#fce502 70%, rgb(177, 177, 51)); */
 
@@ -223,8 +226,10 @@ margin-left: 296px
 	position: absolute;;
 	background-color: black;
     text-align: left;
-    margin-top: 68px;
-    margin-left: 204px;
+    margin-top: -3px;
+    margin-left:-5px;
+    z-index: 1;
+    /* animation: ear_anim 4s infinite 0s; */
 }
 .punta1:before,
 .punta1:after {
@@ -241,7 +246,7 @@ margin-left: 296px
 }
 
 .punta1 {
-	transform: rotate(-111deg) skewX(-30deg) scale(1,.866);
+	transform: rotate(-97deg) skewX(-30deg) scale(1,.866);
 }
 .punta1:before {
 	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
@@ -254,8 +259,9 @@ margin-left: 296px
 	position: absolute;;
 	background-color: black;
     text-align: left;
-    margin-top: 71px;
-    margin-left: 550px;
+    margin-top: 120px;
+    margin-left:73px;
+    z-index: 1;
 }
 .punta2:before,
 .punta2:after {
@@ -268,11 +274,12 @@ margin-left: 296px
 .punta2:after {
 	width:  2em;
 	height: 2em;
-	border-top-right-radius: 46%;
+    border-top-right-radius: 46%;
+    /* animation: ear_anim 4s infinite 0s; */
 }
 
 .punta2 {
-	transform: rotate(-143deg) skewX(-30deg) scale(1,.866);
+	transform: rotate(82deg) skewX(-30deg) scale(1,.866);
 }
 .punta2:before {
 	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
@@ -307,10 +314,11 @@ margin-left: 296px
     height: 0;
     border-right: 46px solid transparent;
     border-left: -22px solid transparent;
-    border-top: 47px solid #fce502;
+     border-top: 47px solid #fce502; 
     margin-top: 383px;
     margin-left: 508px;
     transform: rotate(24deg);
+   
     /* -webkit-transform: rotateZ(40deg);
     transform: rotateZ(40deg); */
 }
@@ -318,11 +326,12 @@ margin-left: 296px
     position: absolute;
     width: 77px;
     height: 11px;
-    border: 3px solid #fce502;
+    /* border: 3px solid #fce502; */
     background: #fce502;
      margin-top: 402px;
     margin-left: 459px;
     transform: rotate(142deg);
+   
     /* -webkit-transform: rotateZ(-45deg);
     transform: rotateZ(-45deg); */
 
@@ -334,10 +343,34 @@ margin-left: 296px
     transform: rotate(25deg);
     width: 80px;
     height: 175px;
-    background-color:#fce502;
+    background-image: radial-gradient(#fce502 67%, rgb(177, 177, 51));
     -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.pie1{
+    position: absolute;
+    width: 24px;
+    height: 50px;
+    /* -moz-border-radius: 0 94% / 0 101%;
+    -webkit-border-radius: 0 50% / 0 100%; */
+    border-radius: 0 105% / 0 101%;
+    background-image: radial-gradient(#fce502 67%, rgb(177, 177, 51));
+    top: 576px;
+    left: 606px;
+    transform: rotate(-74deg);
+}
+
+.pie2{
+    position: absolute;
+    width: 24px;
+    height: 50px;
+    border-radius: 0 102% / 0 101%;
+    background-image: radial-gradient(#fce502 67%, rgb(177, 177, 51));
+    top: 576px;
+    left: 731px;
+    transform: rotate(-70deg);
 }
 .pierna2{
      position: absolute;
@@ -347,7 +380,7 @@ margin-left: 296px
     width: 80px;
     height: 175px;
     transform: rotate(-32deg);
-    background-color:#fce502;
+    background-image: radial-gradient(#fce502 67%, rgb(177, 177, 51));
     -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
@@ -379,13 +412,14 @@ margin-left: 296px
 .ojo-brillo1{
     height: 8px;
     width: 5px;
-    background-color: rgba(255, 255, 255, -1.55);
+   
     border-radius: 50%;
     transform: rotate(340deg);
     position: absolute;
     top: 25px;
     left: 11px;
     box-shadow: 18px -8px 15px 5px #fff;
+    background-color: rgba(255, 255, 255, -1.55);
 }
 .ojo-brillo2{
     height: 8px;
@@ -425,5 +459,33 @@ margin-left: 296px
       transform: rotateZ(0deg);
     }
   }
+
+@keyframes ear_anim {
+
+	0% { 
+        transform: rotate(-80deg) ;
+     
+	}
+
+	3% {
+		transform: rotate(-80deg))
+	}
+
+	6% {
+		transform: rotate(-70deg) 
+	}
+
+	10% {
+		transform: rotate(-80deg) 
+	}
+
+	95% {
+		transform: rotate(-80deg)
+	}
+
+	100% {
+		transform: rotate(-70deg) 
+	}  
+
 
 

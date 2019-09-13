@@ -10,9 +10,11 @@
 html{
     height: 100%;
     width: 100%;
+    background-color: #272b36;
     background-image: url("http://pre08.deviantart.net/bea2/th/pre/i/2017/092/4/5/dark_margin___realm_of_darkness_by_thunder_b-db4g902.jpg");
     background-size: cover;
-    background-position-y: 700px;
+    background-repeat: no-repeat;
+    background-position-y: -300px;
 }
 body{
     height: 100%;

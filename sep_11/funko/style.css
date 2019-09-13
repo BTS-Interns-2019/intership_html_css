@@ -8,22 +8,28 @@ html, body{
 .main{
     width: 60%;
     height: 80%;
-    background-color: rgb(241, 241, 245);
+    background-image:url(blue);
     margin:auto;
     padding: 100px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(fondo.png);
 }
+
+
+
 .cara{
 position: relative;
 width: 220px;
 height: 187px;
-/* background-color: yellow; */
-/* background: -webkit-radial-gradient(60px 70px, circle farthest-side, yellow, rgb(168, 168, 31)); */
+/* background-color: #fce502; */
+/* background: -webkit-radial-gradient(60px 70px, circle farthest-side, #fce502, rgb(168, 168, 31)); */
 border-radius: 35px;
 border-top-left-radius: 70px;
 border-top-right-radius: 70px;
 margin:auto;
-background-image: radial-gradient(yellow 67%, rgb(177, 177, 51));
+background-image: radial-gradient(#fce502 67%, rgb(177, 177, 51));
 margin-top: 20%;
+margin-left: 296px
 }
 .ojo-izq{
     position: absolute;
@@ -63,7 +69,16 @@ margin-top: 20%;
     float: right;
     margin-top: 126px;
     background-image: radial-gradient(red 33%, rgb(201, 8, 8));
- 
+     /* -webkit-transition: background-image 0.8s ease-in-out;  */
+    transition: background-image 0.10s linear 0.02s;
+
+}
+
+.cara:hover .chachete-der{
+    background-image: radial-gradient(orange 30%, rgb(158, 84, 0));
+}
+.cara:hover .chachete-izq{
+    background-image: radial-gradient(orange 30%, rgb(158, 84, 0));
 }
 
 .chachete-izq{
@@ -73,7 +88,8 @@ margin-top: 20%;
     border-radius: 100px;
     margin-top: 126px;
     position: absolute;
-    background-image: radial-gradient(red 33%, rgb(161, 4, 4))
+    background-image: radial-gradient(red 33%, rgb(161, 4, 4));
+    transition: background-image 0.10s linear 0.02s;
 
 }
 
@@ -105,7 +121,7 @@ margin-top: 20%;
   .boca1{
     width: 45px;
     height: 33px;
-    background-color:yellow;
+    background-color:#fce502;
     border-radius: 100px;
     margin-top: -27px;
     /* position: absolute; */
@@ -116,7 +132,7 @@ margin-top: 20%;
   .boca2{
     width: 45px;
     height: 33px;
-    background-color:yellow;
+    background-color:#fce502;
     border-radius: 100px;
     margin-top: -28px;
     margin-left: 12px;
@@ -124,53 +140,37 @@ margin-top: 20%;
 
   }
 
-  /* .oreja1{
-    width: 102px;
-    height: 150px;
-    background-color: yellow;
-    border-radius:0 99% / 0 100%;
-    margin-top: 18px;
-    margin-left: 238px;
-    margin-bottom: 15px;
-    position: absolute;
 
-  } */
-
-  .punta-oreja{
-      position: absolute;
-    width: 30px;
-    height: 50px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #5cb85c;
-
-  }
+  
 
   .oreja1{
     width: 102px;
     height: 150px;
-    background-image: radial-gradient(yellow 51%,rgb(177, 177, 51));
+    background-image: radial-gradient(#fce502 51%,rgb(177, 177, 51));
     border-radius: 0 103% / 0 103%;
-    margin-top: 56px;
-    margin-left: 216px;
+    margin-top: 57px;
+    margin-left: 220px;
     margin-bottom: 15px;
     position: absolute;
+   
     transform: rotate(-15deg);
-    /* background-image: radial-gradient(yellow 70%, rgb(177, 177, 51)); */
+  
+    
+    /* background-image: radial-gradient(#fce502 70%, rgb(177, 177, 51)); */
   }
 
   .oreja2{
   width: 102px;
   height: 150px;
-  background-image: radial-gradient(yellow 51%,rgb(177, 177, 51));
+  background-image: radial-gradient(#fce502 51%,rgb(177, 177, 51));
   border-radius: 0 103% / 0 103%;
   margin-top: 61px;
   margin-left: 484px;
   margin-bottom: 15px;
   position: absolute;
   transform: rotate(71deg);
-  /* background-image: radial-gradient(yellow 70%, rgb(177, 177, 51)); */
+ 
+  /* background-image: radial-gradient(#fce502 70%, rgb(177, 177, 51)); */
 
   }
 
@@ -178,7 +178,7 @@ margin-top: 20%;
     position: absolute;
     width: 151px;
     height: 100px;
-    background: yellow;
+    background: #fce502;
     margin-top: 314px;
     margin-left: 336px;
     border-radius: 0 33% / 0 95%;
@@ -190,7 +190,7 @@ margin-top: 20%;
     width: 96px;
     height: 43px;
     border-radius: 50%;
-    background-image: radial-gradient(yellow 51%,rgb(177, 177, 51));
+    background-image: radial-gradient(#fce502 51%,rgb(177, 177, 51));
     margin-top: 372px;
     margin-left: 330px;
     transform: rotate(51deg);
@@ -201,7 +201,7 @@ margin-top: 20%;
     width: 96px;
     height: 43px;
     border-radius: 50%;
-    background-image: radial-gradient(yellow 51%,rgb(177, 177, 51));
+    background-image: radial-gradient(#fce502 51%,rgb(177, 177, 51));
     margin-top: 372px;
     margin-left: 403px;
     transform: rotate(123deg);
@@ -211,7 +211,7 @@ margin-top: 20%;
     position: absolute;
     width: 125px;
     height: 137px;
-    background: yellow;
+    background: #fce502;
     margin-top: 340px;
     margin-left: 348px;
     border-radius: 35px;
@@ -223,8 +223,8 @@ margin-top: 20%;
 	position: absolute;;
 	background-color: black;
     text-align: left;
-    margin-top: 67px;
-    margin-left: 201px;
+    margin-top: 68px;
+    margin-left: 204px;
 }
 .punta1:before,
 .punta1:after {
@@ -281,18 +281,25 @@ margin-top: 20%;
 	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
 }
 
+.colas{
+    animation: tailmove 3s ease infinite;
+}
 .cola1{
     position: absolute;
     width: 0px;
      height: 0px;
      border-right: 78px solid transparent;
      border-top: 115px solid transparent;
-     border-left: 43px solid yellow;
-     border-bottom: 33px solid yellow;
+     border-left: 43px solid #fce502;
+     border-bottom: 33px solid #fce502;
      margin-top: 355px;
     margin-left: 481px;
     transform: rotate(118deg);
+    -webkit-transform: rotateZ(-50deg);
+      transform: rotateZ(-242deg);
 }
+
+
 
 .cola2{
     position: absolute;
@@ -300,21 +307,96 @@ margin-top: 20%;
     height: 0;
     border-right: 46px solid transparent;
     border-left: -22px solid transparent;
-    border-top: 47px solid yellow;
+    border-top: 47px solid #fce502;
     margin-top: 383px;
     margin-left: 508px;
     transform: rotate(24deg);
+    /* -webkit-transform: rotateZ(40deg);
+    transform: rotateZ(40deg); */
 }
 .cola3{
     position: absolute;
     width: 77px;
     height: 11px;
-    border: 3px solid yellow;
-    background: yellow;
+    border: 3px solid #fce502;
+    background: #fce502;
      margin-top: 402px;
     margin-left: 459px;
     transform: rotate(142deg);
+    /* -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg); */
 
+}
+.pierna1{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 345px;
+    transform: rotate(25deg);
+    width: 80px;
+    height: 175px;
+    background-color:#fce502;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+.pierna2{
+     position: absolute;
+    margin-top: 335px;
+    margin-left: 391px;
+    transform: rotate(25deg);
+    width: 80px;
+    height: 175px;
+    transform: rotate(-32deg);
+    background-color:#fce502;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.pecho1{
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    background-color: #fce502;
+    border-radius: 100px;
+    margin-top: 340px;
+    margin-left: 343px;
+
+}
+
+.pecho2{
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    background-color: #fce502;
+    border-radius: 100px;
+    margin-top: 338px;
+    margin-left: 441px;
+ 
+
+}
+
+.ojo-brillo1{
+    height: 8px;
+    width: 5px;
+    background-color: rgba(255, 255, 255, -1.55);
+    border-radius: 50%;
+    transform: rotate(340deg);
+    position: absolute;
+    top: 25px;
+    left: 11px;
+    box-shadow: 18px -8px 15px 5px #fff;
+}
+.ojo-brillo2{
+    height: 8px;
+    width: 5px;
+    background-color: rgba(255, 255, 255, -1.55);
+    border-radius: 50%;
+    transform: rotate(340deg);
+    position: absolute;
+    top: 25px;
+    left: 11px;
+    box-shadow: 18px -8px 15px 5px #fff;
 }
 /* 
 .chachete-der:hover{
@@ -330,8 +412,18 @@ margin-top: 20%;
 } */
 
 
-@keyframes animacion{
-    from{
-        
+@keyframes tailmove{
+    0%{
+      transform: rotateZ(0deg);
     }
-}
+    
+    50%{
+      transform: rotateZ(3deg);
+    }
+    
+    100%{
+      transform: rotateZ(0deg);
+    }
+  }
+
+

@@ -1,16 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
 body {
-  padding: 250px;
+  padding: 200px;
   background: black;
 }
 
 h1 {
-  color: chartreuse;
+  color: lime;
   text-align: center;
   letter-spacing: 2px;
   text-decoration: underline;
-  text-shadow: -4px 4px 4px chartreuse, -8px 8px 8px yellow;
-  font-size: 50px;
+  font-size: 100px;
   font-family: 'Rubik', sans-serif;
+  animation: play 1s infinite;
+}
+
+@keyframes play {
+  0% {
+    text-shadow: -4px 4px 4px chartreuse, -8px 8px 8px yellow;
+  }
+
+  50% {
+    text-shadow: -2px 2px 4px chartreuse, -4px 4px 2px yellow;
+  }
+
+  100% {
+    text-shadow: -4px 4px 4px chartreuse, -8px 8px 8px yellow;
+  }
 }

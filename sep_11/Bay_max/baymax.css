@@ -11,6 +11,9 @@ html, body{
     align-items: center;
     height: 100%;
     width: 100%;
+    background-image: url(https://www.bighero6challenge.com/proyectos/proyecto26/Carreritas-por-SanFransokio-0000001_0.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .baymax{
@@ -18,7 +21,7 @@ html, body{
     text-align: center;
     height: 500px;
     width: 500px;
-    background-color: black;
+    background-color: none;
 }
 
 
@@ -33,6 +36,8 @@ html, body{
     margin: auto;
     margin-top: 50px;
     border-radius: 20px;
+    /* box-shadow: 12px 10px 20px; */
+    
 }
 
 .blcabeza{
@@ -75,6 +80,8 @@ html, body{
 left: 10px;
 bottom: -9px;
 /* background-image:linear-gradient(to bottom, white, #aaa 50%); */
+
+
 }
 
 .eyes{
@@ -101,7 +108,7 @@ bottom: -9px;
     width: 100px;
     height: 5px;
     background-color: black;
-    top: 47px;
+    top: 48px;
     left: 35px;
     z-index: 0;
 }
@@ -149,6 +156,24 @@ bottom: -9px;
     background-color:white;
     bottom: -3px;
     left: 15px;
+}
+
+.pantalla{
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    background-color: #e11;
+    right: 10px;
+    top: 35px;
+    opacity: 0;
+    border-radius: 10px;
+    transition: opacity 5s;
+
+}
+.pantalla img{
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -246,8 +271,64 @@ border-bottom-right-radius: 20px 50px;
     z-index: 2;
 }
 
+.logo{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: lightgray;
+    z-index: 3;
+    border: 1px solid black;
+    right:10px;
+    top:15px;
+}
 
+.linealogo1{
+    position:absolute;
+    width:7px;
+    height: 2px;
+    background-color: black;
+    top:12px;
+    left: 0px;
+}
 
+.linealogo2{
+    position:absolute;
+    width: 7px;
+    height: 2px;
+    background-color: black;
+    top:12px;
+    right:0px;
+}
+
+.linealogocentro{
+    position:absolute;
+    width: 6px;
+    height: 2px;
+    background-color: black;
+    top:16px;
+    right:12px;
+}
+
+.lineacderecha{
+    position:absolute;
+    width: 9px;
+    height: 2px;
+    background-color: black;
+    top:14px;
+    right:5px;
+    transform: rotate(-30deg);
+}
+
+.lineacizquierda{
+    position:absolute;
+    width: 9px;
+    height: 2px;
+    background-color: black;
+    top:14px;
+    left:5px;
+    transform: rotate(30deg);
+}
 
 /* ------------piernas-------------- */
 
@@ -322,3 +403,160 @@ border-bottom-right-radius: 20px 50px;
     right:0px;
     z-index: 2;
 }
+
+
+
+.blinkdertop{
+    right: 15px;
+}
+
+.blinkizqtop{
+    left: 15px;
+}
+
+
+.blink {
+    position: absolute;
+    height: 0px;
+    background-color: white;
+    width: 40px;
+    top: 22px;
+    animation: mymove 5s infinite;
+    z-index: 3;
+
+}
+
+
+
+.blinkderbot{
+    right: 15px;
+}
+
+.blinkizqbot{
+    left: 15px;
+}
+
+.blinkbot {
+    position: absolute;
+    height: 20px;
+    background-color: white;
+    width: 40px;
+    top: 67px;
+    animation: mymovedesplazo 5s infinite;
+    z-index: 3;
+
+}
+
+
+
+.baymax:hover .pantalla {
+opacity: 0.6;
+}
+
+
+@keyframes mymove {
+    from {height:0px;}
+        20%{height: 27px;}
+        30%{height:0px;}
+    to {height: 0px;}
+  }
+
+  @keyframes mymovedesplazo {
+    from {top:67px;}
+        20%{top: 53px;}
+        30%{top:67px;}
+    to {top: 67px;}
+  }
+
+
+
+  @keyframes drunk1 {
+    from {height:0px;}
+        20%{height: 27px;}
+        30%{height:0px;}
+        50%{height:27px;}
+    to {height: 0px;}
+  }
+
+  @keyframes drunk11 {
+    from {top:67px;}
+        20%{top: 53px;}
+        30%{top:67px;}
+        50%{top:53px;}
+    to {top: 67px;}
+  }
+
+  @keyframes drunk2 {
+    from {height:0px;}
+        10%{height:27px;}
+        20%{height: 0px;}
+        30%{height:27px;}
+        50%{height: 0px;}
+    to {height: 0px;}
+  }
+
+  @keyframes drunk22 {
+    from {top:67px;}
+        10%{top:53px;}
+        20%{top: 67px;}
+        30%{top:53px;}
+        50%{top:67px}
+    to {top: 67px;}
+  }
+
+
+  .baymax:hover .blinkdertop{
+    animation: drunk2 5s infinite ;
+  }
+
+  .baymax:hover .blinkderbot{
+  animation: drunk22 5s infinite;
+  }
+
+  .baymax:hover .blinkizqtop{
+    animation: drunk1 5s infinite;
+  }
+
+
+  .baymax:hover .blinkizqbot{
+    animation: drunk11 5s infinite;
+  }
+
+
+.dialogo {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+	position: absolute;
+	background: white;
+    border-radius: .4em;
+    height: 80px;
+    width: 120px;
+    top:50px;
+    right:10px;
+    animation:dialogotransition 10s infinite;
+    animation-delay: 5s;
+}
+
+@keyframes dialogotransition{
+    from{ opacity:0;}
+    80%{opacity:1;
+        transform: translateX(10px);}
+    to{opacity:0;}
+}
+
+
+.dialogo:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 9px solid transparent;
+	border-right-color: white;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -4.5px;
+	margin-left: -9px;
+}
+

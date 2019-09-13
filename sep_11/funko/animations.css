@@ -1,0 +1,142 @@
+/* Main container animations */
+@keyframes darken {
+  35% {
+    box-shadow: none;
+  }
+
+  50% {
+    box-shadow: inset 0px 200px 300px 100px rgba(0,0,0,0.75);
+  }
+
+  80% {
+    box-shadow: none;
+  }
+}
+
+/* Bubble speech animation */
+@keyframes bubble {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  5% {
+    opacity: 0.5;
+    transform: scale(0.15);
+  }
+
+  10% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  85% {
+    transform: scale(1);
+  }
+
+  90% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+/* Ring animations */
+@keyframes ring-roll {
+  from {
+    transform: translateX(1400px) rotate(0deg);
+  }
+
+  to {
+    transform: translateX(-100px) rotate(-360deg);
+  }
+}
+
+/* Gandalf animations */
+@keyframes hat-darken {
+  35% {
+    box-shadow: none;
+  }
+
+  50% {
+    box-shadow: inset 0px 20px 60px 0px rgba(0,0,0,0.75);
+  }
+
+  80% {
+    box-shadow: none;
+  }
+}
+
+@keyframes blink {
+  0% {
+    transform: scaleY(0);
+  }
+
+  5% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes eye-anger {
+  35% {
+    box-shadow: none;
+  }
+  
+  50% {
+    box-shadow: inset 0px 8px 15px 10px rgba(211,10,10,1);
+  }
+
+  80% {
+    box-shadow: none;
+  }
+}
+
+@keyframes eyebrow-1-anger {
+  35% {
+    transform: none;
+  }
+
+  50% {
+    transform: rotate(30deg) translateY(50px) translateX(40px)
+  }
+
+  80% {
+    transform: none;
+  }
+}
+
+@keyframes eyebrow-2-anger {
+  35% {
+    transform: none;
+  }
+
+  50% {
+    transform: rotate(-30deg) translateY(50px) translateX(-40px);
+  }
+
+  80% {
+    transform: none;
+  }
+}
+
+@keyframes face-anger {
+  35% {
+    box-shadow: 0px -1px 3px 2px #4e4139;
+  }
+
+  50% {
+    box-shadow: 0px -1px 3px 2px #4e4139, inset 0px 20px 60px 0px rgba(0,0,0,0.75);
+  }
+
+  80% {
+    box-shadow: 0px -1px 3px 2px #4e4139;
+  }
+}

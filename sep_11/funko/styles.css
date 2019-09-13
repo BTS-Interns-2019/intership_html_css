@@ -1,3 +1,6 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Amita:400,700&display=swap');
+
 html,
 body {
   margin: 0;
@@ -12,40 +15,58 @@ body {
 
 .main-container {
   justify-content: center;
-  padding-top: 15px;
   background-color: brown;
+  animation: darken 8s infinite both;
+}
+
+/* Bubble speech */
+.bubble-speech {
+  position: absolute;
+  left: 140px;
+  top: 10px;
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  font-family: "Amita", Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  border: 3px solid #000;
+  background-image: url("https://wallpapercave.com/wp/4c8xmGs.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  align-items: center;
+  animation: bubble 8s 14.4s infinite both;
+}
+
+.bubble-speech::after {
+  content: "";
+  border: 35px solid transparent;
+  position: absolute;
+  bottom: -10px;
+  right: -41px;
+  border-right: 35px solid #dcbc93;
+  transform: skew(10deg, 10deg) rotate(-35deg) translateX(-4px);
+}
+
+.bubble-speech h1 {
+  margin: 0;
+  text-align: center;
 }
 
 /* Gandalf */
 .gandalf {
   position: relative;
+  width: 500px;
+  height: 600px;
+  margin-top: 15px;
 }
 
 /* Hat */
 .hat {
   position: absolute;
-  left: 10px;
+  left: 75px;
   height: 210px;
   width: 380px;
-}
-
-.hat .cover-up {
-  position: absolute;
-  border: 50px solid transparent;
-  z-index: 1;
-}
-
-.hat .cover-up-1 {
-  border-left: 50px solid brown;
-  transform: rotate(90deg);
-  left: 187px;
-}
-
-.hat .cover-up-2 {
-  border-right: 50px solid brown;
-  transform: rotate(44deg);
-  left: 60px;
-  top: -49px;
 }
 
 .hat .cone {
@@ -54,27 +75,16 @@ body {
   height: 120px;
 }
 
-.hat .top {
-  width: 20px;
-  height: 25px;
-  background-color: #7a848e;
-  border-radius: 7px;
-  position: absolute;
-  top: -7px;
-  left: 176px;
-  transform: perspective(15px) rotateX(55deg);
-}
-
 .hat .cone-1 {
   left: 66px;
-  background-image: linear-gradient(277deg, #7a848e 7%, transparent 41%), linear-gradient(312deg, #555C62 52%, transparent 45%),
-  linear-gradient(314deg, #7a848e 51%, transparent 0);
+  background: linear-gradient(277deg, #7a848e 7%, transparent 22%), linear-gradient(312deg, #555C62 52%, transparent 53%),
+  linear-gradient(314deg, #7a848e 51%, transparent 52%);
 }
 
 .hat .cone-2 {
   right: 75px;
-  background-image: linear-gradient(68deg, #78808b 10%, #7a848e 26%, transparent 40%),
-  linear-gradient(57deg, #7a848e 15%, #989fa9 36%, transparent 47%), 
+  background-image: linear-gradient(68deg, #78808b 10%, #7a848e 26%, transparent 33%),
+  linear-gradient(57deg, #7a848e 15%, #989fa9 36%, transparent 43%), 
   linear-gradient(46deg, #7a848e 51%, transparent 0);
 }
 
@@ -86,6 +96,7 @@ body {
   width: 100%;
   background-image: radial-gradient(ellipse at 50% 60%, #706f74 62%, #5e5d65 72% , #2e2e2e 75%);
   border-top: 1px solid rgba(89, 87, 88, 0.25);
+  animation: hat-darken 8s infinite both;
 }
 
 /* Head */
@@ -95,10 +106,11 @@ body {
   background-image: linear-gradient(85deg, #d19485 20%, #e5a595 40%, transparent 55%),   linear-gradient(85deg, #eea796, #f4b8a8);
   position: absolute;
   top: 130px;
-  left: 70px;
+  left: 135px;
   border-radius: 25px;
   transform: perspective(100px) rotateX(3deg);
   box-shadow: 0px -1px 3px 2px #4e4139;
+  animation: face-anger 8s infinite both;
 }
 
 .hair .back-hair {
@@ -171,6 +183,7 @@ body {
 
 .eyebrow {
   position: relative;
+  z-index: 1;
 }
 
 .eyebrow .portion {
@@ -181,6 +194,14 @@ body {
   box-shadow: -1px -5px 7px -6px #7f7f7f;
   
   position: absolute;
+}
+
+.eyebrow-1 {
+  animation: eyebrow-1-anger 8s infinite both;
+}
+
+.eyebrow-2 {
+  animation: eyebrow-2-anger 8s infinite both;
 }
 
 .eyebrow-1 .portion-1 {
@@ -238,6 +259,8 @@ body {
   border-radius: 50%;
   position: absolute;
   top: 50px;
+  animation: blink 5s infinite both, 
+  eye-anger 8s infinite both;
 }
 
 .eye-1 {
@@ -508,10 +531,9 @@ body {
 .body {
   position: absolute;
   top: 315px;
-  left: 71px;
+  left: 135px;
   width: 250px;
   height: 270px;
-  /* background-color: #fff; */
 }
 
 .body .cape {
@@ -665,6 +687,40 @@ body {
   transform: perspective(500px) rotateX(-50deg);
 }
 
+.staff-wrinkle {
+  width: 2px;
+  height: 15px;
+  position: absolute;
+  background-color: #34231b;
+}
+
+.staff.long .staff-wrinkle-1 {
+  top: 120px;
+  height: 195px;
+  width: 1px;
+  left: 2px;
+}
+
+.staff.long .staff-wrinkle-2 {
+  top: 20px;
+  height: 50px;
+  left: 10px;
+}
+
+.staff.long .staff-wrinkle-3 {
+  top: 85px;
+  width: 1px;
+  left: 7px;
+  height: 75px;
+}
+
+.staff.long .staff-wrinkle-4 {
+  top: 60px;
+  width: 3px;
+  height: 25px;
+  left: 3px;
+}
+
 .staff.ellipse {
   top: -82px;
   left: 12px;
@@ -672,6 +728,33 @@ body {
   transform: perspective(500px) rotateX(5deg) rotate(9deg);
   height: 85px;
   width: 40px;
+}
+
+.staff.ellipse .staff-wrinkle-1 {
+  top: 25px;
+  width: 3px;
+  height: 49px;
+  transform: rotate(35deg);
+  left: 20px;
+  border-radius: 50%;
+}
+
+.staff.ellipse .staff-wrinkle-2 {
+  top: 10px;
+  width: 5px;
+  height: 55px;
+  transform: rotate(35deg);
+  left: 16px;
+  border-radius: 50%;
+}
+
+.staff.ellipse .staff-wrinkle-3 {
+  top: 2px;
+  width: 2px;
+  height: 39px;
+  transform: rotate(45deg);
+  left: 16px;
+  border-radius: 50%;
 }
 
 .staff.spike {
@@ -683,9 +766,48 @@ body {
   left: -60px;
 }
 
+.staff.spike .staff-wrinkle-1 {
+  top: -13px;
+  width: 3px;
+  border-radius: 50%;
+  transform: rotate(-15deg);
+  left: -18px;
+}
+
+.staff.spike .staff-wrinkle-2 {
+  top: -5px;
+  width: 4px;
+  border-radius: 50%;
+  height: 30px;
+  left: -12px;
+  transform: rotate(66deg);
+}
+
 .hand.hand-right {
   right: -85px;
   transform: rotate(-3deg);
+}
+
+.hand-right .finger {
+  height: 9px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  right: 0px;
+  box-shadow: 1px 0px 0px 0px #bf8776;
+}
+
+.hand-right .finger-2 {
+  top: 10px;
+}
+
+.hand-right .finger-3 {
+  top: 20px;
+}
+
+.hand-right .finger-4 {
+  top: 30px;
 }
 
 .hand-right .thumb {
@@ -810,4 +932,25 @@ body {
   right: -1px;
   top: 3px;
   transform: rotate(-28deg);
+}
+
+.ring {
+  position: absolute;
+  left: 0;
+  bottom: 25px;
+  width: 27px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #e8ad37;
+  align-items: center;
+  justify-content: center;
+  animation: ring-roll 8s linear infinite both;
+}
+
+.ring .inner {
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  background-color: brown;
+  box-shadow: inset 0px 0px 0px 2px rgba(172,102,11,1);
 }

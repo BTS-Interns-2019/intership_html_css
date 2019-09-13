@@ -5,16 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+  <link rel="stylesheet" href="animations.css">
   <link rel="stylesheet" href="styles.css">
   <title>Funko Gandalf</title>
 </head>
 <body class="main-container flex">
+  <div class="bubble-speech flex">
+    <h1>I, Gandalf the Grey, declare that the author SHALL PASS</h1>
+  </div>
+
   <!-- Main container -->
   <div class="gandalf">
     <div class="hat">
-      <div class="cover-up cover-up-1"></div>
-      <div class="cover-up cover-up-2"></div>
-      <div class="top"></div>
       <div class="cone cone-1"></div>
       <div class="cone cone-2"></div>
       <div class="bottom"></div>
@@ -119,17 +121,29 @@
         <div class="finger finger-4"></div>
         <div class="thumb"></div>
 
-        <div class="staff long"></div>
-        <div class="staff ellipse"></div>
+        <div class="staff long">
+          <div class="staff-wrinkle staff-wrinkle-1"></div>
+          <div class="staff-wrinkle staff-wrinkle-2"></div>
+          <div class="staff-wrinkle staff-wrinkle-3"></div>
+          <div class="staff-wrinkle staff-wrinkle-4"></div>
+        </div>
+        <div class="staff ellipse">
+          <div class="staff-wrinkle staff-wrinkle-1"></div>
+          <div class="staff-wrinkle staff-wrinkle-2"></div>
+          <div class="staff-wrinkle staff-wrinkle-3"></div>
+        </div>
       </div>
-      <div class="staff spike"></div>
+      <div class="staff spike">
+        <div class="staff-wrinkle staff-wrinkle-1"></div>
+        <div class="staff-wrinkle staff-wrinkle-2"></div>
+      </div>
 
       <div class="arm arm-right"></div>
       <div class="hand hand-right">
-        <div class="finger"></div>
-        <div class="finger"></div>
-        <div class="finger"></div>
-        <div class="finger"></div>
+        <div class="finger finger-1"></div>
+        <div class="finger finger-2"></div>
+        <div class="finger finger-3"></div>
+        <div class="finger finger-4"></div>
         <div class="thumb"></div>
       </div>
 
@@ -151,6 +165,11 @@
         <div class="spike"></div>
       </div>
     </div>
+  </div>
+
+  <!-- Ring -->
+  <div class="ring flex">
+    <div class="inner"></div>
   </div>
 </body>
 </html>

@@ -5,6 +5,12 @@ html body {
 /* #ffc641 eye shadow */
 /* #818286 */
 /* #ffc641 */
+body{
+	background-image: url(img/background.jpg);
+	background-size: cover;
+	background-position: center center
+	background-repeat: no-repeat;
+}
 .container {
   display: flex;
   justify-content: center;
@@ -668,7 +674,7 @@ border-bottom-left-radius: 3px;
   top: 530px;
   left: 95px;
   transform: rotate(0deg);
-  animation: recharge 2s ease-in 7s;
+  animation: recharge 1s ease-in 8s;
 }
 .shotgun{
   width: 350px;
@@ -708,10 +714,9 @@ border-bottom-left-radius: 3px;
   align-items: center;
   text-align: center;
   width: 400px;
-  height: 400px;
+  height: 200px;
   position: absolute;
-  background-image: url('img/dialogBox.png');
-  /* background-position: center; */
+  background-color: #fff;
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -719,6 +724,17 @@ border-bottom-left-radius: 3px;
   font-size: 40px;
   font-family: 'Anton', sans-serif;
   animation: speak 2s 10s both;
+  border-radius: 50%;
+}
+.dialog::before{
+	content: '';
+	border-bottom: 50px solid #fff;
+	border-right: 100px solid transparent;
+	/*border-left: : 50px solid transparent;*/
+	position: absolute;
+	top: 170px;
+	left: 20px;
+	transform: rotate(135deg);
 }
 .sprite{
   width: calc(512px / 8);
@@ -739,7 +755,7 @@ border-bottom-left-radius: 3px;
     transform: translate(0px);
   }
   50%{
-    transform: translate(15px);
+    transform: translate(17px);
   }
   100%{
     transform: translate(0px);

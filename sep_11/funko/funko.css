@@ -353,18 +353,9 @@ position: absolute;
     }
   }
 
-  .container {
-    background: url('https://i.kym-cdn.com/photos/images/newsfeed/000/639/420/094.gif') no-repeat center;
-    width: 300px;
-    height: 200px;
-    padding: 15% 0% 0% 15%
-  }
-
   .main-container {
     border: solid 1px transparent;
-   
-    animation: 
-    nudge 5s ease-in 2s 2 alternate;
+    animation: nudge 5s ease-in 2s 2 alternate;
   }
 
   @keyframes parpadeo {

@@ -4,11 +4,40 @@ body {
     margin:0;
 }
 
+.circulo{
+    border-radius: 50%;
+    width:400px;
+    height: 400px;
+    background-color: #b0bec5;
+    border: 30px solid #607d8b;
+    margin-left: 500px;
+    position:relative;
+    transform: translateY(100px);
+}
+.linea{
+    width:100px;
+    height: 400px;
+    background-color: #607d8b;
+    position: absolute;
+    top:0;
+    
+}
+.lin1{
+    left:149px;
+    transform: rotateZ(-45deg);
+}
+.lin2{
+    right: 149px;
+    transform: rotateZ(45deg);
+}
+
+
 .container {
     position: absolute;
     top: 13px;
     transition: top 500ms;
     animation: flotar 5s infinite;
+    margin-left:40px;
 }
 
 .cabeza {
@@ -292,7 +321,7 @@ body {
     box-shadow: #000000CC 40px 25px 45px 15px;
     background: radial-gradient(black, gray);
     position: absolute;
-    left: 175px;
+    left: 195px;
     animation: sombra-flotar 5s infinite;
 }
 

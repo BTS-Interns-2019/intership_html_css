@@ -337,19 +337,25 @@ body {
     top: 675px;
 }
 .ondas{
-    width: 70px;
-    height: 70px;
+    width: 35px;
+    height: 35px;
     position: absolute;
     top: -250px;
     border-radius: 50%;
     opacity:0;
     transition: all 2s 1s;
-    left:60px;
+    
+}
+.ondas-izq{
+    left:75px;
+}
+.ondas-der{
+    left:80px;
 }
 
 .antebrazo:hover ~ .ondas{
     opacity:.8;
-    transform: scale(2.5);
+    transform: scale(5);
     background: radial-gradient(circle,#9575cd ,#673ab701,#9575cd);
 }
 @keyframes flotar {

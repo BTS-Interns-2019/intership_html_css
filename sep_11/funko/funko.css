@@ -4,6 +4,7 @@ body, html {
     margin: 0;
     padding: 0;
     background: url('./pinguinos.jpg');
+    transition-property: unset
 }
 
 .menton {
@@ -190,7 +191,8 @@ position: absolute;
     border-bottom: 120px solid transparent;
     position: absolute;
     border-radius: 0 104% / 0 103%;
-    margin: 49% 0% 0% 113%;
+    margin: 89% 0% 0% 131%;
+    transform-origin: 0 0;
     transform: rotate(217deg);
 }
 
@@ -351,8 +353,16 @@ position: absolute;
     }
   }
 
+  .container {
+    background: url('https://i.kym-cdn.com/photos/images/newsfeed/000/639/420/094.gif') no-repeat center;
+    width: 300px;
+    height: 200px;
+    padding: 15% 0% 0% 15%
+  }
+
   .main-container {
     border: solid 1px transparent;
+   
     animation: 
     nudge 5s ease-in 2s 2 alternate;
   }
@@ -369,15 +379,23 @@ position: absolute;
 
   @keyframes saludo {
     0% {
-        transform: rotate(217deg);
+        transform: rotate(205deg);
+    }
+
+    20% {
+        transform: rotate(212deg);
       }
   
     50% {
-      transform: rotate(214deg);
+      transform: rotate(222deg);
+    }
+
+    50% {
+        transform: rotate(212deg);
     }
 
     100% {
-        transform: rotate(220deg)
+        transform: rotate(205deg)
     }
   }
 
@@ -386,10 +404,13 @@ position: absolute;
   }
 
   .aleta-dos-saludo {
-      animation: saludo 1s ease-out infinite 12s both,
+      animation: saludo 1s infinite 12s both,
       stretch 2s ease-out 2s alternate 3 running
   }
 
   .black-head, .aleta, .aleta-dos {
     animation: stretch 2s ease-out 2s alternate 3 running;
 }
+
+
+

@@ -8,7 +8,7 @@ body, html {
 }
 
 header {
-    background-color: #1877F2;
+    background-color: transparent;
     display: flex;
     padding: 12px;
     height: 10%;

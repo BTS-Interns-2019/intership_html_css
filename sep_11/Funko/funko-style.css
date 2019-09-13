@@ -14,13 +14,14 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     border: 1px solid blue;
 }
 main{
+    position: relative;
+    top: -80px;
     width: 450px;
     height: 100%;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -333,6 +334,17 @@ main{
     border-radius: 80% 15% 55% 50% / 55% 15% 80% 50%;
     transform: rotate(90deg);
 }
+.leg2 .thigh{
+    z-index: -1;
+    position: relative;
+    bottom: 770px;
+    right: 40px;
+    background: black 60%;
+    width: 60px;
+    height: 60px;
+    border-radius: 80% 15% 55% 50% / 55% 15% 80% 50%;
+    transform: rotate(180deg);
+}
 .leg1 .aux-thigh{
     position: relative;
     z-index: -2;
@@ -344,4 +356,121 @@ main{
     border-right: 30px solid transparent;/*right*/
     border-bottom: 50px solid black;/*Altura*/
     transform: rotate(134deg);
+}
+.leg2 .aux-thigh{
+    position: relative;
+    z-index: -2;
+    bottom: 835px;
+    right: 32px;
+    width: 88px;/*Anchra*/
+    height: 0;
+    border-left: 14px solid transparent;/*left*/
+    border-right: 30px solid transparent;/*right*/
+    border-bottom: 50px solid black;/*Altura*/
+    transform: rotate(46deg) rotateX(-180deg);
+}
+.leg1 .calf{
+    position: relative;
+    bottom: 650px;
+    left: 100px;
+    height: 60px;
+    width: 25px;
+    background: radial-gradient(ellipse at 13px 40px,rgb(20, 9, 49),black 40%);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transform: rotate(350deg);
+}
+.leg2 .calf{
+    position: relative;
+    bottom: 840px;
+    right: 30px;
+    height: 60px;
+    width: 28px;
+    background: radial-gradient(ellipse at 16px 40px,rgb(20, 9, 49),black 40%);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 15px;
+    transform: rotate(330deg);
+}
+.leg1 .shinel{
+    position: relative;
+    bottom: 728px;
+    left: 70px;
+    height: 25px;
+    width: 55px;
+    transform: rotate(50deg);
+    background: radial-gradient(rgb(20, 9, 49),transparent);
+}
+.leg2 .shinel{
+    position: relative;
+    bottom: 928px;
+    right: 40px;
+    height: 25px;
+    width: 55px;
+    transform: rotate(140deg);
+    background: radial-gradient(rgb(20, 9, 49),transparent);
+}
+.foot1 .p1{
+    position: relative;
+    bottom: 875px;
+    left: 82px;
+    border-bottom: 50px solid black;
+    border-left: 15px solid transparent;
+    border-right: 16px solid transparent;
+    height: 0;
+    width: 56px;
+    transform: rotate(355deg);
+}
+.foot2 .p1{
+    position: relative;
+    z-index: -1;
+    bottom: 977px;
+    border-top-right-radius: 15px;
+    right: 28px;
+    width: 30px;
+    height: 32px;
+    background: black;
+}
+.foot1 .p2{
+    position: relative;
+    bottom: 876px;
+    left: 85px;
+    border-bottom: 10px solid black;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+    height: 0;
+    width: 50px;
+    transform: rotate(175deg);
+}
+.foot2 .p2{
+    position: relative;
+    z-index: -2;
+    bottom: 1012px;
+    right: 90px;
+    height: 35px;
+    width: 70px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    background: black;
+    /*transform: rotate(175deg)*/;
+}
+.foot1 .shinef{
+    position: relative;
+    bottom: 934px;
+    left: 86px;
+    height: 30px;
+    width: 40px;
+    transform: rotate(90deg);
+    background: radial-gradient(rgb(20, 9, 49),transparent);
+}
+.foot2 .shinef{
+    position: relative;
+    bottom: 1045px;
+    right: 75px;
+    height: 30px;
+    width: 40px;
+    background: radial-gradient(rgb(20, 9, 49),transparent);
 }

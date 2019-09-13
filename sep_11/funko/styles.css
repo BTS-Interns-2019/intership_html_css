@@ -15,7 +15,9 @@ body {
 
 .main-container {
   justify-content: center;
-  background-color: brown;
+  background-image: url("img/hobbit-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   animation: darken 8s infinite both;
 }
 
@@ -940,8 +942,8 @@ body {
   bottom: 25px;
   width: 27px;
   height: 25px;
+  border: 7px solid #e8ad37;
   border-radius: 50%;
-  background-color: #e8ad37;
   align-items: center;
   justify-content: center;
   animation: ring-roll 8s linear infinite both;
@@ -951,6 +953,5 @@ body {
   width: 75%;
   height: 75%;
   border-radius: 50%;
-  background-color: brown;
-  box-shadow: inset 0px 0px 0px 2px rgba(172,102,11,1);
+  border: 3px solid rgba(172,102,11,1);
 }

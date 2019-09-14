@@ -47,7 +47,7 @@ p {
 .content .input, .content .check {
     padding: 1em;
     font-size: .6em;
-    
+    width: 220px;
     text-align: center;
 }
 ::placeholder {
@@ -57,9 +57,12 @@ p {
 .content .input:first-child {
     padding-top: 0;
 }
+/*.content label {
+    font-weight: bold;
+}*/
 .content .input input,  .content .input select{
     padding: .4em 0 .4em 1em;
-    width: 220px;
+    width: 100%;
     margin: 0;
     margin-top: .3em;
     border: 1px solid #CBCBCB;

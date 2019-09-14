@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsiveness.css">
+  <title>HTML/CSS Test</title>
+</head>
+<body>
+  <header class="header-container flex">
+    <img src="Icons/Blue Trail Software logotype - White background.svg" alt="Blue Trail Software Logo">
+  </header>
+  <main class="main-container">
+    <section class="heading">
+      <h1>We are happy to scale your team!</h1>
+      <p>Please enter the following information to know the details about the position you need.</p>
+    </section>
+
+    <section class="form-container">
+      <form action="#" class="form">
+        <div class="input-container position-container flex">
+          <label for="position-select">What kind of position you need?</label>
+          <select name="position" id="select-position" id="position-select">
+            <option value="" disabled selected>Please select a position</option>
+            <option value="full-stack">Full Stack Developer</option>
+            <option value="front-end">Front-end Developer</option>
+            <option value="back-end">Back-end Developer</option>
+            <option value="qa-manual">QA Manual</option>
+            <option value="qa-automation">QA Automation</option>
+          </select>
+        </div>
+  
+        <div class="input-container framework-container flex">
+          <label for="framework-select">Main framework or language required</label>
+          <select name="framework" id="select-framework" id="framework-select">
+            <option value="" disabled selected>Please select a framework</option>
+            <option value="cypress">Cypress</option>
+            <option value="robot">Robot Framework</option>
+            <option value="redwood">Redwood HQ</option>
+            <option value="sahi">Sahi</option>
+            <option value="galen">Galen Framework</option>
+            <option value="gauge">Gauge</option>
+            <option value="citrus">Citrus Framework</option>
+            <option value="karate">Karate-DSL</option>
+          </select>
+        </div>
+  
+        <div class="input-container experience-container flex">
+          <label for="experience-select">How many experience years?</label>
+          <select name="experience" id="select-experience" id="experience-select">
+            <option value="one-two">1 - 2 years</option>
+            <option value="three-four">3 - 4 years</option>
+            <option value="five-more">+ 5 years</option>
+          </select>
+        </div>
+      </form>
+    </section>
+
+    <section class="flow flex">
+      <div class="back-container">
+        <img src="Icons/Arrow.svg" alt="Arrow" class="arrow">
+        <a href="step-1.html">Back</a>
+      </div>
+
+      <button class="button next-button">
+        <a href="step-3.html">Next</a>
+      </button>
+    </section>
+  
+    <section class="dots">
+      <div class="dots-container flex">
+        <div class="dot"></div>
+        <div class="dot active"></div>
+        <div class="dot"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-container flex">
+    <section class="logo flex">
+      <img src="Icons/Blue Trail Software logotype - Dark background.svg" alt="Blue Trail Software Logo" class="footer-logo">
+    </section>
+
+    <section class="social flex">
+      <div class="social-link">
+        <a href="https://www.instagram.com/bluetrailsoft/" target="_blank">
+          <img src="Icons/Instagram.svg" alt="Instagram Logo" class="icon">
+        </a>
+      </div>
+
+      <div class="social-link">
+        <a href="https://twitter.com/bluetrailsoft" target="_blank">
+          <img src="Icons/Twitter.svg" alt="Twitter Logo" class="icon">
+        </a>
+      </div>
+
+      <div class="social-link">
+        <a href="https://www.facebook.com/BlueTrailSoftware" target="_blank">
+          <img src="Icons/Facebook.svg" alt="Facebook Logo" class="icon">
+        </a>
+      </div>
+    </section>
+
+    <section class="legal">
+      <p>All Rights Reserved 2018 <span class="bold">Blue Trail Software</span></p>
+    </section>
+  </footer>
+</body>
+</html>

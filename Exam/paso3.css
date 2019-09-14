@@ -57,6 +57,20 @@ main input[type=submit]{
     justify-content: center;
     align-items: center;
 }
+.blue-circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid rgb(23,31,94);
+    background: rgb(23,31,94);
+}
+.white-circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid rgb(23,31,94);
+    background: white;
+}
 footer{
     background: rgb(19, 48, 117);
     height: 100px;

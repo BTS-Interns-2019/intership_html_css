@@ -1,0 +1,124 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto';
+}
+main{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+    text-align: center;
+    height: 90%;
+}
+.logo-sup{
+margin-top:10px;
+}
+form h1, form h2, form .label, form .caja{
+    margin-top:20px;
+}
+h1{
+font-weight: normal;
+color: rgb(15,53,142);
+}
+h2{
+    font-weight: normal;
+}
+.label{
+    font-weight: bold;
+    display:block;
+}
+.text{
+padding-left: 10px;
+border:solid 2px rgb(190,190,190);
+border-radius: 5px;
+width: 301px;
+height: 42px;
+box-sizing: border-box;
+margin-top:5px;
+font-weight: bold;
+}
+.text::placeholder{
+    font-weight: normal;
+}
+select{
+    
+}
+.gris{
+    font-weight: normal;
+    color: rgb(190,190,190);
+    border-bottom: solid 1px rgb(190,190,190);
+}
+textarea{
+    border-radius: 5px;
+    border: solid 2px rgb(190,190,190);
+    margin-top:5px;
+    padding-left: 10px;
+}
+.next{
+    margin-top:50px;
+    color:white;
+    background: rgb(13,39,101);
+    border:none;
+    width: 202px;
+    height: 51px;
+    box-shadow: 7px 10px 32px rgb(13,39,101);
+    border-radius: 5px;
+}
+.row-puntos{
+    margin-top:30px;
+display: flex;
+}
+.puntos{
+border-radius: 50%;
+width: 12px;
+height: 12px;
+background-color: white;
+border: solid 1px gray;
+margin-right: 23px;
+box-sizing: border-box;
+}
+.p-azul{
+    background-color: rgb(13,39,101);
+}
+footer{
+    height: 10%;
+    background-color: rgb(13,39,101);
+    display:flex;
+}
+.redes{
+    margin-left: 30%;
+    margin-top:20px;
+}
+
+.derechos{
+    color:white;
+    margin-left: 30%;
+    margin-top:20px;
+}
+
+::placeholder{
+    font-family: Roboto;
+}
+
+.row{
+    transform: rotateZ(90deg);
+}
+
+.row-der{
+    transform: rotateZ(-90deg);
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.enlace-azul{
+    color:rgb(26,71,176);
+}
+.caja1{
+    margin-top:20px;
+}

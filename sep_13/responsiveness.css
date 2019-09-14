@@ -1,0 +1,60 @@
+/* Responsiveness */
+/* Large */
+@media only screen and (min-width: 64.063em) {
+  section.heading h1 {
+    width: 100%;
+    font-size: 44px;
+  }
+
+  section.heading p {
+    font-size: 18px;
+  }
+
+  section.form-container {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .step-3 section.form-container {
+    width: 60%;
+  }
+
+  .checkbox-container label {
+    font-size: 14px;
+  }
+
+  section.flow {
+    margin-top: 100px;
+  }
+
+  section.flow .next-button {
+    width: 200px;
+  }
+
+  footer.footer-container {
+    height: 100px;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-container section.logo {
+    order: 0;
+    margin-left: 95px;
+  }
+
+  section.social .social-link img {
+    height: 20px;
+    width: 20px;
+  }
+
+  section.social .social-link + .social-link {
+    margin-left: 9px;
+  }
+
+  section.legal p {
+    font-size: 12px;
+    margin-right: 95px;
+  }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsiveness.css">
+  <title>HTML/CSS Test</title>
+</head>
+<body>
+  <header class="header-container flex">
+    <img src="Icons/Blue Trail Software logotype - White background.svg" alt="Blue Trail Software Logo">
+  </header>
+  <main class="main-container">
+    <section class="heading">
+      <h1>We are happy to scale your team!</h1>
+      <p>Please enter the following information to know the details about the position you need.</p>
+    </section>
+
+    <section class="form-container">
+      <form action="#" class="form">
+        <div class="input-container project-container flex">
+          <label for="project-input">Your project name</label>
+          <input type="text" name="project" id="project-input" placeholder="Please enter the name of your project">
+        </div>
+  
+        <div class="input-container availability-container flex">
+          <label for="availability-select">Availability</label>
+          <select name="availability" id="select-availability" id="availability-select">
+            <option value="half">Half time</option>
+            <option value="full">Full time</option>
+            <option value="demand">On demand</option>
+          </select>
+        </div>
+  
+        <div class="input-container date-container flex">
+          <label for="date-input">Preferred starting date</label>
+          <input type="date" name="date" id="date-input">
+        </div>
+  
+        <div class="checkbox-container flex">
+          <label for="checkbox-input">
+            <input type="checkbox" name="interview" id="checkbox-input">
+            I need to interview the candidate
+          </label>
+        </div>
+      </form>
+    </section>
+
+    <section class="flow flex">
+      <button class="button next-button">
+        <a href="step-2.html">Next</a>
+      </button>
+    </section>
+
+    <section class="dots">
+      <div class="dots-container flex">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-container flex">
+    <section class="logo flex">
+      <img src="Icons/Blue Trail Software logotype - Dark background.svg" alt="Blue Trail Software Logo" class="footer-logo">
+    </section>
+
+    <section class="social flex">
+      <div class="social-link">
+        <a href="https://www.instagram.com/bluetrailsoft/" target="_blank">
+          <img src="Icons/Instagram.svg" alt="Instagram Logo" class="icon">
+        </a>
+      </div>
+
+      <div class="social-link">
+        <a href="https://twitter.com/bluetrailsoft" target="_blank">
+          <img src="Icons/Twitter.svg" alt="Twitter Logo" class="icon">
+        </a>
+      </div>
+
+      <div class="social-link">
+        <a href="https://www.facebook.com/BlueTrailSoftware" target="_blank">
+          <img src="Icons/Facebook.svg" alt="Facebook Logo" class="icon">
+        </a>
+      </div>
+    </section>
+
+    <section class="legal">
+      <p>All Rights Reserved 2018 <span class="bold">Blue Trail Software</span></p>
+    </section>
+  </footer>
+</body>
+</html>

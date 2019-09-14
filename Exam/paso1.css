@@ -1,0 +1,105 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to left, white, white 80%, rgb(214,214,214) 100%);
+    display: flex;
+    flex-direction: column;
+}
+header{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header > span{
+    height: 80px;
+}
+header > h1{
+    margin-top: 1%;
+    height: 100px;
+    color: rgb(15,53,142);
+    font-size: 40px;
+}
+header > h2{
+    flex: 1;
+    font-size: 20px;
+}
+main{
+    flex: 3;
+}
+main input[type=submit]{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    background: rgb(18,47,115);
+    color: white;
+}
+.twolines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=text], input[type=date], select{
+    width: 300px;
+    height: 40px;
+}
+form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+/*main > form > fieldset:last-child{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid magenta;
+}*/
+.blue-circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid rgb(23,31,94);
+    background: rgb(23,31,94);
+}
+.white-circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid rgb(23,31,94);
+    background: white;
+}
+footer{
+    background: rgb(19, 48, 117);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+footer > nav{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer p{
+    color: white;
+    align-self: center;
+}
+footer p a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}

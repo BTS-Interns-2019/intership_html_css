@@ -6,6 +6,6 @@
 
 Recomendaciones:
 
-- Cuida tu indentación, tu html esta muy indentado.
+- Cuida tu indentación, tu html esta mal indentado.
 
 - En lugar de ponerle el height al article pudiste ponerlo en el contenedor, asi cubres el mismo height para todos los hijos, y esto incluiria la nav y el aside.

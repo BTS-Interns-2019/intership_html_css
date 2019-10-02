@@ -1,41 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Chilanka&display=swap");
 
-body{
-    padding-top: 10vh;
-    text-align: center;
-    font-family: 'Chilanka', cursive;
+body {
+  padding-top: 10vh;
+  text-align: center;
+  font-family: "Chilanka", cursive;
 }
-.uno{
-    font-size: 14vw;
+.uno {
+  font-size: 14vw;
 }
-.dos{
-    font-size: 20vw;
+.dos {
+  font-size: 20vw;
 }
-.uno, .dos{
-    font-weight: 100;
+.uno,
+.dos {
+  font-weight: 100;
+  color: #009cea;
+  text-shadow: none;
+  animation: apagar 8s linear infinite both;
+}
+* {
+  background: black;
+}
+
+@keyframes apagar {
+  0% {
     color: #009cea;
     text-shadow: none;
-    animation: apagar 8s linear infinite both;
-}
-*{
-    background: black;
-}
-
-@keyframes apagar{
-    0% {
-        color: #009cea;
-        text-shadow: none;
-    }
-    30% {
-        color: #A5FFFB;
-        text-shadow: 0 0 20px #00CCB1, 0 0 20px #00CCB1, 0 0 20px #00CCB1, 0 0 20px #00CCB1;
-    }
-    50% {
-        color: #A5FFFB;
-        text-shadow: 0 0 20px #00CCB1, 0 0 20px #00CCB1, 0 0 20px #00CCB1, 0 0 20px #00CCB1;
-    }
-    70% {
-        color: #009cea;
-        text-shadow: none;
-    }
+  }
+  30% {
+    color: #a5fffb;
+    text-shadow: 0 0 20px #00ccb1, 0 0 20px #00ccb1, 0 0 20px #00ccb1,
+      0 0 20px #00ccb1;
+  }
+  50% {
+    color: #a5fffb;
+    text-shadow: 0 0 20px #00ccb1, 0 0 20px #00ccb1, 0 0 20px #00ccb1,
+      0 0 20px #00ccb1;
+  }
+  70% {
+    color: #009cea;
+    text-shadow: none;
+  }
 }

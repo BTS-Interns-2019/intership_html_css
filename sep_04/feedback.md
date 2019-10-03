@@ -1,0 +1,13 @@
+Buen progreso, llevabas buen avance pero te falto mucho.
+
+Recomendaciones:
+
+- Mide tu tiempo solo alcanzaste a hacer la estructura básica.
+
+- Cuida la indentación por ejemplo no se nota que head y body son hijos de html.
+
+- Cuida la legibilidad de tu CSS, un espacio entre el selector y la llave es buena práctica.
+
+- Cuida los saltos de línea en tus archivos.
+
+- Elimina líneas comentadas innecesarias.
